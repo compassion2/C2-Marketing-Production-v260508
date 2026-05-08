@@ -15,7 +15,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/50" />
 
         {/* Text backdrop */}
-        <div className="container relative z-10 py-24 md:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-24 md:py-32">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-black/25 backdrop-blur-[2px] rounded-2xl px-8 py-10 md:px-12 md:py-14">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-6 leading-tight drop-shadow-lg">
@@ -61,11 +61,11 @@ export default function Home() {
         </div>
         {/* Left accent bar */}
         <div className="absolute top-0 left-0 w-1.5 h-48 bg-gradient-to-b from-[hsl(var(--crimson-red))] via-[hsl(var(--golden-amber))] to-transparent" />
-        <div className="container relative z-10">
-          <div className="max-w-5xl mx-auto">
-            {/* Section Label */}
-            <div className="flex items-center gap-4 mb-8">
-              <div className="w-16 h-1 bg-gradient-to-r from-[hsl(var(--crimson-red))] to-[hsl(var(--golden-amber))] rounded-full" />
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="">
+          {/* Section Label */}
+          <div className="flex items-center gap-4 mb-8">
+            <div className="w-16 h-1 bg-gradient-to-r from-[hsl(var(--crimson-red))] to-[hsl(var(--golden-amber))] rounded-full" />
               <span className="text-sm font-semibold text-[hsl(var(--crimson-red))] uppercase tracking-widest">The Problem</span>
             </div>
             {/* Headline & Intro */}
@@ -118,8 +118,8 @@ export default function Home() {
         <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, white 1px, transparent 0px)", backgroundSize: "32px 32px" }} />
         {/* Left accent bar */}
         <div className="absolute top-0 left-0 w-1.5 h-48 bg-gradient-to-b from-[hsl(var(--golden-amber))] via-[hsl(var(--golden-light))] to-transparent" />
-        <div className="container relative z-10">
-          <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-16 h-1 bg-gradient-to-r from-[hsl(var(--golden-amber))] to-[hsl(var(--golden-light))] rounded-full" />
               <span className="text-sm font-semibold text-[hsl(var(--golden-amber))] uppercase tracking-widest">The Shift</span>
@@ -158,8 +158,8 @@ export default function Home() {
 
       {/* SECTION: THE CONSTRUCT */}
       <section className="py-24 md:py-32 bg-white relative overflow-hidden">
-        <div className="container relative z-10">
-          <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-16 h-1 bg-gradient-to-r from-[hsl(var(--tara-green))] to-[hsl(var(--tara-green-light))] rounded-full" />
               <span className="text-sm font-semibold text-[hsl(var(--tara-green))] uppercase tracking-widest">The Model</span>
@@ -225,8 +225,8 @@ export default function Home() {
       <section className="py-24 md:py-32 bg-gradient-to-b from-[hsl(var(--lotus-white))] to-white relative overflow-hidden">
         <div className="absolute top-0 right-0 w-[400px] h-[400px] rounded-full bg-[hsl(var(--tara-green))]/5 blur-[100px] pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-[300px] h-[300px] rounded-full bg-[hsl(var(--royal-blue))]/5 blur-[80px] pointer-events-none" />
-        <div className="container relative z-10">
-          <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-16 h-1 bg-gradient-to-r from-[hsl(var(--royal-blue))] to-[hsl(var(--sky-blue))] rounded-full" />
               <span className="text-sm font-semibold text-[hsl(var(--royal-blue))] uppercase tracking-widest">Who This Is For</span>
@@ -268,8 +268,8 @@ export default function Home() {
           <div className="absolute top-0 right-1/4 w-[400px] h-[400px] rounded-full bg-[hsl(var(--golden-amber))]/10 blur-[100px]" />
           <div className="absolute bottom-0 left-1/4 w-[300px] h-[300px] rounded-full bg-[hsl(var(--sky-blue))]/10 blur-[80px]" />
         </div>
-        <div className="container relative z-10">
-          <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center">
             <div className="flex items-center justify-center gap-4 mb-8">
               <div className="h-px w-16 bg-[hsl(var(--golden-amber))]/50" />
               <span className="text-sm font-semibold text-[hsl(var(--golden-amber))] uppercase tracking-widest">Invitation</span>
