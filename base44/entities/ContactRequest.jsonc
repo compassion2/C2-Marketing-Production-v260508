@@ -1,0 +1,36 @@
+{
+  "name": "ContactRequest",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "organization": {
+      "type": "string"
+    },
+    "role_context": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "new",
+        "in_review",
+        "responded"
+      ],
+      "default": "new"
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "role_context",
+    "message"
+  ]
+}
