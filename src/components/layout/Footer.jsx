@@ -83,7 +83,7 @@ export default function Footer() {
             Compassion 2.0
           </Link>
           <p className="text-xs font-body text-white/40 text-center">
-            © {year} Compassion 2.0
+            © {year} Compassion 2.0 Ventures, Inc. &nbsp;·&nbsp; Building the Future of the ROI of Care. May all beings achieve peace.
           </p>
         </div>
       </div>
