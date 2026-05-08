@@ -79,8 +79,11 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center">
-            <span className="font-display font-semibold text-tara-green-light text-lg">Compassion 2.0</span>
+          <div className="flex items-center gap-2">
+            <div className="w-7 h-7 rounded-full tara-gradient flex items-center justify-center">
+              <span className="text-white font-display font-bold text-xs">C</span>
+            </div>
+            <span className="font-display font-semibold text-white text-sm">Compassion 2.0</span>
           </div>
           <p className="text-xs font-body text-white/40 text-center">
             © {year} Compassion 2.0. Public Benefit Corporation. All rights reserved.

@@ -8,14 +8,14 @@ const navItems = [
     children: [
       { label: "Framework Overview", href: "/framework" },
       { label: "Care as Strategy", href: "/framework/care-as-strategy" },
-      { label: "Flourishing Organization", href: "/framework/flourishing-organization" },
+      { label: "What's a Flourishing Organization", href: "/framework/flourishing-organization" },
       { label: "Generative Ontology", href: "/framework/generative-ontology" },
     ],
   },
   {
     label: "The Work",
     children: [
-      { label: "How We Work", href: "/the-work" },
+      { label: "How We Work With Organizations", href: "/the-work" },
       { label: "Strategic Advisory", href: "/the-work/strategic-advisory" },
       { label: "Organizational Transformation", href: "/the-work/organizational-transformation" },
       { label: "Chief Flourishing Officer", href: "/the-work/chief-flourishing-officer" },
@@ -33,8 +33,13 @@ const navItems = [
   {
     label: "Community",
     children: [
-      { label: "Mycelial Network", href: "/community/mycelial-network" },
-      { label: "Compassion 2.0 Mastermind", href: "/community/mastermind" },
+      { label: "The Compassion 2.0 Mycelial Network", href: "/community/mycelial-network" },
+      { label: "The Compassion 2.0 Mastermind", href: "/community/mastermind" },
+    ],
+  },
+  {
+    label: "Events",
+    children: [
       { label: "Human Tech Week", href: "/events/human-tech-week" },
       { label: "Events & Salons", href: "/community/events-salons" },
     ],
@@ -55,8 +60,6 @@ const navItems = [
     children: [
       { label: "About Compassion 2.0", href: "/about" },
       { label: "Our Structure", href: "/about/company" },
-      { label: "Mission", href: "/about/mission" },
-      { label: "Team", href: "/about/team" },
     ],
   },
 ];
@@ -106,8 +109,11 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center shrink-0">
-            <span className="font-display font-semibold text-tara-green text-xl leading-tight">
+          <Link to="/" className="flex items-center gap-2 shrink-0">
+            <div className="w-8 h-8 rounded-full tara-gradient flex items-center justify-center">
+              <span className="text-white font-display font-bold text-sm">C</span>
+            </div>
+            <span className="font-display font-semibold text-foreground text-sm leading-tight hidden sm:block">
               Compassion 2.0
             </span>
           </Link>
@@ -121,7 +127,7 @@ export default function Header() {
                 onMouseEnter={() => setOpenDropdown(item.label)}
                 onMouseLeave={() => setOpenDropdown(null)}
               >
-                <button className="flex items-center gap-1 px-3 py-2 text-xs font-body font-semibold uppercase tracking-wider text-foreground hover:text-primary transition-colors rounded-md hover:bg-muted">
+                <button className="flex items-center gap-1 px-3 py-2 text-sm font-body text-foreground hover:text-primary transition-colors rounded-md hover:bg-muted">
                   {item.label}
                   <ChevronDown className="w-3 h-3" />
                 </button>
