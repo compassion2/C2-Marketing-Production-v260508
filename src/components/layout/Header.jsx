@@ -114,7 +114,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="shrink-0 font-display text-[2.2rem] text-[hsl(var(--tara-green))]">
+          <Link to="/" className="shrink-0 font-display text-[1.65rem] text-[hsl(var(--tara-green))]">
             Compassion 2.0
           </Link>
 
