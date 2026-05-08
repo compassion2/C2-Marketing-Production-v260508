@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <Link to="/" className="font-display font-bold text-lg text-[hsl(var(--tara-green-light))]">
+          <Link to="/" className="font-display font-bold text-lg text-white">
             Compassion 2.0
           </Link>
           <p className="text-xs font-body text-white/40 text-center">
