@@ -99,18 +99,15 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-white/95 backdrop-blur-sm shadow-md" : "bg-white/90 backdrop-blur-sm"
+      className={`fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${
+        scrolled ? "shadow-sm" : "border-b border-border"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 shrink-0">
-            <div className="w-8 h-8 rounded-full tara-gradient flex items-center justify-center">
-              <span className="text-white font-display font-bold text-sm">C</span>
-            </div>
-            <span className="font-display font-semibold text-foreground text-sm leading-tight hidden sm:block">
+          <Link to="/" className="flex items-center shrink-0">
+            <span className="font-display font-semibold text-tara-green text-xl leading-tight">
               Compassion 2.0
             </span>
           </Link>
@@ -124,7 +121,7 @@ export default function Header() {
                 onMouseEnter={() => setOpenDropdown(item.label)}
                 onMouseLeave={() => setOpenDropdown(null)}
               >
-                <button className="flex items-center gap-1 px-3 py-2 text-sm font-body text-foreground hover:text-primary transition-colors rounded-md hover:bg-muted">
+                <button className="flex items-center gap-1 px-3 py-2 text-xs font-body font-semibold uppercase tracking-wider text-foreground hover:text-primary transition-colors rounded-md hover:bg-muted">
                   {item.label}
                   <ChevronDown className="w-3 h-3" />
                 </button>

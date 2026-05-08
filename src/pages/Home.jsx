@@ -5,40 +5,47 @@ export default function Home() {
   return (
     <div className="font-body">
       {/* HERO */}
-      <section className="relative min-h-[90vh] flex items-center hero-gradient overflow-hidden">
-        <div className="absolute inset-0 bg-grid-pattern opacity-10" />
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-tara-green/20 blur-3xl" />
-        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full bg-golden-amber/10 blur-3xl" />
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
-          <div className="inline-block mb-6">
-            <span className="text-xs font-body uppercase tracking-widest text-golden-light border border-golden-light/30 rounded-full px-4 py-1.5">
-              Organizational Design for the AI Era
-            </span>
-          </div>
-          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-            Designing organizations that can hold the future.
-          </h1>
-          <div className="w-16 h-px bg-golden-amber mx-auto mb-8" />
-          <p className="font-body text-lg text-white/70 mb-4">
-            Human resonance. Operational excellence. AI-enabled learning.
-          </p>
-          <p className="font-body text-base text-white/50 mb-10">
-            This is not culture work. It is organizational design.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              to="/framework"
-              className="flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-md hover:opacity-90 transition-opacity"
-            >
-              Explore the Framework
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-            <Link
-              to="/engage/start-conversation"
-              className="flex items-center gap-2 border border-white/30 text-white font-body font-semibold px-6 py-3 rounded-md hover:border-white/60 transition-colors"
-            >
-              Start a Strategic Conversation
-            </Link>
+      <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+        {/* Background photo */}
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1600&q=80')" }}
+        />
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/50" />
+
+        {/* Centered glass card */}
+        <div className="relative w-full max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+          <div className="bg-black/30 backdrop-blur-sm border border-white/10 rounded-lg px-10 py-12 text-center">
+            <h1 className="font-display text-4xl sm:text-5xl font-bold text-tara-green-light leading-tight mb-6">
+              Designing organizations that can hold the future.
+            </h1>
+            {/* Golden dot divider */}
+            <div className="flex items-center justify-center mb-6">
+              <div className="w-12 h-px bg-white/30" />
+              <div className="w-2 h-2 rounded-full bg-golden-amber mx-2" />
+              <div className="w-12 h-px bg-white/30" />
+            </div>
+            <p className="font-body text-white text-lg mb-3">
+              Human resonance. Operational excellence. AI-enabled learning.
+            </p>
+            <p className="font-body text-white/70 text-base italic mb-10">
+              This is not culture work. It is organizational design.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link
+                to="/framework"
+                className="flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-sm hover:opacity-90 transition-opacity"
+              >
+                Explore the Framework
+              </Link>
+              <Link
+                to="/engage/start-conversation"
+                className="flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-sm hover:opacity-90 transition-opacity"
+              >
+                Start a Strategic Conversation
+              </Link>
+            </div>
           </div>
         </div>
       </section>
