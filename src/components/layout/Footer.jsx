@@ -76,12 +76,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <Link to="/">
-            <img
-              src="https://compassion2.com/assets/compassion-2-logo-green.png"
-              alt="Compassion 2.0"
-              className="h-7 w-auto"
-            />
+          <Link to="/" className="font-display font-bold text-lg text-[hsl(var(--tara-green-light))]">
+            Compassion 2.0
           </Link>
           <p className="text-xs font-body text-white/40 text-center">
             © {year} Compassion 2.0. Public Benefit Corporation. All rights reserved.

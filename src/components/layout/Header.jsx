@@ -114,12 +114,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center shrink-0">
-            <img
-              src="https://compassion2.com/assets/compassion-2-logo-green.png"
-              alt="Compassion 2.0"
-              className="h-8 w-auto"
-            />
+          <Link to="/" className="shrink-0 font-display font-bold text-xl text-[hsl(var(--tara-green))]">
+            Compassion 2.0
           </Link>
 
           {/* Desktop Nav */}
