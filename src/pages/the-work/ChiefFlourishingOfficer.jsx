@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export default function ChiefFlourishingOfficer() {
   return (
@@ -15,14 +15,7 @@ export default function ChiefFlourishingOfficer() {
           <p className="font-body text-white/70 text-lg max-w-2xl mb-8">
             A new organizational role and learning journey designed to build internal capacity for stewarding care, trust, and organizational flourishing over time.
           </p>
-          <a
-            href="/CFLO_Learning_Journey_Curriculum_v16.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 border border-golden-amber text-golden-light font-body font-semibold px-6 py-3 rounded-md hover:bg-golden-amber/10 transition-colors"
-          >
-            <Download className="w-4 h-4" /> Download CFLO Curriculum
-          </a>
+
         </div>
       </section>
 
@@ -81,10 +74,7 @@ export default function ChiefFlourishingOfficer() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-2xl font-bold text-foreground mb-6">Explore the CFLO Path</h2>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="/CFLO_Learning_Journey_Curriculum_v16.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-md hover:opacity-90 transition-opacity">
-              <Download className="w-4 h-4" /> Download Curriculum
-            </a>
-            <Link to="/engage/start-conversation" className="flex items-center gap-2 border border-border text-foreground font-body font-semibold px-6 py-3 rounded-md hover:border-primary/50 transition-colors">
+            <Link to="/engage/start-conversation" className="flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-md hover:opacity-90 transition-opacity">
               Start a Conversation <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
