@@ -4,7 +4,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-[hsl(222,60%,10%)] text-white/80">
+    <footer className="bg-[hsl(var(--tara-green-dark))] text-white/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-12">
           {[
@@ -49,7 +49,10 @@ export default function Footer() {
               title: "About",
               links: [
                 { label: "About Compassion 2.0", href: "/about" },
-                { label: "Our Structure", href: "/about/company" },
+                { label: "Mission", href: "/about/mission" },
+                { label: "Company", href: "/about/company" },
+                { label: "Team", href: "/about/team" },
+                { label: "Honorarium", href: "/about/honorarium" },
                 { label: "Privacy", href: "/privacy" },
                 { label: "Terms", href: "/terms" },
               ],
@@ -80,7 +83,7 @@ export default function Footer() {
             Compassion 2.0
           </Link>
           <p className="text-xs font-body text-white/40 text-center">
-            © {year} Compassion 2.0. Public Benefit Corporation. All rights reserved.
+            © {year} Compassion 2.0
           </p>
         </div>
       </div>

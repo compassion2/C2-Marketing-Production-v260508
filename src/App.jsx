@@ -49,6 +49,7 @@ import About from './pages/about/About';
 import Company from './pages/about/Company';
 import Mission from './pages/about/Mission';
 import Team from './pages/about/Team';
+import Honorarium from './pages/about/Honorarium';
 
 // Legal
 import Privacy from './pages/Privacy';
@@ -114,6 +115,7 @@ const AuthenticatedApp = () => {
         <Route path="/about/company" element={<Company />} />
         <Route path="/about/mission" element={<Mission />} />
         <Route path="/about/team" element={<Team />} />
+        <Route path="/about/honorarium" element={<Honorarium />} />
 
         {/* Legal */}
         <Route path="/privacy" element={<Privacy />} />
