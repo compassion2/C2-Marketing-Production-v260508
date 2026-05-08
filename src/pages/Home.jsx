@@ -9,7 +9,7 @@ export default function Home() {
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center scale-105"
-          style={{ backgroundImage: "url('https://compassion2.com/assets/home-hero.jpg')" }}
+          style={{ backgroundImage: "url('https://media.base44.com/images/public/69fe6622a31b1b740c7bdd7e/71026e7a4_generated_image.png')" }}
         />
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/50" />
