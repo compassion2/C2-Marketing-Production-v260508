@@ -6,77 +6,82 @@ const navItems = [
   {
     label: "Framework",
     children: [
-      { label: "Framework Overview", href: "/framework" },
-      { label: "Care as Strategy", href: "/framework/care-as-strategy" },
-      { label: "What's a Flourishing Organization", href: "/framework/flourishing-organization" },
-      { label: "Generative Ontology", href: "/framework/generative-ontology" },
+      { label: "Framework Overview", href: "/framework", description: "Introduction to the Compassion 2.0 framework" },
+      { label: "Care as Strategy", href: "/framework/care-as-strategy", description: "How care directly shapes organizational performance" },
+      { label: "What's a Flourishing Organization", href: "/framework/flourishing-organization", description: "Human capacity aligned with purpose and strategy" },
+      { label: "Generative Ontology", href: "/framework/generative-ontology", description: "The philosophical foundations of the framework" },
     ],
   },
   {
     label: "The Work",
     children: [
-      { label: "How We Work With Organizations", href: "/the-work" },
-      { label: "Strategic Advisory", href: "/the-work/strategic-advisory" },
-      { label: "Organizational Transformation", href: "/the-work/organizational-transformation" },
-      { label: "Chief Flourishing Officer", href: "/the-work/chief-flourishing-officer" },
+      { label: "How We Work With Organizations", href: "/the-work", description: "Applied, systemic, and relational approaches" },
+      { label: "Strategic Advisory", href: "/the-work/strategic-advisory", description: "Focused support for complex cultural challenges" },
+      { label: "Organizational Transformation", href: "/the-work/organizational-transformation", description: "Deep, case-based transformation for senior leaders and boards" },
+      { label: "Chief Flourishing Officer", href: "/the-work/chief-flourishing-officer", description: "Role and Learning Journey for organizational flourishing" },
     ],
   },
   {
     label: "Initiatives",
     children: [
-      { label: "Initiatives Overview", href: "/initiatives" },
-      { label: "Benevolently", href: "/initiatives/benevolently" },
-      { label: "Flourishingly", href: "/initiatives/flourishingly" },
-      { label: "Master Trainers", href: "/initiatives/master-trainers" },
+      { label: "Initiatives Overview", href: "/initiatives", description: "Vehicles for learning, experimentation, and application" },
+      { label: "Benevolently", href: "/initiatives/benevolently", description: "Generative economic systems and stewardship" },
+      { label: "Flourishingly", href: "/initiatives/flourishingly", description: "Applied tools for flourishing and relational health" },
+      { label: "Master Trainers", href: "/initiatives/master-trainers", description: "Certified practitioners delivering Compassion 2.0–aligned services" },
     ],
   },
   {
     label: "Community",
     children: [
-      { label: "The Compassion 2.0 Mycelial Network", href: "/community/mycelial-network" },
-      { label: "The Compassion 2.0 Mastermind", href: "/community/mastermind" },
+      { label: "The Compassion 2.0 Mycelial Network", href: "/community/mycelial-network", description: "How the community functions through networks of trust" },
+      { label: "The Compassion 2.0 Mastermind", href: "/community/mastermind", description: "A high-level, cross-disciplinary space for exploring organizational design in the age of AI" },
     ],
   },
   {
     label: "Events",
     children: [
-      { label: "Human Tech Week", href: "/events/human-tech-week" },
-      { label: "Events & Salons", href: "/community/events-salons" },
+      { label: "Human Tech Week", href: "/events/human-tech-week", description: "Annual convening on technology through a human-centered lens" },
+      { label: "Events & Salons", href: "/community/events-salons", description: "Gatherings to cultivate trust and shared inquiry" },
     ],
   },
   {
     label: "Engage",
     children: [
-      { label: "Organizations", href: "/engage/organizations" },
-      { label: "Startups & Builders", href: "/engage/startups-builders" },
-      { label: "Researchers & Scientists", href: "/engage/researchers-scientists" },
-      { label: "Practitioners & Facilitators", href: "/engage/practitioners-facilitators" },
-      { label: "Funders & Capital Partners", href: "/engage/funders-capital-partners" },
-      { label: "Start a Conversation", href: "/engage/start-conversation", highlight: true },
+      { label: "Organizations", href: "/engage/organizations", description: "Operating organizations navigating complexity and cultural strain" },
+      { label: "Startups & Builders", href: "/engage/startups-builders", description: "Founders building products rooted in care and flourishing" },
+      { label: "Researchers & Scientists", href: "/engage/researchers-scientists", description: "Translational research bridging theory and practice" },
+      { label: "Practitioners & Facilitators", href: "/engage/practitioners-facilitators", description: "Coaches and facilitators at the intersection of systems and care" },
+      { label: "Funders & Capital Partners", href: "/engage/funders-capital-partners", description: "Exploring capital as a relational force" },
+      { label: "Start a Conversation", href: "/engage/start-conversation", description: "Begin a conversation with us", highlight: true },
     ],
   },
   {
     label: "About",
     children: [
-      { label: "About Compassion 2.0", href: "/about" },
-      { label: "Our Structure", href: "/about/company" },
+      { label: "About Compassion 2.0", href: "/about", description: "Making the business case for flourishing" },
+      { label: "Our Structure", href: "/about/company", description: "How we organize and operate" },
     ],
   },
 ];
 
 function DropdownMenu({ items, onClose }) {
   return (
-    <div className="absolute top-full left-0 mt-1 w-64 bg-white border border-border rounded-lg shadow-xl py-2 z-50">
+    <div className="absolute top-full left-0 mt-1 w-72 bg-white border border-border rounded-lg shadow-xl py-2 z-50">
       {items.map((item) => (
         <Link
           key={item.href}
           to={item.href}
           onClick={onClose}
-          className={`block px-4 py-2.5 text-sm font-body hover:bg-muted transition-colors ${
+          className={`block px-4 py-3 hover:bg-muted transition-colors ${
             item.highlight ? "text-primary font-semibold" : "text-foreground"
           }`}
         >
-          {item.label}
+          <div className={`text-sm font-medium font-body ${item.highlight ? "text-primary" : "text-foreground"}`}>
+            {item.label}
+          </div>
+          {item.description && (
+            <div className="text-xs text-muted-foreground mt-0.5">{item.description}</div>
+          )}
         </Link>
       ))}
     </div>
@@ -103,19 +108,18 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${
-        scrolled ? "shadow-sm" : "border-b border-border"
+        scrolled ? "shadow-md" : "border-b border-border"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 shrink-0">
-            <div className="w-8 h-8 rounded-full tara-gradient flex items-center justify-center">
-              <span className="text-white font-display font-bold text-sm">C</span>
-            </div>
-            <span className="font-display font-semibold text-foreground text-sm leading-tight hidden sm:block">
-              Compassion 2.0
-            </span>
+          <Link to="/" className="flex items-center shrink-0">
+            <img
+              src="https://compassion2.com/assets/compassion-2-logo-green.png"
+              alt="Compassion 2.0"
+              className="h-8 w-auto"
+            />
           </Link>
 
           {/* Desktop Nav */}

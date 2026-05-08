@@ -3,61 +3,58 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   const year = new Date().getFullYear();
 
-  const sections = [
-    {
-      title: "Framework",
-      links: [
-        { label: "Overview", href: "/framework" },
-        { label: "Care as Strategy", href: "/framework/care-as-strategy" },
-        { label: "Flourishing Organization", href: "/framework/flourishing-organization" },
-        { label: "Generative Ontology", href: "/framework/generative-ontology" },
-      ],
-    },
-    {
-      title: "The Work",
-      links: [
-        { label: "How We Work", href: "/the-work" },
-        { label: "Strategic Advisory", href: "/the-work/strategic-advisory" },
-        { label: "Organizational Transformation", href: "/the-work/organizational-transformation" },
-        { label: "Chief Flourishing Officer", href: "/the-work/chief-flourishing-officer" },
-      ],
-    },
-    {
-      title: "Initiatives",
-      links: [
-        { label: "Overview", href: "/initiatives" },
-        { label: "Benevolently", href: "/initiatives/benevolently" },
-        { label: "Flourishingly", href: "/initiatives/flourishingly" },
-        { label: "Master Trainers", href: "/initiatives/master-trainers" },
-      ],
-    },
-    {
-      title: "Community & Engage",
-      links: [
-        { label: "Mycelial Network", href: "/community/mycelial-network" },
-        { label: "Mastermind", href: "/community/mastermind" },
-        { label: "Human Tech Week", href: "/events/human-tech-week" },
-        { label: "Start a Conversation", href: "/engage/start-conversation" },
-      ],
-    },
-    {
-      title: "About",
-      links: [
-        { label: "About Compassion 2.0", href: "/about" },
-        { label: "Our Structure", href: "/about/company" },
-        { label: "Mission", href: "/about/mission" },
-        { label: "Team", href: "/about/team" },
-        { label: "Privacy", href: "/privacy" },
-        { label: "Terms", href: "/terms" },
-      ],
-    },
-  ];
-
   return (
     <footer className="bg-[hsl(222,60%,10%)] text-white/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-12">
-          {sections.map((s) => (
+          {[
+            {
+              title: "Framework",
+              links: [
+                { label: "Overview", href: "/framework" },
+                { label: "Care as Strategy", href: "/framework/care-as-strategy" },
+                { label: "Flourishing Organization", href: "/framework/flourishing-organization" },
+                { label: "Generative Ontology", href: "/framework/generative-ontology" },
+              ],
+            },
+            {
+              title: "The Work",
+              links: [
+                { label: "How We Work", href: "/the-work" },
+                { label: "Strategic Advisory", href: "/the-work/strategic-advisory" },
+                { label: "Organizational Transformation", href: "/the-work/organizational-transformation" },
+                { label: "Chief Flourishing Officer", href: "/the-work/chief-flourishing-officer" },
+              ],
+            },
+            {
+              title: "Initiatives",
+              links: [
+                { label: "Overview", href: "/initiatives" },
+                { label: "Benevolently", href: "/initiatives/benevolently" },
+                { label: "Flourishingly", href: "/initiatives/flourishingly" },
+                { label: "Master Trainers", href: "/initiatives/master-trainers" },
+              ],
+            },
+            {
+              title: "Community & Events",
+              links: [
+                { label: "Mycelial Network", href: "/community/mycelial-network" },
+                { label: "Mastermind", href: "/community/mastermind" },
+                { label: "Human Tech Week", href: "/events/human-tech-week" },
+                { label: "Events & Salons", href: "/community/events-salons" },
+                { label: "Start a Conversation", href: "/engage/start-conversation" },
+              ],
+            },
+            {
+              title: "About",
+              links: [
+                { label: "About Compassion 2.0", href: "/about" },
+                { label: "Our Structure", href: "/about/company" },
+                { label: "Privacy", href: "/privacy" },
+                { label: "Terms", href: "/terms" },
+              ],
+            },
+          ].map((s) => (
             <div key={s.title}>
               <h4 className="font-body font-bold text-white text-xs uppercase tracking-widest mb-4">
                 {s.title}
@@ -79,12 +76,13 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-full tara-gradient flex items-center justify-center">
-              <span className="text-white font-display font-bold text-xs">C</span>
-            </div>
-            <span className="font-display font-semibold text-white text-sm">Compassion 2.0</span>
-          </div>
+          <Link to="/">
+            <img
+              src="https://compassion2.com/assets/compassion-2-logo-green.png"
+              alt="Compassion 2.0"
+              className="h-7 w-auto"
+            />
+          </Link>
           <p className="text-xs font-body text-white/40 text-center">
             © {year} Compassion 2.0. Public Benefit Corporation. All rights reserved.
           </p>

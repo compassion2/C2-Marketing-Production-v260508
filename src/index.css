@@ -6,37 +6,72 @@
 
 @layer base {
   :root {
+    /* Primary - Emerald Green (#007a47) */
     --tara-green: 155 100% 24%;
     --tara-green-light: 155 75% 36%;
     --tara-green-dark: 155 100% 18%;
+
+    /* Secondary - Saffron Gold (#F4B400) */
     --golden-amber: 45 100% 48%;
     --golden-light: 48 100% 68%;
+    --golden-dark: 42 100% 38%;
+
+    /* Lotus White (#F9F9F4) */
     --lotus-white: 60 33% 97%;
+
+    /* Crimson Red (#C1272D) */
     --crimson-red: 357 66% 46%;
+
+    /* Royal Blue (#2A4D9B) */
     --royal-blue: 222 57% 39%;
-    --sky-blue: 197 67% 66%;
+
+    /* Sun Halo Yellow */
+    --sun-halo: 45 100% 68%;
+
+    /* Coral Orange (#E85C3A) */
+    --coral-orange: 12 79% 57%;
+
+    /* Deep Violet (#5E3A8C) */
     --deep-violet: 268 41% 39%;
 
+    /* Sky Blue (#6EC1E4) */
+    --sky-blue: 197 67% 66%;
+
+    /* Background & Surfaces */
     --background: 60 33% 97%;
+    --background-secondary: 60 20% 94%;
     --foreground: 0 0% 13%;
+
     --card: 0 0% 100%;
     --card-foreground: 0 0% 13%;
+    --card-border: 60 15% 88%;
+
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 13%;
+
     --primary: 155 100% 24%;
     --primary-foreground: 0 0% 100%;
+    --primary-muted: 155 40% 94%;
+
     --secondary: 222 57% 39%;
     --secondary-foreground: 0 0% 100%;
+    --secondary-dark: 222 60% 28%;
+
     --muted: 60 15% 94%;
     --muted-foreground: 0 0% 45%;
+    --muted-dark: 60 10% 88%;
+
     --accent: 45 100% 48%;
     --accent-foreground: 0 0% 13%;
+
     --destructive: 357 66% 46%;
     --destructive-foreground: 0 0% 100%;
+
     --border: 60 10% 85%;
     --input: 60 15% 92%;
     --ring: 155 100% 24%;
     --radius: 0.5rem;
+
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;
@@ -102,20 +137,17 @@
     background-image: radial-gradient(circle at 1px 1px, hsl(var(--border)) 1px, transparent 0);
     background-size: 20px 20px;
   }
-  .section-label {
-    @apply text-xs font-body uppercase tracking-widest text-primary font-bold;
-  }
   .hero-gradient {
     background: linear-gradient(135deg, hsl(222 60% 18%) 0%, hsl(222 65% 10%) 100%);
   }
   .tara-gradient {
     background: linear-gradient(135deg, hsl(var(--tara-green)), hsl(var(--tara-green-light)));
   }
-  .violet-gradient {
-    background: linear-gradient(135deg, hsl(268 41% 28%), hsl(268 41% 18%));
-  }
   .glass-card {
     @apply bg-white/10 border border-white/20 backdrop-blur-sm rounded-lg p-4;
+  }
+  .section-label {
+    @apply text-xs font-body uppercase tracking-widest text-primary font-bold;
   }
 }
 
