@@ -2,9 +2,7 @@ import { useState } from "react";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import { createClient } from "@base44/sdk";
 
-const externalClient = createClient({
-  appId: "69dba8d5004747ff9869c63d",
-});
+const externalClient = createClient({ appId: "69dba8d5004747ff9869c63d", requiresAuth: false });
 
 const REASON_OPTIONS = [
   "General Inquiry",
