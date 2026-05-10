@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ArrowRight, CheckCircle } from "lucide-react";
 
 const REASON_OPTIONS = [
@@ -89,6 +89,8 @@ const labelClass = "block font-body text-sm font-semibold text-foreground mb-2";
 const optionalSpan = <span className="text-muted-foreground font-normal"> (optional)</span>;
 
 export default function StartConversation() {
+  useEffect(() => { window.scrollTo(0, 0); }, []);
+
   const [form, setForm] = useState(EMPTY_FORM);
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
