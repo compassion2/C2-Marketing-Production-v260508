@@ -42,7 +42,7 @@ export default function Footer() {
                 { label: "Mastermind", href: "/community/mastermind" },
                 { label: "Human Tech Week", href: "/events/human-tech-week" },
                 { label: "Events & Salons", href: "/community/events-salons" },
-                { label: "Start a Conversation", href: "/engage/start-conversation" },
+                { label: "Connect With Us", href: "/engage/start-conversation" },
               ],
             },
             {

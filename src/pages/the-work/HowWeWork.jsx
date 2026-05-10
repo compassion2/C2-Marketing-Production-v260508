@@ -119,7 +119,7 @@ export default function HowWeWork() {
             All work with Compassion 2.0 begins with conversation. These conversations are designed to understand context, explore alignment, and determine whether a partnership would be useful and appropriate.
           </p>
           <Link to="/engage/start-conversation" className="inline-flex items-center gap-2 bg-white text-primary font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity">
-            Start a Strategic Conversation <ArrowRight className="w-4 h-4" />
+            Connect With Us <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
       </section>
