@@ -154,7 +154,7 @@ export default function FrameworkOverview() {
               See How the Framework Is Applied
             </Link>
             <Link to="/engage/start-conversation" className="flex items-center gap-2 border border-border text-foreground font-body font-semibold px-6 py-3 rounded-md hover:border-primary/50 transition-colors">
-              Connect With Us
+              Start a Strategic Conversation
             </Link>
           </div>
         </div>

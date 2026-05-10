@@ -52,7 +52,7 @@ const navItems = [
       { label: "Researchers & Scientists", href: "/engage/researchers-scientists", description: "Translational research bridging theory and practice" },
       { label: "Practitioners & Facilitators", href: "/engage/practitioners-facilitators", description: "Coaches and facilitators at the intersection of systems and care" },
       { label: "Funders & Capital Partners", href: "/engage/funders-capital-partners", description: "Exploring capital as a relational force" },
-      { label: "Connect With Us", href: "/engage/start-conversation", description: "Begin a conversation with us", highlight: true },
+      { label: "Start a Strategic Conversation", href: "/engage/start-conversation", description: "Begin a conversation with us", highlight: true },
     ],
   },
   {
@@ -144,7 +144,7 @@ export default function Header() {
               to="/engage/start-conversation"
               className="bg-primary text-primary-foreground text-sm font-body font-semibold px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
             >
-              Connect With Us
+              Start a Strategic Conversation
             </Link>
           </div>
 
@@ -184,7 +184,7 @@ export default function Header() {
               to="/engage/start-conversation"
               className="block text-center bg-primary text-primary-foreground text-sm font-body font-semibold px-4 py-3 rounded-md hover:opacity-90 transition-opacity"
             >
-              Connect With Us
+              Start a Strategic Conversation
             </Link>
           </div>
         </div>

@@ -58,7 +58,7 @@ export default function SimplePage({ label, title, subtitle, sections = [], cta 
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="font-display text-2xl font-bold text-white mb-6">Ready to explore?</h2>
             <Link to="/engage/start-conversation" className="inline-flex items-center gap-2 bg-white text-primary font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity">
-              Connect With Us <ArrowRight className="w-4 h-4" />
+              Start a Strategic Conversation <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
         </section>

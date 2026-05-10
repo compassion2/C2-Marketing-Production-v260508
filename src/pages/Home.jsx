@@ -44,7 +44,7 @@ export default function Home() {
                   to="/engage/start-conversation"
                   className="inline-flex items-center justify-center bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-semibold px-8 py-3 text-base shadow-lg rounded-md transition-all hover:scale-105"
                 >
-                  Connect With Us
+                  Start a Strategic Conversation
                 </Link>
               </div>
             </div>
@@ -285,7 +285,7 @@ export default function Home() {
               to="/engage/start-conversation"
               className="inline-flex items-center justify-center bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-semibold px-10 py-4 text-lg rounded-md transition-all hover:scale-105 shadow-xl"
             >
-              Connect With Us
+              Start a Strategic Conversation
             </Link>
           </div>
         </div>
