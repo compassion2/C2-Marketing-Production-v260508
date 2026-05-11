@@ -125,7 +125,7 @@ export default function Home() {
               <span className="text-sm font-semibold text-[hsl(var(--golden-amber))] uppercase tracking-widest">The Shift</span>
             </div>
             <div className="mb-12">
-              <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-display font-bold text-white mb-8 leading-tight max-w-3xl">
+              <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-display font-bold text-white mb-8 leading-snug max-w-3xl">
                 A Paradigm Shift in Organizational Design
               </h2>
               <p className="text-lg md:text-xl text-white/80 leading-relaxed max-w-3xl mb-8">
@@ -275,7 +275,7 @@ export default function Home() {
               <span className="text-sm font-semibold text-[hsl(var(--golden-amber))] uppercase tracking-widest">Invitation</span>
               <div className="h-px w-16 bg-[hsl(var(--golden-amber))]/50" />
             </div>
-            <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-display font-bold text-white mb-8 leading-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-display font-bold text-white mb-8 leading-snug">
               Design the Organization That Can Hold the Future
             </h2>
             <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-12">
