@@ -201,48 +201,45 @@ export default function Company() {
         </div>
       </section>
 
-      {/* SECTION 6 — TWO-COLUMN */}
+      {/* SECTION 6 — OPERATING MODEL */}
       <section className="py-24 bg-[hsl(var(--lotus-white))]">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12">
-
-          {/* Legal Structure */}
-          <div>
-            <p className="text-xs font-body font-bold uppercase tracking-widest text-[hsl(var(--tara-green))] mb-4">Legal Structure</p>
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-5 leading-normal">
-              A Public Benefit Corporation
-            </h2>
-            <p className="font-body text-muted-foreground leading-relaxed mb-6">
-              Compassion 2.0 is organized as a Public Benefit Corporation (PBC). This legal structure allows — and requires — the organization to balance commercial sustainability with positive impact on society. Unlike a traditional corporation, a PBC is legally obligated to consider the interests of stakeholders beyond shareholders, including employees, communities, and the broader public.
-            </p>
-            <ul className="space-y-3">
-              {legalBullets.map((b, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-2 h-2 rounded-full mt-2" style={{ background: "hsl(var(--tara-green))" }} />
-                  <span className="font-body text-sm text-foreground leading-relaxed">{b}</span>
-                </li>
-              ))}
-            </ul>
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-xs font-body font-bold uppercase tracking-widest text-[hsl(var(--royal-blue))] mb-4">Operating Model</p>
+          <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-5 leading-normal">
+            How We Work
+          </h2>
+          <p className="font-body text-muted-foreground leading-relaxed mb-8">
+            Compassion 2.0 operates through an interconnected model that spans research, advisory, practice, and community. Our work is designed to create durable internal capacity within the organizations and systems we serve — not dependency on our continued involvement.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {operatingCards.map((card, i) => (
+              <div key={i} className="bg-white border border-[hsl(var(--border))] rounded-xl p-5 hover:shadow-md transition-shadow">
+                <h4 className="font-display font-bold text-foreground text-base mb-2">{card.title}</h4>
+                <p className="font-body text-sm text-muted-foreground leading-relaxed">{card.body}</p>
+              </div>
+            ))}
           </div>
+        </div>
+      </section>
 
-          {/* Operating Model */}
-          <div>
-            <p className="text-xs font-body font-bold uppercase tracking-widest text-[hsl(var(--royal-blue))] mb-4">Operating Model</p>
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-5 leading-normal">
-              How We Work
-            </h2>
-            <p className="font-body text-muted-foreground leading-relaxed mb-6">
-              Compassion 2.0 operates through an interconnected model that spans research, advisory, practice, and community. Our work is designed to create durable internal capacity within the organizations and systems we serve — not dependency on our continued involvement.
-            </p>
-            <div className="grid grid-cols-2 gap-4">
-              {operatingCards.map((card, i) => (
-                <div key={i} className="bg-white border border-[hsl(var(--border))] rounded-xl p-4 hover:shadow-md transition-shadow">
-                  <h4 className="font-display font-bold text-foreground text-sm mb-2">{card.title}</h4>
-                  <p className="font-body text-xs text-muted-foreground leading-relaxed">{card.body}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
+      {/* SECTION 6B — LEGAL STRUCTURE */}
+      <section className="py-24 bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-xs font-body font-bold uppercase tracking-widest text-[hsl(var(--tara-green))] mb-4">Legal Structure</p>
+          <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-5 leading-normal">
+            A Public Benefit Corporation
+          </h2>
+          <p className="font-body text-muted-foreground leading-relaxed mb-6">
+            Compassion 2.0 is organized as a Public Benefit Corporation (PBC). This legal structure allows — and requires — the organization to balance commercial sustainability with positive impact on society. Unlike a traditional corporation, a PBC is legally obligated to consider the interests of stakeholders beyond shareholders, including employees, communities, and the broader public.
+          </p>
+          <ul className="space-y-3">
+            {legalBullets.map((b, i) => (
+              <li key={i} className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-2 h-2 rounded-full mt-2" style={{ background: "hsl(var(--tara-green))" }} />
+                <span className="font-body text-sm text-foreground leading-relaxed">{b}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
