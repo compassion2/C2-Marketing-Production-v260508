@@ -133,7 +133,7 @@ export default function Company() {
         <div className="max-w-[900px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
           <div className="w-full max-w-[680px] rounded-2xl overflow-hidden shadow-2xl border border-[hsl(var(--border))]">
             <img
-              src="https://media.base44.com/images/public/69fe6622a31b1b740c7bdd7e/bca876125_RBRv1260511.png"
+              src="https://media.base44.com/images/public/69fe6622a31b1b740c7bdd7e/2cfa117c6_RBRv3260512.png"
               alt="The Generative Waterfall: A Non-Extractive Financial Flow"
               className="w-full h-auto block"
             />
