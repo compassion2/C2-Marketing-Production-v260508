@@ -81,6 +81,7 @@ export default function About() {
             {[
               { title: "Benevolently", href: "/initiatives/benevolently", desc: "Explores how generosity, stewardship, and pro-social contribution can be designed into economic and organizational systems." },
               { title: "Flourishingly", href: "/initiatives/flourishingly", desc: "Focuses on translating the science of flourishing, care, and relational health into practical tools and applied technologies." },
+              { title: "Generative Ontology", href: "/framework/generative-ontology", desc: "The philosophical and scientific foundations underlying the Compassion 2.0 framework — exploring what it means for systems to be truly generative." },
             ].map((item, i) => (
               <Link key={i} to={item.href} className="block border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-md transition-all">
                 <h3 className="font-display text-xl font-bold text-foreground mb-2">{item.title}</h3>
