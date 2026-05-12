@@ -42,7 +42,7 @@ const steps = [
   },
   {
     title: "Team Distributions & Generative Ecosystem Grants",
-    body: "Surplus value splits into two streams. A portion flows directly to the team members who built the organization's value — rewarding their ongoing presence and care. The remaining portion circulates back into the broader community through grants to aligned third-party organizations, creating a cycle of mutual aid. As each organization matures and pays off its capital obligations, it becomes a source of funding for the next generation.",
+    body: "Surplus value splits into two streams. A portion flows directly to the team members who built the organization's value — rewarding their ongoing presence and care. The remaining portion circulates back into the broader community through grants to aligned third-party organizations, creating a cycle of mutual aid.",
   },
 ];
 
