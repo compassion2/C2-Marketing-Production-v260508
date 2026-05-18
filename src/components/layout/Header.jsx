@@ -146,7 +146,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="bg-primary text-primary-foreground text-sm font-body font-semibold px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
             >
-              Sign In
+              Mastermind Sign In
             </a>
           </div>
 
@@ -188,7 +188,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="block text-center bg-primary text-primary-foreground text-sm font-body font-semibold px-4 py-3 rounded-md hover:opacity-90 transition-opacity"
             >
-              Sign In
+              Mastermind Sign In
             </a>
           </div>
         </div>
