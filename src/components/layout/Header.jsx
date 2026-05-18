@@ -140,12 +140,14 @@ export default function Header() {
 
           {/* CTA */}
           <div className="hidden lg:flex items-center gap-3">
-            <Link
-              to="/engage/start-conversation"
+            <a
+              href="https://community.compassion2.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-primary text-primary-foreground text-sm font-body font-semibold px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
             >
-              Start a Strategic Conversation
-            </Link>
+              Sign In
+            </a>
           </div>
 
           {/* Mobile toggle */}
@@ -180,12 +182,14 @@ export default function Header() {
             </div>
           ))}
           <div className="p-4">
-            <Link
-              to="/engage/start-conversation"
+            <a
+              href="https://community.compassion2.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block text-center bg-primary text-primary-foreground text-sm font-body font-semibold px-4 py-3 rounded-md hover:opacity-90 transition-opacity"
             >
-              Start a Strategic Conversation
-            </Link>
+              Sign In
+            </a>
           </div>
         </div>
       )}
