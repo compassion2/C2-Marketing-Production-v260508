@@ -312,17 +312,16 @@ export default function HumanTechWeek() {
       </section>
 
       {/* DRAWBRIDGE */}
-      <section className="py-24 relative overflow-hidden" style={{ background: "linear-gradient(135deg, hsl(155,100%,10%) 0%, hsl(175,60%,13%) 50%, hsl(195,55%,14%) 100%)" }}>
-        <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, white 1px, transparent 0)", backgroundSize: "28px 28px" }} />
+      <section className="py-24 bg-white">
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold uppercase tracking-widest text-[hsl(var(--golden-light))] mb-5">Hosted in Partnership With</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[hsl(var(--tara-green))] mb-5">Hosted in Partnership With</p>
           <img
             src="https://open-heart-digital.lovable.app/assets/drawbridge-logo.png"
             alt="DrawBridge logo"
-            className="h-12 mb-8 object-contain"
+            className="h-24 mb-8 object-contain"
             onError={e => e.target.style.display='none'}
           />
-          <div className="space-y-5 text-white/75 font-body text-lg leading-relaxed max-w-3xl mb-10">
+          <div className="space-y-5 text-muted-foreground font-body text-lg leading-relaxed max-w-3xl mb-10">
             <p>
               DrawBridge is our host at 2 Embarcadero Center. For nearly 40 years, they have brought free, trauma-informed expressive arts programs to children and youth across the Bay Area — many experiencing housing instability — meeting kids inside the shelters where they live, with the cultural responsiveness and long-arc consistency that turns a program into a sense of belonging. They go where the children are. They stay. They build, with each child, the practice of creative expression as a way of remaining the author of one's own life.
             </p>
@@ -332,13 +331,13 @@ export default function HumanTechWeek() {
             <p>
               That practice is the quiet thesis beneath this week. As intelligence becomes a commodity and AI begins to shape more of the world around us, the question is no longer what we can build, but who we are still willing to become. DrawBridge has been answering that question in the Bay Area's most overlooked rooms for four decades — through paint, through clay, through the steady presence of an adult who believes a child's imagination is worth protecting. We are honored to gather inside their work.
             </p>
-            <p className="text-white/50 text-base">Learn more and support their work at drawbridge.org.</p>
+            <p className="text-sm text-muted-foreground/70">Learn more and support their work at drawbridge.org.</p>
           </div>
           <a
             href="https://www.drawbridge.org/?utm_source=htw"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 border border-white/30 text-white font-semibold px-6 py-3 rounded-md hover:bg-white/10 transition-colors"
+            className="inline-flex items-center gap-2 border border-[hsl(var(--border))] text-foreground font-semibold px-6 py-3 rounded-md hover:bg-[hsl(var(--muted))] transition-colors"
           >
             Visit DrawBridge <ExternalLink className="w-4 h-4" />
           </a>
