@@ -17,17 +17,91 @@ const sessions = [
   {
     day: "Tuesday • May 12",
     title: "The Science and Practice of Flourishing",
-    items: [],
+    items: [
+      {
+        time: "10:00 AM",
+        title: "Leaning Into Our Prosocial Neurobiology: How Enterprises Can Design for Connection",
+        speakers: "Carson D. Kelly (Compassion 2.0) and Rebecca Kirstein Resch (Inqli) — introduction by Tamara Lechner",
+        description: "Explore what happens when enterprises design with — rather than against — our inherent neurobiological motivations for collective work.",
+        luma: "https://luma.com/mi8qy9ib",
+      },
+      {
+        time: "11:00 AM",
+        title: "Reversing Social Isolation: Why and How to Design for Human Connection and Flourishing",
+        speakers: "Steven Crane (Stanford) and Thorsten Hoins (Twyne)",
+        description: "Social isolation has been building for decades — but the loneliness crisis is now colliding with a critical inflection point. Stanford researcher Steven Crane and Twyne founder Thorsten Hoins explore the evolutionary roots of human connection and why so much of modern life works against it.",
+        luma: "https://luma.com/mi8qy9ib",
+      },
+      {
+        time: "1:30 PM",
+        title: "Play as Flourishing",
+        speakers: "Carissa Karban",
+        description: "An experiential session exploring play as a practice for presence, connection, and agency. This isn't a talk about play. This is play.",
+        luma: "https://luma.com/mi8qy9ib",
+      },
+      {
+        time: "2:00 PM",
+        title: "Art as Flourishing: Waycrafting, Agency, and the Expression of Self",
+        speakers: "Evelisa Genova (DrawBridge, Harvard M.Ed.)",
+        description: "A thesis on art as a practice of flourishing — using the mindset tools of the arts to build authentic self-expression and agency.",
+        luma: "https://luma.com/mi8qy9ib",
+      },
+    ],
   },
   {
     day: "Wednesday • May 13",
     title: "Flourishing Structures and Identity",
-    items: [],
+    items: [
+      {
+        time: "9:00 AM",
+        title: '"If Not Us, Who?": Shaping AI for Human Flourishing',
+        speakers: "Presented by the IEEE Global AIS Flourishing Initiative",
+        description: "An interactive session using backcasting to imagine and actively shape a future where AI helps humans live their best lives. Together we explore the current AI landscape, define human flourishing in a technology-saturated world, and examine the ethical frameworks and design principles needed to prioritize human potential, connection, and well-being. Participants leave with practical tools, shared commitments, and concrete next steps.",
+        luma: "https://luma.com/mi8qy9ib",
+      },
+      {
+        time: "11:00 AM",
+        title: 'Spirituality + AI: From Intention to Infrastructure ("The Relational Turn")',
+        speakers: "Private convening — invite only",
+        description: "A private convening for builders, practitioners, and researchers working at the intersection of contemplative traditions and AI infrastructure.",
+        luma: "https://luma.com/mi8qy9ib",
+        private: true,
+      },
+      {
+        time: "5:30 PM",
+        title: "Rethinking Identity, Meaning, and Work in the Age of AI",
+        speakers: "Vlad Moskovski",
+        description: "Vlad Moskovski explores what happens to human agency and purpose when AI disrupts not just tasks, but the deeper structures of identity and meaning people have built their lives around.",
+        luma: "https://luma.com/mi8qy9ib",
+      },
+    ],
   },
   {
     day: "Thursday • May 14",
     title: "Building Flourishing Technology",
-    items: [],
+    items: [
+      {
+        time: "10:00 AM",
+        title: "The Organizational Flourishing Construct: Metabolism, Coherence, and AI",
+        speakers: "Carson D. Kelly",
+        description: "Carson D. Kelly introduces the Organizational Flourishing Construct — a framework for understanding how relational coherence converts into coordinated execution, and how AI can accelerate organizational metabolism.",
+        luma: "https://luma.com/mi8qy9ib",
+      },
+      {
+        time: "1:30 PM",
+        title: "Building Flourishing Tech: Keeping It Real",
+        speakers: "Maithilee Samant (mirro.ai), Blair Ryan (Kindred AI), and Colleen Furman (Pebl)",
+        description: "Maithilee Samant (mirro.ai), Blair Ryan (Kindred AI), and Colleen Furman (Pebl) share what it actually looks like to build technology with human connection at the center — the tradeoffs, the lessons, and what they'd do differently.",
+        luma: "https://luma.com/mi8qy9ib",
+      },
+      {
+        time: "3:00 PM",
+        title: "Reviewing the Thread Through Human Tech Week",
+        speakers: "Tamara Lechner, Evelisa Genova, and Carissa Karban",
+        description: "Tamara Lechner, Evelisa Genova, and Carissa Karban close the C2 Hub by pulling the week's threads together — what patterns emerged, what inspired us, and how we can support each other moving forward.",
+        luma: "https://luma.com/mi8qy9ib",
+      },
+    ],
   },
 ];
 
@@ -147,15 +221,20 @@ export default function HumanTechWeek() {
                     href={item.luma}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block px-6 py-5 hover:bg-[hsl(var(--lotus-white))] transition-colors group"
+                    className="block px-6 py-5 hover:bg-[hsl(var(--lotus-white))] transition-colors group border-l-2 border-transparent hover:border-[hsl(var(--tara-green))]"
                   >
                     <div className="flex items-start gap-4">
                       <span className="text-xs font-semibold text-[hsl(var(--tara-green))] mt-1 whitespace-nowrap">{item.time}</span>
                       <div className="flex-1">
-                        <p className="font-body font-semibold text-foreground group-hover:text-[hsl(var(--tara-green))] transition-colors mb-1">{item.title}</p>
+                        <div className="flex items-start justify-between gap-2">
+                          <p className="font-body font-semibold text-foreground group-hover:text-[hsl(var(--tara-green))] transition-colors mb-1">{item.title}</p>
+                          <span className="text-xs text-muted-foreground flex items-center gap-1 shrink-0 mt-0.5">Luma <ExternalLink className="w-3 h-3" /></span>
+                        </div>
+                        {item.speakers && (
+                          <p className={`text-xs font-semibold mb-1.5 ${item.private ? "text-[hsl(var(--royal-blue))]" : "text-[hsl(var(--tara-green))]"}`}>{item.speakers}</p>
+                        )}
                         <p className="font-body text-sm text-muted-foreground leading-relaxed">{item.description}</p>
                       </div>
-                      <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-[hsl(var(--tara-green))] transition-colors shrink-0 mt-1" />
                     </div>
                   </a>
                 ))}
