@@ -352,11 +352,251 @@ const SITE_CONTENT = {
     {
       path: "/about/mission",
       title: "Mission",
-      subtitle: "From extractive to generative organizational models.",
+      subtitle: "Advancing compassion, care, and flourishing as structural capacities within organizations and systems.",
       sections: [
         {
-          title: "Core Purpose",
-          content: "Advancing organizational science, operationalizing care, fostering communities of practice, and developing leadership capacity. Compassion 2.0 exists to help organizations redesign themselves—where human resonance, AI-enabled learning, and operational execution function as one system.",
+          title: "What We Are Here to Do",
+          content: "Compassion 2.0 exists to help organizations redesign themselves from extractive systems—which consume human and relational capacity—to generative systems, which create the conditions for value to emerge, circulate, and compound over time. Advancing the science and practice of organizational flourishing. Designing frameworks that make care operational, not aspirational. Building communities of practice that sustain this work over time. Creating tools and pathways for leaders to develop internal capacity.",
+        },
+        {
+          title: "From Extraction to Generation",
+          content: "Extractive Systems: Consume human and relational capacity. Optimize for short-term output. Create conditions for burnout, disengagement, and fragmentation. Generative Systems: Create conditions for human capacity to develop. Optimize for sustainable performance. Build the relational infrastructure for long-term advantage.",
+        },
+      ],
+    },
+
+    {
+      path: "/about",
+      title: "About — Our Mission",
+      subtitle: "Compassion 2.0 is a Public Benefit Corporation dedicated to advancing compassion, care, and flourishing as structural capacities within organizations and systems.",
+      sections: [
+        {
+          title: "Why We Exist",
+          content: "Many of today's organizational and societal challenges—burnout, mistrust, fragmentation, stalled innovation—are not failures of effort or intelligence. They are failures of relational design. Systems have been optimized for extraction, efficiency, and short-term performance, often at the expense of trust, dignity, and long-term resilience. Compassion 2.0 exists to help shift this pattern.",
+        },
+        {
+          title: "A Generative Orientation",
+          content: "We work to support a transition from extractive models—which consume human and relational capacity—to generative models, which create the conditions for value to emerge, circulate, and compound over time. Care is treated as a design principle, not an afterthought. Trust and relational coherence are recognized as strategic assets. Learning and adaptability are prioritized alongside execution.",
+        },
+        {
+          title: "Compassion as Systemic Capacity",
+          content: "In this work, compassion is not sentiment or individual virtue. It is the capacity of a system to notice strain, respond with care, and adapt in ways that preserve human dignity and collective capability. When embedded structurally, compassion shapes how decisions are made, how conflict is navigated, and how people remain engaged under pressure.",
+        },
+        {
+          title: "A Public Benefit Commitment",
+          content: "As a Public Benefit Corporation, Compassion 2.0 is legally and structurally committed to balancing economic sustainability with positive impact on people and society. This commitment shapes how we design our work, how we collaborate, and how we measure success—placing long-term human and systemic flourishing at the center of our mission.",
+        },
+      ],
+    },
+
+    {
+      path: "/about/team",
+      title: "Team",
+      subtitle: "The people behind Compassion 2.0—practitioners, researchers, and organizational designers committed to advancing human flourishing as a structural capacity.",
+      sections: [
+        {
+          title: "A Cross-Disciplinary Team",
+          content: "The Compassion 2.0 team brings together expertise across organizational design, leadership development, applied research, and technology. We are united by a shared commitment to advancing the science and practice of organizational flourishing. Organizational designers with deep experience in culture and leadership systems. Researchers and practitioners bridging science and applied practice. Technologists exploring the intersection of AI and human systems. Facilitators and coaches certified in Compassion 2.0–aligned methodologies.",
+        },
+      ],
+    },
+
+    {
+      path: "/about/honorarium",
+      title: "Honorarium",
+      subtitle: "A space of gratitude for the pioneers who helped establish compassion as a measurable, trainable human capacity.",
+      sections: [
+        {
+          title: "In Memoriam: James R. Doty, M.D.",
+          content: "December 1, 1955 – July 17, 2025. FACS, FICS, FAANS. With deep respect, we honor the life and legacy of James R. Doty, M.D.—a neurosurgeon, educator, and visionary whose work fundamentally shaped the modern landscape of compassion science. Dr. Doty served as Clinical Professor of Neurosurgery at Stanford University, where he founded the Center for Compassion and Altruism Research and Education (CCARE). Through his pioneering efforts, he brought compassion into the center of rigorous scientific inquiry—establishing the neurological foundation for what would become a global movement. His work demonstrated that practices cultivating compassion could physically reshape the brain, reduce inflammation, and enhance emotional regulation. Published works include: 'Into the Magic Shop' — A memoir recounting how a chance encounter taught visualization and compassion techniques that transformed his life. 'Mind Magic' — A practical guide presenting the neuroscience behind compassion training, offering evidence-based techniques to rewire the brain for greater resilience, connection, and well-being.",
+        },
+      ],
+    },
+
+    {
+      path: "/framework",
+      title: "The Flourishing Construct — Framework Overview",
+      subtitle: "A practical architecture for redesigning organizations as relational, intelligent, and executable systems in the age of AI. It is not a philosophy. It is not a program. It is a design model.",
+      sections: [
+        {
+          title: "The Design Problem",
+          content: "Most organizations were designed as mechanistic systems—optimized for predictability, hierarchy, and linear planning. That design logic no longer holds. Today's organizations operate under: Continuous volatility rather than stability. Distributed coordination rather than centralized control. Accelerating feedback cycles driven by AI and digital systems. Rising relational and cognitive load on humans. In response, many organizations pursue partial solutions: Culture work that improves sentiment but not delivery. Operational optimization that increases speed while eroding trust. AI adoption that adds tools but increases fragmentation. The result is systemic breakdown: Intelligence fragments, coordination degrades, innovation slows, and execution becomes extractive.",
+        },
+        {
+          title: "Three Elements, Designed as One System",
+          content: "Z-Axis — Human Resonance: The organization's relational and cognitive field. It determines whether people can think clearly together under complexity, tell the truth without fear, repair conflict without fragmentation, coordinate action without excessive control, and generate new value rather than defend positions. Human Resonance is not culture as values or sentiment. It is culture as functional capacity.\n\nAI — The Enabling Substrate: AI introduces organizational-scale pattern intelligence. When designed correctly, AI strengthens: Sensing — early detection of friction, misalignment, and strain. Learning — faster feedback loops and reduced rework. Coherence — visibility across systems and targeted intervention. AI does not replace human intelligence. It amplifies it.\n\nX-Axis — Operational Execution: The translation layer that converts insight into decisions, decisions into coordinated action, and action into measurable outcomes. Areas include decision rights, accountability, operating rhythms, and measurement loops. Z + AI + X = Compounding Organizational Intelligence.",
+        },
+      ],
+    },
+
+    {
+      path: "/the-work",
+      title: "How We Work with Organizations",
+      subtitle: "Compassion 2.0 works with organizations that are actively grappling with how to build cultures that are both humane and effective—where people can do meaningful work without burnout, fear, or fragmentation.",
+      sections: [
+        {
+          title: "Core Premise",
+          content: "Organizational outcomes are shaped less by intention or values statements, and more by the conditions that govern how people relate, make decisions, and respond under pressure. We partner with organizations to examine and change those conditions in ways that are practical, evidence-informed, and observable in day-to-day work.",
+        },
+        {
+          title: "Our Orientation",
+          content: "We do not approach organizations as problems to be fixed or systems to be optimized. We approach them as living, relational systems shaped by leadership behavior, incentives, structures, history, and human neurobiology. We examine: The quality of trust and psychological safety. Patterns of care, fear, and avoidance. How decisions are actually made and carried out. Where friction, burnout, or disengagement are emerging. How systems quietly reward or punish behavior.",
+        },
+        {
+          title: "Three Primary Engagement Pathways",
+          content: "01 — Strategic Advisory: Senior-level thought partnership for leaders, boards, and transformation sponsors navigating complexity. Focused on clarity, coherence, and informed judgment. Areas: Leadership systems and decision-making. Organizational design and governance. Culture, trust, and accountability. Change initiatives and moments of transition. Technology and AI integration with human systems.\n\n02 — Organizational Transformation: A deeper, applied partnership focused on changing the underlying conditions that shape culture, leadership, and performance through case-based study and the CFLO Learning Journey. Includes real, live organizational cases, structured inquiry and intervention, CFLO Learning Journey integration, and internal capacity building.\n\n03 — The Compassion 2.0 Mastermind: An ongoing community of practice for leaders and practitioners exploring Organizational Flourishing over time. Learn from peers across organizations and sectors. Reflect on real-world application of flourishing-oriented practices.",
+        },
+        {
+          title: "Beginning a Conversation",
+          content: "All work with Compassion 2.0 begins with conversation. These conversations are designed to understand context, explore alignment, and determine whether a partnership would be useful and appropriate.",
+        },
+      ],
+    },
+
+    {
+      path: "/the-work/chief-flourishing-officer",
+      title: "Chief Flourishing Officer",
+      subtitle: "A new organizational role and learning journey designed to build internal capacity for stewarding care, trust, and organizational flourishing over time.",
+      sections: [
+        {
+          title: "What a CFLO Does",
+          content: "The Chief Flourishing Officer is a designated organizational leader responsible for stewarding the conditions that make human capacity, trust, and organizational flourishing possible. This is not an HR role. It is a systems role. Culture Design: Designing and maintaining the cultural conditions that enable performance and wellbeing. Trust Infrastructure: Building and protecting the relational conditions that make honest communication possible. Learning Systems: Ensuring the organization learns continuously from experience and adapts accordingly. Flourishing Metrics: Defining and tracking what actually indicates organizational health, not just output.",
+        },
+        {
+          title: "The CFLO Learning Journey",
+          content: "The CFLO Learning Journey is a structured, role-based learning pathway embedded within Organizational Transformation work. Participants learn while actively working on real organizational challenges. Outcomes: A shared language for organizational flourishing. Evidence-informed frameworks for culture, trust, and leadership. Ongoing practice grounded in real organizational cases. Internal capacity to carry this work forward independently.",
+        },
+      ],
+    },
+
+    {
+      path: "/initiatives",
+      title: "Initiatives — Vehicles for Learning, Experimentation, and Application",
+      subtitle: "Compassion 2.0 pursues its mission through a set of interconnected initiatives that extend the framework across research, practice, and real-world application.",
+      sections: [
+        {
+          title: "Three Core Initiatives",
+          content: "Benevolently (Generative Economics): Explores how generosity, stewardship, and pro-social contribution can be designed into economic and organizational systems—particularly in contexts involving funding, investment, and value circulation.\n\nFlourishingly (Applied Tools): Focuses on translating the science of flourishing, care, and relational health into practical tools, measurement frameworks, and applied technologies that support leaders and organizations in real time.\n\nMaster Trainers (Certified Practitioners): Certified practitioners delivering Compassion 2.0–aligned services within their own organizations and client contexts.",
+        },
+      ],
+    },
+
+    {
+      path: "/engage/startups-builders",
+      title: "For Startups & Builders",
+      subtitle: "For founders and builders who are building products and organizations rooted in care, flourishing, and human-centered design.",
+      sections: [
+        {
+          title: "Culture Is Architecture",
+          content: "For startups and early-stage organizations, culture is not something that happens later. The relational patterns established in the earliest stages of building—how decisions are made, how conflict is navigated, how trust is built or eroded—become the architecture that either enables or limits everything that follows. Early relational patterns compound over time—for better or worse. The values built into products reflect the organizational culture they were built in. Flourishing-oriented organizations attract and retain different talent. Building for care from the beginning is far less costly than retrofitting later.",
+        },
+        {
+          title: "Supporting Builders Who Are Building Differently",
+          content: "Compassion 2.0 engages with startups and builders who are intentionally trying to build organizations and products that reflect a commitment to human flourishing. Organizational Design: Strategic support for building the relational and structural foundations of a flourishing-oriented organization. Product & Mission Alignment: Exploring how product design can reflect and advance the mission of human flourishing. Community Access: Connection to the Mycelial Network of practitioners, researchers, and builders committed to this work.",
+        },
+      ],
+    },
+
+    {
+      path: "/engage/researchers-scientists",
+      title: "For Researchers & Scientists",
+      subtitle: "For researchers and scientists working at the translational frontier between the science of flourishing, care, and relational health—and real-world organizational application.",
+      sections: [
+        {
+          title: "Bridging Science and Practice",
+          content: "There is a significant and costly gap between what science knows about human flourishing, psychological safety, care, and organizational effectiveness—and what organizations actually implement. Research on psychological safety rarely translates into structural organizational design. The science of care and compassion is not systematically applied to organizational systems. Measurement frameworks for flourishing are underdeveloped in applied contexts. Practitioners lack access to current research; researchers lack applied feedback loops.",
+        },
+        {
+          title: "How We Engage with Researchers",
+          content: "Translational Research: Collaborating on projects that translate scientific findings into practical organizational frameworks and tools. Applied Settings: Providing access to applied organizational settings for research and case development. Framework Development: Contributing to the development of measurement and evaluation frameworks for organizational flourishing. Community Connection: Access to the cross-disciplinary Mycelial Network community of practitioners and builders.",
+        },
+      ],
+    },
+
+    {
+      path: "/engage/practitioners-facilitators",
+      title: "For Practitioners & Facilitators",
+      subtitle: "For coaches, facilitators, and organizational development professionals working at the intersection of human systems, leadership, and organizational change.",
+      sections: [
+        {
+          title: "Practice Without a Coherent Framework",
+          content: "Many practitioners working in organizational development, leadership coaching, and culture change operate from a collection of frameworks and methodologies that are not integrated into a coherent whole. Compassion 2.0 offers a unifying framework that can ground and extend existing practice. A coherent theoretical and empirical foundation for culture and leadership work. Integration of human systems, AI, and operational execution as a single design challenge. Evidence-informed practices that go beyond individual coaching to systemic change. A community of practitioners working from shared language and frameworks.",
+        },
+        {
+          title: "How Practitioners Engage",
+          content: "Master Trainers: Certification pathway for practitioners who want to deliver Compassion 2.0–aligned services. Mastermind: Ongoing community of practice for sustained learning and peer connection. Direct Partnership: Collaboration on organizational transformation engagements as part of the Compassion 2.0 ecosystem.",
+        },
+      ],
+    },
+
+    {
+      path: "/community/mastermind",
+      title: "The Compassion 2.0 Mastermind",
+      subtitle: "A high-level, cross-disciplinary space for leaders and practitioners exploring Organizational Flourishing in the age of AI.",
+      sections: [
+        {
+          title: "An Ongoing Community of Practice",
+          content: "The Compassion 2.0 Mastermind is not a cohort or a course. It is a continuing relational space for leaders and practitioners who are engaged in the practice of organizational flourishing and want to learn and grow alongside others doing the same work. Not time-bound or cohort-based. Cross-disciplinary—participants come from organizational leadership, research, practice, and building. Focused on real application, not abstract discussion. Designed to compound collective intelligence over time.",
+        },
+        {
+          title: "A Space for Sustained Learning",
+          content: "Peer Learning: Learn from leaders across organizations and sectors who are navigating similar challenges. Real-World Reflection: Reflect on real application of flourishing-oriented practices in live organizational contexts. Sustained Engagement: Stay engaged as your role and organization evolve—this is not a one-time event. Connective Tissue: Build relationships that allow insight and shared intelligence to accumulate over time.",
+        },
+        {
+          title: "Who It's For",
+          content: "Leaders committed to the long game of organizational flourishing. Senior organizational leaders engaged in culture and leadership development. Practitioners and facilitators applying flourishing frameworks. Researchers and thinkers exploring organizational design. Leaders integrating AI with human organizational systems.",
+        },
+      ],
+    },
+
+    {
+      path: "/community/events-salons",
+      title: "Events & Salons",
+      subtitle: "Gatherings designed to cultivate trust, shared inquiry, and the kind of conversation that is only possible in relational space.",
+      sections: [
+        {
+          title: "Convening for Depth",
+          content: "Compassion 2.0 convenes events and salons that prioritize depth over scale, relationship over information delivery, and genuine inquiry over performance. Salons: Intimate, curated gatherings of leaders, thinkers, and practitioners exploring questions at the frontier of organizational flourishing. Community Events: Broader gatherings of the Mycelial Network community for shared learning and relationship building. Special Convenings: Occasional gatherings organized around specific themes or moments of shared significance.",
+        },
+        {
+          title: "Gatherings That Honor Relationship",
+          content: "Every Compassion 2.0 gathering is designed with care for the relational field. Small enough for genuine connection. Structured enough to generate insight. Open enough to honor emergence. Sustained enough to build trust over time.",
+        },
+      ],
+    },
+
+    {
+      path: "/privacy",
+      title: "Privacy Policy",
+      subtitle: "How Compassion 2.0 collects, uses, and protects your information.",
+      sections: [
+        {
+          title: "Information We Collect",
+          content: "We collect information you provide directly to us, including when you submit a contact form, subscribe to communications, or engage with our platform. This may include your name, email address, organization, and the content of your messages.",
+        },
+        {
+          title: "How We Use Your Information",
+          content: "We use the information we collect to respond to your inquiries, send you updates and communications you have requested, improve our services, and fulfill our public benefit mission.",
+        },
+        {
+          title: "Information Sharing",
+          content: "We do not sell, trade, or otherwise transfer your personal information to outside parties without your consent, except as necessary to operate our services or as required by law.",
+        },
+      ],
+    },
+
+    {
+      path: "/terms",
+      title: "Terms of Service",
+      subtitle: "The terms governing use of the Compassion 2.0 website and services.",
+      sections: [
+        {
+          title: "Acceptance of Terms",
+          content: "By accessing and using the Compassion 2.0 website and services, you accept and agree to be bound by these Terms of Service.",
+        },
+        {
+          title: "Intellectual Property",
+          content: "All content on the Compassion 2.0 website, including text, frameworks, and materials, is the intellectual property of Compassion 2.0 unless otherwise noted. You may reference and share our content with attribution.",
         },
       ],
     },
