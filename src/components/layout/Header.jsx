@@ -23,9 +23,9 @@ const navItems = [
     ],
   },
   {
-    label: "Initiatives",
+    label: "Products",
     children: [
-      { label: "Initiatives Overview", href: "/initiatives", description: "Vehicles for learning, experimentation, and application" },
+      { label: "Products Overview", href: "/initiatives", description: "Vehicles for learning, experimentation, and application" },
       { label: "Benevolently", href: "/initiatives/benevolently", description: "Generative economic systems and stewardship" },
       { label: "Flourishingly", href: "/initiatives/flourishingly", description: "Applied tools for flourishing and relational health" },
       { label: "Master Trainers", href: "/initiatives/master-trainers", description: "Certified practitioners delivering Compassion 2.0–aligned services" },

@@ -29,8 +29,8 @@ export default function InitiativesOverview() {
       <section className="relative py-28 hero-gradient overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="section-label text-golden-light mb-4">Initiatives</p>
-          <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6">Vehicles for Learning, Experimentation, and Application</h1>
+          <p className="section-label text-golden-light mb-4">Products</p>
+          <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6">Products Overview</h1>
           <div className="w-16 h-px bg-golden-amber mb-8" />
           <p className="font-body text-white/70 text-lg max-w-2xl">
             Compassion 2.0 pursues its mission through a set of interconnected initiatives that extend the framework across research, practice, and real-world application.
