@@ -176,6 +176,32 @@ export default function OrganizationalTransformation() {
         </div>
       </section>
 
+      {/* STRATEGIC ADVISORY CARD */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="section-label mb-4">Also Available</p>
+          <h2 className="font-display text-2xl font-bold text-foreground mb-6">Already have a leadership team that needs a thinking partner?</h2>
+          <div className="bg-secondary/5 border-2 border-secondary/20 rounded-2xl p-8">
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center shrink-0">
+                <span className="font-display font-bold text-secondary text-sm">SA</span>
+              </div>
+              <div className="flex-1">
+                <p className="font-body text-muted-foreground text-sm leading-relaxed mb-6">
+                  Not every engagement starts with a diagnostic. For senior leaders navigating consequential decisions — organizational redesign, leadership transitions, culture shifts during rapid growth, AI integration — we offer strategic advisory as a standalone engagement. It's thought partnership grounded in the same framework, without the full transformation commitment.
+                </p>
+                <Link
+                  to="/engage/start-conversation"
+                  className="inline-flex items-center gap-2 bg-secondary text-white font-body font-semibold text-sm px-5 py-2.5 rounded-md hover:opacity-90 transition-opacity"
+                >
+                  Start a Conversation <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* BOTTOM CTA */}
       <section className="py-20 tara-gradient">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

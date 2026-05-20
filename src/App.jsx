@@ -17,8 +17,6 @@ import FlourishingOrganization from './pages/framework/FlourishingOrganization';
 import GenerativeOntology from './pages/framework/GenerativeOntology';
 
 // The Work
-import HowWeWork from './pages/the-work/HowWeWork';
-import StrategicAdvisory from './pages/the-work/StrategicAdvisory';
 import OrganizationalTransformation from './pages/the-work/OrganizationalTransformation';
 import ChiefFlourishingOfficer from './pages/the-work/ChiefFlourishingOfficer';
 import HealthcareCare from './pages/the-work/HealthcareCare';
@@ -86,8 +84,7 @@ const AuthenticatedApp = () => {
         <Route path="/framework/generative-ontology" element={<GenerativeOntology />} />
 
         {/* The Work */}
-        <Route path="/the-work" element={<HowWeWork />} />
-        <Route path="/the-work/strategic-advisory" element={<StrategicAdvisory />} />
+        <Route path="/the-work" element={<OrganizationalTransformation />} />
         <Route path="/the-work/organizational-transformation" element={<OrganizationalTransformation />} />
         <Route path="/the-work/chief-flourishing-officer" element={<ChiefFlourishingOfficer />} />
         <Route path="/the-work/healthcare-care" element={<HealthcareCare />} />
