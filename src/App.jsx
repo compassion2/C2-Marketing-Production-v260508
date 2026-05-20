@@ -21,6 +21,7 @@ import HowWeWork from './pages/the-work/HowWeWork';
 import StrategicAdvisory from './pages/the-work/StrategicAdvisory';
 import OrganizationalTransformation from './pages/the-work/OrganizationalTransformation';
 import ChiefFlourishingOfficer from './pages/the-work/ChiefFlourishingOfficer';
+import Startups from './pages/the-work/Startups';
 
 // Initiatives
 import InitiativesOverview from './pages/initiatives/InitiativesOverview';
@@ -87,6 +88,7 @@ const AuthenticatedApp = () => {
         <Route path="/the-work/strategic-advisory" element={<StrategicAdvisory />} />
         <Route path="/the-work/organizational-transformation" element={<OrganizationalTransformation />} />
         <Route path="/the-work/chief-flourishing-officer" element={<ChiefFlourishingOfficer />} />
+        <Route path="/the-work/startups" element={<Startups />} />
 
         {/* Initiatives */}
         <Route path="/initiatives" element={<InitiativesOverview />} />

@@ -19,6 +19,7 @@ const navItems = [
       { label: "Strategic Advisory", href: "/the-work/strategic-advisory", description: "Focused support for complex cultural challenges" },
       { label: "Organizational Transformation", href: "/the-work/organizational-transformation", description: "Deep, case-based transformation for senior leaders and boards" },
       { label: "Chief Flourishing Officer", href: "/the-work/chief-flourishing-officer", description: "Role and Learning Journey for organizational flourishing" },
+      { label: "Startups Scaling Through Funding Rounds", href: "/the-work/startups", description: "Relational infrastructure for founding teams that scales with you" },
     ],
   },
   {

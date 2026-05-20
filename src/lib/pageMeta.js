@@ -31,6 +31,10 @@ const pageMeta = {
     title: "Organizational Transformation — Compassion 2.0",
     description: "We help organizations measure, prove, and scale the financial value of human flourishing — with a diagnostic, a dashboard, and a transformation system built on science, not sentiment.",
   },
+  "/the-work/startups": {
+    title: "Startups | Organizational Transformation — Compassion 2.0",
+    description: "For startups scaling from 5 to 50+: build the relational infrastructure that survives your next funding round — before culture debt kills the company.",
+  },
   "/the-work/chief-flourishing-officer": {
     title: "Chief Flourishing Officer — Compassion 2.0",
     description: "A structured learning journey for leaders building flourishing into their organization's operating system. Culture, trust, learning, and well-being as infrastructure.",
