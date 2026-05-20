@@ -165,7 +165,7 @@ export default function OrganizationalTransformation() {
                   Some leaders don't just want to transform their organization — they want to embody the transformation themselves. The CFLO Learning Journey is a structured development track for senior leaders who want to become the person capable of holding a flourishing organization together. It's rigorous. It's personal. It's not required for the transformation work — but the leaders who do it tend to be the ones who make the transformation stick.
                 </p>
                 <Link
-                  to="/the-work/chief-flourishing-officer"
+                  to="/products/ChiefFlourishingOfficers"
                   className="inline-flex items-center gap-2 bg-primary text-white font-body font-semibold text-sm px-5 py-2.5 rounded-md hover:opacity-90 transition-opacity"
                 >
                   Explore the CFLO Journey <ArrowRight className="w-4 h-4" />

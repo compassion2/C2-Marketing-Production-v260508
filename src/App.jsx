@@ -18,7 +18,7 @@ import GenerativeOntology from './pages/framework/GenerativeOntology';
 
 // The Work
 import OrganizationalTransformation from './pages/the-work/OrganizationalTransformation';
-import ChiefFlourishingOfficer from './pages/the-work/ChiefFlourishingOfficer';
+import ChiefFlourishingOfficers from './pages/products/ChiefFlourishingOfficers';
 import HealthcareCare from './pages/the-work/HealthcareCare';
 import Startups from './pages/the-work/Startups';
 import FounderLed from './pages/the-work/FounderLed';
@@ -86,7 +86,7 @@ const AuthenticatedApp = () => {
         {/* The Work */}
         <Route path="/the-work" element={<OrganizationalTransformation />} />
         <Route path="/the-work/organizational-transformation" element={<OrganizationalTransformation />} />
-        <Route path="/the-work/chief-flourishing-officer" element={<ChiefFlourishingOfficer />} />
+        <Route path="/products/ChiefFlourishingOfficers" element={<ChiefFlourishingOfficers />} />
         <Route path="/the-work/healthcare-care" element={<HealthcareCare />} />
         <Route path="/the-work/startups" element={<Startups />} />
         <Route path="/the-work/founder-led" element={<FounderLed />} />
