@@ -72,7 +72,7 @@ export default function Benevolently() {
               Start a Strategic Conversation <ArrowRight className="w-4 h-4" />
             </a>
             <a
-              href="https://benevolent.ly/enterprise-altruism"
+              href="https://benevolent.ly"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white/20 border border-white/40 text-white font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity"
