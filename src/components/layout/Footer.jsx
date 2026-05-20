@@ -49,12 +49,10 @@ export default function Footer() {
               title: "About",
               links: [
                 { label: "About Compassion 2.0", href: "/about" },
-                { label: "Mission", href: "/about/mission" },
-                { label: "Company", href: "/about/company" },
-                { label: "Team", href: "/about/team" },
                 { label: "Honorarium", href: "/about/honorarium" },
                 { label: "Privacy", href: "/privacy" },
                 { label: "Terms", href: "/terms" },
+                { label: "Start a Conversation", href: "/engage/start-conversation" },
               ],
             },
           ].map((s) => (

@@ -4,19 +4,9 @@ import { Menu, X, ChevronDown } from "lucide-react";
 
 const navItems = [
   {
-    label: "Framework",
-    children: [
-      { label: "Framework Overview", href: "/framework", description: "Introduction to the Compassion 2.0 framework" },
-      { label: "Care as Strategy", href: "/framework/care-as-strategy", description: "How care directly shapes organizational performance" },
-      { label: "What's a Flourishing Organization", href: "/framework/flourishing-organization", description: "Human capacity aligned with purpose and strategy" },
-      { label: "Generative Ontology", href: "/framework/generative-ontology", description: "The philosophical foundations of the framework" },
-    ],
-  },
-  {
     label: "The Work",
     children: [
       { label: "Organizational Transformation", href: "/the-work/organizational-transformation", description: "Deep, case-based transformation for senior leaders and boards" },
-
       { label: "Care-Based Organizations", href: "/the-work/healthcare-care", description: "Hospitals, universities, and care institutions" },
       { label: "Startups Scaling Through Funding Rounds", href: "/the-work/startups", description: "Relational infrastructure for founding teams that scales with you" },
       { label: "Founder-Led Businesses", href: "/the-work/founder-led", description: "Scale without losing the relationships that built you" },
@@ -33,6 +23,15 @@ const navItems = [
     ],
   },
   {
+    label: "Framework",
+    children: [
+      { label: "Framework Overview", href: "/framework", description: "Introduction to the Compassion 2.0 framework" },
+      { label: "Care as Strategy", href: "/framework/care-as-strategy", description: "How care directly shapes organizational performance" },
+      { label: "What's a Flourishing Organization", href: "/framework/flourishing-organization", description: "Human capacity aligned with purpose and strategy" },
+      { label: "Generative Ontology", href: "/framework/generative-ontology", description: "The philosophical foundations of the framework" },
+    ],
+  },
+  {
     label: "Community",
     children: [
       { label: "The Compassion 2.0 Mycelial Network", href: "/community/mycelial-network", description: "How the community functions through networks of trust" },
@@ -44,24 +43,6 @@ const navItems = [
     children: [
       { label: "Human Tech Week", href: "/events/human-tech-week", description: "Annual convening on technology through a human-centered lens" },
       { label: "Events & Salons", href: "/community/events-salons", description: "Gatherings to cultivate trust and shared inquiry" },
-    ],
-  },
-  {
-    label: "Engage",
-    children: [
-      { label: "Organizations", href: "/engage/organizations", description: "Operating organizations navigating complexity and cultural strain" },
-      { label: "Startups & Builders", href: "/engage/startups-builders", description: "Founders building products rooted in care and flourishing" },
-      { label: "Researchers & Scientists", href: "/engage/researchers-scientists", description: "Translational research bridging theory and practice" },
-      { label: "Practitioners & Facilitators", href: "/engage/practitioners-facilitators", description: "Coaches and facilitators at the intersection of systems and care" },
-      { label: "Funders & Capital Partners", href: "/engage/funders-capital-partners", description: "Exploring capital as a relational force" },
-      { label: "Start a Strategic Conversation", href: "/engage/start-conversation", description: "Begin a conversation with us", highlight: true },
-    ],
-  },
-  {
-    label: "About",
-    children: [
-      { label: "About Compassion 2.0", href: "/about", description: "Making the business case for flourishing" },
-      { label: "Honorarium", href: "/about/honorarium", description: "Honoring the pioneers of compassion science" },
     ],
   },
 ];

@@ -39,11 +39,6 @@ import HumanTechWeek from './pages/events/HumanTechWeek';
 
 // Engage
 import StartConversation from './pages/engage/StartConversation';
-import ForOrganizations from './pages/engage/ForOrganizations';
-import ForStartupsBuilders from './pages/engage/ForStartupsBuilders';
-import ForResearchers from './pages/engage/ForResearchers';
-import ForPractitioners from './pages/engage/ForPractitioners';
-import ForFunders from './pages/engage/ForFunders';
 
 // About
 import About from './pages/about/About';
@@ -104,11 +99,6 @@ const AuthenticatedApp = () => {
 
         {/* Engage */}
         <Route path="/engage/start-conversation" element={<StartConversation />} />
-        <Route path="/engage/organizations" element={<ForOrganizations />} />
-        <Route path="/engage/startups-builders" element={<ForStartupsBuilders />} />
-        <Route path="/engage/researchers-scientists" element={<ForResearchers />} />
-        <Route path="/engage/practitioners-facilitators" element={<ForPractitioners />} />
-        <Route path="/engage/funders-capital-partners" element={<ForFunders />} />
 
         {/* About */}
         <Route path="/about" element={<About />} />
