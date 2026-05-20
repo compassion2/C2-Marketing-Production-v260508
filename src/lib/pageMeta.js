@@ -31,9 +31,17 @@ const pageMeta = {
     title: "Organizational Transformation — Compassion 2.0",
     description: "We help organizations measure, prove, and scale the financial value of human flourishing — with a diagnostic, a dashboard, and a transformation system built on science, not sentiment.",
   },
+  "/the-work/healthcare-care": {
+    title: "Care-Based Organizations | Organizational Transformation — Compassion 2.0",
+    description: "For hospitals, universities, and care-based institutions: a diagnostic and transformation system that proves the financial value of investing in your people — with a dashboard your board can read.",
+  },
   "/the-work/startups": {
     title: "Startups | Organizational Transformation — Compassion 2.0",
     description: "For startups scaling from 5 to 50+: build the relational infrastructure that survives your next funding round — before culture debt kills the company.",
+  },
+  "/the-work/founder-led": {
+    title: "Founder-Led Businesses | Organizational Transformation — Compassion 2.0",
+    description: "For women-owned and founder-led businesses (25–500 people): scale your company without losing the relationships that built it. Diagnostic-driven transformation with an ROI dashboard.",
   },
   "/the-work/chief-flourishing-officer": {
     title: "Chief Flourishing Officer — Compassion 2.0",
@@ -94,14 +102,6 @@ const pageMeta = {
   "/engage/funders-capital-partners": {
     title: "For Funders & Capital Partners — Compassion 2.0",
     description: "Compassion 2.0 uses a non-extractive Revenue Based Return model. Learn how to participate as a capital partner without requiring equity or a liquidity event.",
-  },
-  "/the-work/startups": {
-    title: "Startups | Organizational Transformation — Compassion 2.0",
-    description: "For startups scaling from 5 to 50+: build the relational infrastructure that survives your next funding round — before culture debt kills the company.",
-  },
-  "/the-work/founder-led": {
-    title: "Founder-Led Businesses | Organizational Transformation — Compassion 2.0",
-    description: "For women-owned and founder-led businesses (25–500 people): scale your company without losing the relationships that built it. Diagnostic-driven transformation with an ROI dashboard.",
   },
   "/about": {
     title: "About Compassion 2.0 — Public Benefit Corporation",
