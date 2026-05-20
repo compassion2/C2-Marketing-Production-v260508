@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
-export default function Startups() {
+export default function FounderLed() {
   return (
     <div className="font-body">
       <section className="relative py-28 hero-gradient overflow-hidden">
@@ -9,11 +9,11 @@ export default function Startups() {
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="section-label text-golden-light mb-4">Organizational Transformation</p>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
-            Startups Scaling Through Funding Rounds
+            Founder-Led Businesses Ready to Scale Differently
           </h1>
           <div className="w-16 h-px bg-golden-amber mb-8" />
           <p className="font-body text-white/70 text-lg max-w-2xl mb-10">
-            You're about to 10x your team. Your culture won't survive it by accident. We help founding teams build the relational infrastructure that scales with them, not against them.
+            You built this company on relationships. Now you need a system that protects them. We help women-owned and founder-led businesses design organizations where growth and care aren't in tension.
           </p>
           <Link
             to="/engage/start-conversation"

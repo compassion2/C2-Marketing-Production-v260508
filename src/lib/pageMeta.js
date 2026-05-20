@@ -95,6 +95,14 @@ const pageMeta = {
     title: "For Funders & Capital Partners — Compassion 2.0",
     description: "Compassion 2.0 uses a non-extractive Revenue Based Return model. Learn how to participate as a capital partner without requiring equity or a liquidity event.",
   },
+  "/the-work/startups": {
+    title: "Startups | Organizational Transformation — Compassion 2.0",
+    description: "For startups scaling from 5 to 50+: build the relational infrastructure that survives your next funding round — before culture debt kills the company.",
+  },
+  "/the-work/founder-led": {
+    title: "Founder-Led Businesses | Organizational Transformation — Compassion 2.0",
+    description: "For women-owned and founder-led businesses (25–500 people): scale your company without losing the relationships that built it. Diagnostic-driven transformation with an ROI dashboard.",
+  },
   "/about": {
     title: "About Compassion 2.0 — Public Benefit Corporation",
     description: "Compassion 2.0 is a Public Benefit Corporation dedicated to advancing compassion and flourishing as structural capacities within organizations and society.",
