@@ -4,6 +4,15 @@ import { Menu, X, ChevronDown } from "lucide-react";
 
 const navItems = [
   {
+    label: "Framework",
+    children: [
+      { label: "Framework Overview", href: "/framework", description: "Introduction to the Compassion 2.0 framework" },
+      { label: "Care as Strategy", href: "/framework/care-as-strategy", description: "How care directly shapes organizational performance" },
+      { label: "What's a Flourishing Organization", href: "/framework/flourishing-organization", description: "Human capacity aligned with purpose and strategy" },
+      { label: "Generative Ontology", href: "/framework/generative-ontology", description: "The philosophical foundations of the framework" },
+    ],
+  },
+  {
     label: "The Work",
     children: [
       { label: "Organizational Transformation", href: "/the-work/organizational-transformation", description: "Deep, case-based transformation for senior leaders and boards" },
@@ -20,15 +29,6 @@ const navItems = [
       { label: "Flourishingly", href: "/initiatives/flourishingly", description: "Applied tools for flourishing and relational health" },
       { label: "Chief Flourishing Officers", href: "/products/ChiefFlourishingOfficers", description: "Role and Learning Journey for organizational flourishing" },
       { label: "Master Trainers", href: "/initiatives/master-trainers", description: "Certified practitioners delivering Compassion 2.0–aligned services" },
-    ],
-  },
-  {
-    label: "Framework",
-    children: [
-      { label: "Framework Overview", href: "/framework", description: "Introduction to the Compassion 2.0 framework" },
-      { label: "Care as Strategy", href: "/framework/care-as-strategy", description: "How care directly shapes organizational performance" },
-      { label: "What's a Flourishing Organization", href: "/framework/flourishing-organization", description: "Human capacity aligned with purpose and strategy" },
-      { label: "Generative Ontology", href: "/framework/generative-ontology", description: "The philosophical foundations of the framework" },
     ],
   },
   {
