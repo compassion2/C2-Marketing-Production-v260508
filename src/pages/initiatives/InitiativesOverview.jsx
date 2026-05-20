@@ -1,68 +1,76 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
-export default function InitiativesOverview() {
-  const initiatives = [
-    {
-      title: "Benevolently",
-      href: "/initiatives/benevolently",
-      tag: "Generative Economics",
-      desc: "Explores how generosity, stewardship, and pro-social contribution can be designed into economic and organizational systems—particularly in contexts involving funding, investment, and value circulation.",
-    },
-    {
-      title: "Flourishingly",
-      href: "/initiatives/flourishingly",
-      tag: "Applied Tools",
-      desc: "Focuses on translating the science of flourishing, care, and relational health into practical tools, measurement frameworks, and applied technologies that support leaders and organizations in real time.",
-    },
-    {
-      title: "Master Trainers",
-      href: "/initiatives/master-trainers",
-      tag: "Certified Practitioners",
-      desc: "Certified practitioners delivering Compassion 2.0–aligned services within their own organizations and client contexts.",
-    },
-  ];
+const cards = [
+  {
+    type: "PLATFORM",
+    title: "Flourishingly",
+    subtitle: "The Enterprise Platform",
+    body: "The technology platform where organizational transformation lives. Diagnostic tools, the ROI of Care Dashboard, prescribed interventions, AI-assisted practice, and ongoing measurement — all in one system. Flourishingly is the infrastructure that makes the work persistent, not episodic.",
+    linkText: "Explore Flourishingly",
+    href: "/initiatives/flourishingly",
+  },
+  {
+    type: "PLATFORM",
+    title: "Benevolently",
+    subtitle: "Enterprise Altruism",
+    body: "A platform that strengthens the organizational field through structured, measurable acts of altruism. Turns invisible care into visible infrastructure. Coming Q1 2027.",
+    linkText: "Explore Benevolently",
+    href: "/initiatives/benevolently",
+  },
+  {
+    type: "PROGRAM",
+    title: "Chief Flourishing Officers",
+    subtitle: "The Leadership Journey",
+    body: "A structured development track for senior leaders who want to embody the transformation, not just sponsor it. Rigorous, personal, and designed to build the internal capacity that makes organizational flourishing stick.",
+    linkText: "Explore the CFLO Journey",
+    href: "/products/ChiefFlourishingOfficers",
+  },
+  {
+    type: "PROGRAM",
+    title: "Master Trainers",
+    subtitle: "The Practitioner Network",
+    body: "Certified practitioners who deliver Compassion 2.0-aligned transformation within their own organizations and client contexts. Coaches, facilitators, and OD professionals grounded in the framework and governed by formal partnership agreements.",
+    linkText: "Explore Master Trainers",
+    href: "/initiatives/master-trainers",
+  },
+];
 
+export default function InitiativesOverview() {
   return (
     <div className="font-body">
       {/* HERO */}
       <section className="relative py-28 hero-gradient overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5" />
+        <div className="absolute top-1/4 right-1/4 w-72 h-72 rounded-full bg-tara-green/20 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="section-label text-golden-light mb-4">Products</p>
-          <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6">Products Overview</h1>
+          <p className="section-label text-golden-light mb-4">Platforms & Programs</p>
+          <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
+            Two platforms. Two programs. One system.
+          </h1>
           <div className="w-16 h-px bg-golden-amber mb-8" />
           <p className="font-body text-white/70 text-lg max-w-2xl">
-            Compassion 2.0 pursues its mission through a set of interconnected initiatives that extend the framework across research, practice, and real-world application.
+            Everything Compassion 2.0 builds connects to the same thesis: organizations perform better when the human field is strong, measurable, and continuously strengthened. These are the platforms and programs that make that real.
           </p>
         </div>
       </section>
 
-      {/* INITIATIVES */}
+      {/* CARDS */}
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-6">
-            {initiatives.map((item, i) => (
-              <div key={i} className="border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-md transition-all flex flex-col">
-                <span className="text-xs font-body uppercase tracking-widest text-primary font-bold mb-3">{item.tag}</span>
-                <h2 className="font-display text-2xl font-bold text-foreground mb-3">{item.title}</h2>
-                <p className="font-body text-sm text-muted-foreground mb-6 flex-1">{item.desc}</p>
-                <Link to={item.href} className="inline-flex items-center gap-1 text-primary font-body text-sm font-semibold hover:underline">
-                  Learn more <ArrowRight className="w-3 h-3" />
+          <div className="grid md:grid-cols-2 gap-6">
+            {cards.map((card, i) => (
+              <div key={i} className="border border-border rounded-xl p-8 hover:border-primary/50 hover:shadow-md transition-all flex flex-col">
+                <span className="text-xs font-body uppercase tracking-widest text-primary font-bold mb-3">{card.type}</span>
+                <h2 className="font-display text-2xl font-bold text-foreground mb-1">{card.title}</h2>
+                <p className="font-body text-sm font-semibold text-muted-foreground mb-4">{card.subtitle}</p>
+                <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6 flex-1">{card.body}</p>
+                <Link to={card.href} className="inline-flex items-center gap-1 text-primary font-body text-sm font-semibold hover:underline">
+                  {card.linkText} <ArrowRight className="w-3 h-3" />
                 </Link>
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="py-20 tara-gradient">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-display text-2xl font-bold text-white mb-6">Interested in an initiative?</h2>
-          <Link to="/engage/start-conversation" className="inline-flex items-center gap-2 bg-white text-primary font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity">
-            Start a Strategic Conversation <ArrowRight className="w-4 h-4" />
-          </Link>
         </div>
       </section>
     </div>

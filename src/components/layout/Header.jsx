@@ -23,9 +23,9 @@ const navItems = [
     ],
   },
   {
-    label: "Products",
+    label: "Platforms & Programs",
     children: [
-      { label: "Products Overview", href: "/initiatives", description: "Vehicles for learning, experimentation, and application" },
+      { label: "Platforms & Programs Overview", href: "/initiatives", description: "Vehicles for learning, experimentation, and application" },
       { label: "Benevolently", href: "/initiatives/benevolently", description: "Generative economic systems and stewardship" },
       { label: "Flourishingly", href: "/initiatives/flourishingly", description: "Applied tools for flourishing and relational health" },
       { label: "Chief Flourishing Officers", href: "/products/ChiefFlourishingOfficers", description: "Role and Learning Journey for organizational flourishing" },
