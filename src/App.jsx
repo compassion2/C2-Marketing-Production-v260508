@@ -47,9 +47,6 @@ import ForFunders from './pages/engage/ForFunders';
 
 // About
 import About from './pages/about/About';
-import Company from './pages/about/Company';
-import Mission from './pages/about/Mission';
-import Team from './pages/about/Team';
 import Honorarium from './pages/about/Honorarium';
 
 // Legal
@@ -115,9 +112,6 @@ const AuthenticatedApp = () => {
 
         {/* About */}
         <Route path="/about" element={<About />} />
-        <Route path="/about/company" element={<Company />} />
-        <Route path="/about/mission" element={<Mission />} />
-        <Route path="/about/team" element={<Team />} />
         <Route path="/about/honorarium" element={<Honorarium />} />
 
         {/* Legal */}

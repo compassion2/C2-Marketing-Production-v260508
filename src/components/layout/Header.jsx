@@ -61,7 +61,7 @@ const navItems = [
     label: "About",
     children: [
       { label: "About Compassion 2.0", href: "/about", description: "Making the business case for flourishing" },
-      { label: "Our Structure", href: "/about/company", description: "How we organize and operate" },
+      { label: "Honorarium", href: "/about/honorarium", description: "Honoring the pioneers of compassion science" },
     ],
   },
 ];
