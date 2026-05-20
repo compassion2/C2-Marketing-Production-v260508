@@ -29,7 +29,7 @@ const pageMeta = {
   },
   "/the-work/organizational-transformation": {
     title: "Organizational Transformation — Compassion 2.0",
-    description: "Deep engagement to redesign organizational systems for flourishing — from trust infrastructure and decision-making to AI integration and relational coherence.",
+    description: "We help organizations measure, prove, and scale the financial value of human flourishing — with a diagnostic, a dashboard, and a transformation system built on science, not sentiment.",
   },
   "/the-work/chief-flourishing-officer": {
     title: "Chief Flourishing Officer — Compassion 2.0",
