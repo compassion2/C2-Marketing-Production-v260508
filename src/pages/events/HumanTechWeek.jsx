@@ -166,6 +166,16 @@ export default function HumanTechWeek() {
   return (
     <div className="font-body">
 
+      {/* EVENT PAST BANNER */}
+      <div className="w-full bg-amber-50 border border-amber-200 rounded-lg p-4 text-center">
+        <p className="text-amber-800 text-sm font-medium">
+          This event took place May 11–15, 2026. Thank you to everyone who joined us at 2 Embarcadero Center.{" "}
+          <Link to="/community/events-salons" className="underline hover:opacity-80 transition-opacity">
+            View upcoming events →
+          </Link>
+        </p>
+      </div>
+
       {/* HERO */}
       <section className="relative min-h-[60vh] flex items-end overflow-hidden">
         <div
