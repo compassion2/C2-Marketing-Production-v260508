@@ -36,7 +36,7 @@ export default function Honorarium() {
           <div className="grid lg:grid-cols-[320px_1fr] gap-10 items-start">
             <div className="space-y-4">
               <img
-                src="https://compassion2.com/assets/jim-doty2.jpeg"
+                src="https://med.stanford.edu/news/all-news/2025/09/james-doty-obit/_jcr_content/_cq_featuredimage.coreimg.jpeg/1759250698339/james-doty.jpeg"
                 alt="James R. Doty, M.D."
                 className="w-full rounded-xl object-cover shadow-xl"
               />
@@ -57,12 +57,12 @@ export default function Honorarium() {
                 <div className="grid sm:grid-cols-2 gap-6">
                   {[
                     {
-                      img: "https://compassion2.com/assets/into-the-magic-shop.jpeg",
+                      img: "https://images-na.ssl-images-amazon.com/images/I/81F6Wn4NsKL._AC_UY218_.jpg",
                       title: "Into the Magic Shop",
                       desc: "A memoir recounting how a chance encounter with a woman in a magic shop taught visualization and compassion techniques that transformed his life from poverty to becoming a Stanford neurosurgeon.",
                     },
                     {
-                      img: "https://compassion2.com/assets/mind-magic.jpg",
+                      img: "https://news.stanford.edu/__data/assets/image/0011/152021/Mind-Magic-cover.jpg",
                       title: "Mind Magic",
                       desc: "A practical guide presenting the neuroscience behind compassion training, offering evidence-based techniques to rewire the brain for greater resilience, connection, and well-being.",
                     },
