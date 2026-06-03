@@ -57,7 +57,7 @@ export default function Honorarium() {
                 <div className="grid sm:grid-cols-2 gap-6">
                   {[
                     {
-                      img: "https://books.google.com/books/publisher/content/images/frontcover/eAYEDAAAQBAJ?fife=w400-h600-rw",
+                      img: "https://m.media-amazon.com/images/I/81F6Wn4NsKL.jpg",
                       title: "Into the Magic Shop",
                       desc: "A memoir recounting how a chance encounter with a woman in a magic shop taught visualization and compassion techniques that transformed his life from poverty to becoming a Stanford neurosurgeon.",
                     },
