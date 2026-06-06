@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
+
 export default function TransformationCohort2026() {
   return (
     <div className="font-body">
@@ -12,9 +15,15 @@ export default function TransformationCohort2026() {
             The Organizational Flourishing Transformation Cohort
           </h1>
           <div className="w-16 h-px bg-golden-amber mb-8" />
-          <p className="font-body text-white/70 text-lg max-w-2xl">
+          <p className="font-body text-white/70 text-lg max-w-2xl mb-10">
             This is not culture work. It is organizational design. A dedicated, case-based transformation engagement — where your organization becomes the case study, connected to a wider field of organizations making the same shift.
           </p>
+          <Link
+            to="/engage/start-conversation"
+            className="inline-flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-md hover:opacity-90 transition-opacity"
+          >
+            Start a Conversation <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
       </section>
 
@@ -182,6 +191,22 @@ export default function TransformationCohort2026() {
             Most transformation changes the structure. This changes how an organization thinks, trusts, and decides.
           </p>
           <div className="w-16 h-px bg-golden-amber mx-auto mt-10" />
+        </div>
+      </section>
+
+      {/* BOTTOM CTA */}
+      <section className="py-20 tara-gradient">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="font-display text-3xl font-bold text-white mb-4">Ready to bring your organization into the Cohort?</h2>
+          <p className="font-body text-white/80 text-lg mb-8">
+            Every engagement starts with a conversation — no pitch decks, no pressure. We'll talk about where your organization is, what you're trying to build, and whether this is the right moment for the work.
+          </p>
+          <Link
+            to="/engage/start-conversation"
+            className="inline-flex items-center gap-2 bg-white text-primary font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity"
+          >
+            Start a Conversation <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
       </section>
 
