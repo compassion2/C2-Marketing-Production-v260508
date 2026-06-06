@@ -19,6 +19,7 @@ const navItems = [
       { label: "Care-Based Organizations", href: "/the-work/healthcare-care", description: "Hospitals, universities, and care institutions" },
       { label: "Startups Scaling Through Funding Rounds", href: "/the-work/startups", description: "Relational infrastructure for founding teams that scales with you" },
       { label: "Founder-Led Businesses", href: "/the-work/founder-led", description: "Scale without losing the relationships that built you" },
+      { label: "Transformation Cohort 2026", href: "/the-work/transformation-cohort-2026", description: "Case-based organizational transformation, cohort model" },
     ],
   },
   {
