@@ -19,7 +19,7 @@ const REASON_OPTIONS = [
 ];
 
 const INTEREST_AREAS = [
-  "Organizational Design & Transformation",
+  "Flourishing Transformation Cohort 2026",
   "Brain Capital Ecosystem",
   "Leadership Development & Coaching",
   "Somatic Gratitude & Contemplative Practice",
