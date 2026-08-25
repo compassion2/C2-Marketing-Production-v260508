@@ -76,7 +76,7 @@ export default function About() {
       </section>
 
       {/* BOTTOM CTA */}
-      <section className="py-24 tara-gradient">
+      <section className="py-24 bg-tara-green-dark">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-10">
             Want to know more about how we work — or how we're built?

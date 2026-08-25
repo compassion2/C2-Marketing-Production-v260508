@@ -96,7 +96,7 @@ export default function FounderLed() {
       </section>
 
       {/* BOTTOM CTA */}
-      <section className="py-24 tara-gradient">
+      <section className="py-24 bg-tara-green-dark">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-10">
             Growth and care aren't in tension.<br className="hidden sm:block" /> But you need a system to prove it.

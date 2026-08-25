@@ -195,7 +195,7 @@ export default function TransformationCohort2026() {
       </section>
 
       {/* BOTTOM CTA */}
-      <section className="py-20 tara-gradient">
+      <section className="py-20 bg-tara-green-dark">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl font-bold text-white mb-4">Ready to bring your organization into the Cohort?</h2>
           <p className="font-body text-white/80 text-lg mb-8">
