@@ -17,6 +17,7 @@ module.exports = {
         'tara-green': 'hsl(var(--tara-green))',
         'tara-green-light': 'hsl(var(--tara-green-light))',
         'tara-green-dark': 'hsl(var(--tara-green-dark))',
+        'footer-green': 'hsl(var(--footer-green))',
         'golden-amber': 'hsl(var(--golden-amber))',
         'golden-light': 'hsl(var(--golden-light))',
         'lotus-white': 'hsl(var(--lotus-white))',
