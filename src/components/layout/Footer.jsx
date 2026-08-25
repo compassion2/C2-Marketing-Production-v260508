@@ -18,7 +18,7 @@ export default function Footer() {
               ],
             },
             {
-              title: "The Work",
+              title: "Organizational Transformation",
               links: [
                 { label: "Organizational Transformation", href: "/the-work/organizational-transformation" },
                 { label: "Care-Based Organizations", href: "/the-work/healthcare-care" },
