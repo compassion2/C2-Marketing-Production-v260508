@@ -20,8 +20,7 @@ export default function Footer() {
             {
               title: "Organizational Transformation",
               links: [
-                { label: "AI & the Neurobiology of Performance", href: "/the-work/ai-neurobiology-performance" },
-                { label: "Organizational Transformation", href: "/the-work/organizational-transformation" },
+                { label: "ORGLAB Initiative", href: "/the-work/orglab-initiative" },
                 { label: "Care-Based Organizations", href: "/the-work/healthcare-care" },
                 { label: "Startups", href: "/the-work/startups" },
                 { label: "Founder-Led Businesses", href: "/the-work/founder-led" },

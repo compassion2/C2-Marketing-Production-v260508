@@ -27,8 +27,8 @@ const pageMeta = {
     title: "Strategic Advisory — Compassion 2.0",
     description: "Senior advisory for leaders navigating AI adoption, organizational redesign, and the intersection of human systems and performance.",
   },
-  "/the-work/organizational-transformation": {
-    title: "Organizational Transformation — Compassion 2.0",
+  "/the-work/orglab-initiative": {
+    title: "ORGLAB Initiative — Compassion 2.0",
     description: "We help organizations measure, prove, and scale the financial value of human flourishing — with a diagnostic, a dashboard, and a transformation system built on science, not sentiment.",
   },
   "/the-work/healthcare-care": {

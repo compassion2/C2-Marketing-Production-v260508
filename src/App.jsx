@@ -79,7 +79,8 @@ const AuthenticatedApp = () => {
 
         {/* The Work */}
         <Route path="/the-work" element={<OrganizationalTransformation />} />
-        <Route path="/the-work/organizational-transformation" element={<OrganizationalTransformation />} />
+        <Route path="/the-work/orglab-initiative" element={<OrganizationalTransformation />} />
+        <Route path="/the-work/organizational-transformation" element={<Navigate to="/the-work/orglab-initiative" replace />} />
         <Route path="/products/ChiefFlourishingOfficers" element={<ChiefFlourishingOfficers />} />
         <Route path="/the-work/healthcare-care" element={<HealthcareCare />} />
         <Route path="/the-work/startups" element={<Startups />} />

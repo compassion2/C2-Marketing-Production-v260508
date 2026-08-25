@@ -59,11 +59,11 @@ export default function OrganizationalTransformation() {
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="section-label text-golden-light mb-4">The Work</p>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
-            Your people are your strategy.<br />Prove it.
+            ORGLAB Initiative
           </h1>
           <div className="w-16 h-px bg-golden-amber mb-8" />
           <p className="font-body text-white/70 text-lg max-w-2xl mb-10">
-            We don't do team-building workshops. We build a measurement system that shows your board exactly how human flourishing drives revenue, reduces cost, and mitigates risk — then we help you transform the organization to capture that value.
+            Your people are your strategy. Prove it. We don't do team-building workshops. We build a measurement system that shows your board exactly how human flourishing drives revenue, reduces cost, and mitigates risk — then we help you transform the organization to capture that value.
           </p>
           <Link
             to="/engage/start-conversation"

@@ -15,7 +15,7 @@ const navItems = [
   {
     label: "Organizational Transformation",
     children: [
-      { label: "Organizational Transformation", href: "/the-work/organizational-transformation", description: "Deep, case-based transformation for senior leaders and boards" },
+      { label: "ORGLAB Initiative", href: "/the-work/orglab-initiative", description: "Deep, case-based transformation for senior leaders and boards" },
       { label: "Care-Based Organizations", href: "/the-work/healthcare-care", description: "Hospitals, universities, and care institutions" },
       { label: "Startups Scaling Through Funding Rounds", href: "/the-work/startups", description: "Relational infrastructure for founding teams that scales with you" },
       { label: "Founder-Led Businesses", href: "/the-work/founder-led", description: "Scale without losing the relationships that built you" },
