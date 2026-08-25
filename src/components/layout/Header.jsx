@@ -15,7 +15,6 @@ const navItems = [
   {
     label: "Organizational Transformation",
     children: [
-      { label: "AI & the Neurobiology of Performance", href: "/the-work/ai-neurobiology-performance", description: "Live webinar · Thursday, September 10, 2026" },
       { label: "Organizational Transformation", href: "/the-work/organizational-transformation", description: "Deep, case-based transformation for senior leaders and boards" },
       { label: "Care-Based Organizations", href: "/the-work/healthcare-care", description: "Hospitals, universities, and care institutions" },
       { label: "Startups Scaling Through Funding Rounds", href: "/the-work/startups", description: "Relational infrastructure for founding teams that scales with you" },

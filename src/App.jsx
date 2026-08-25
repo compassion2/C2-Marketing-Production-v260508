@@ -23,7 +23,6 @@ import HealthcareCare from './pages/the-work/HealthcareCare';
 import Startups from './pages/the-work/Startups';
 import FounderLed from './pages/the-work/FounderLed';
 import TransformationCohort2026 from './pages/the-work/TransformationCohort2026';
-import AiNeurobiologyWebinar from './pages/the-work/AiNeurobiologyWebinar';
 
 // Initiatives
 import InitiativesOverview from './pages/initiatives/InitiativesOverview';
@@ -86,7 +85,6 @@ const AuthenticatedApp = () => {
         <Route path="/the-work/startups" element={<Startups />} />
         <Route path="/the-work/founder-led" element={<FounderLed />} />
         <Route path="/the-work/transformation-cohort-2026" element={<TransformationCohort2026 />} />
-        <Route path="/the-work/ai-neurobiology-performance" element={<AiNeurobiologyWebinar />} />
 
         {/* Initiatives */}
         <Route path="/initiatives" element={<InitiativesOverview />} />
