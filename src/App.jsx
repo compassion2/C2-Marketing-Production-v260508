@@ -77,15 +77,22 @@ const AuthenticatedApp = () => {
         <Route path="/framework/flourishing-organization" element={<FlourishingOrganization />} />
         <Route path="/framework/generative-ontology" element={<GenerativeOntology />} />
 
-        {/* The Work */}
-        <Route path="/the-work" element={<OrganizationalTransformation />} />
-        <Route path="/the-work/orglab-initiative" element={<OrganizationalTransformation />} />
-        <Route path="/the-work/organizational-transformation" element={<Navigate to="/the-work/orglab-initiative" replace />} />
+        {/* Organizational Transformation */}
+        <Route path="/organizational-transformation/orglab-initiative" element={<OrganizationalTransformation />} />
+        <Route path="/organizational-transformation/healthcare-care" element={<HealthcareCare />} />
+        <Route path="/organizational-transformation/startups" element={<Startups />} />
+        <Route path="/organizational-transformation/founder-led" element={<FounderLed />} />
+        <Route path="/organizational-transformation/transformation-cohort-2026" element={<TransformationCohort2026 />} />
         <Route path="/products/ChiefFlourishingOfficers" element={<ChiefFlourishingOfficers />} />
-        <Route path="/the-work/healthcare-care" element={<HealthcareCare />} />
-        <Route path="/the-work/startups" element={<Startups />} />
-        <Route path="/the-work/founder-led" element={<FounderLed />} />
-        <Route path="/the-work/transformation-cohort-2026" element={<TransformationCohort2026 />} />
+
+        {/* Redirects from old /the-work paths */}
+        <Route path="/the-work" element={<Navigate to="/organizational-transformation/orglab-initiative" replace />} />
+        <Route path="/the-work/organizational-transformation" element={<Navigate to="/organizational-transformation/orglab-initiative" replace />} />
+        <Route path="/the-work/orglab-initiative" element={<Navigate to="/organizational-transformation/orglab-initiative" replace />} />
+        <Route path="/the-work/healthcare-care" element={<Navigate to="/organizational-transformation/healthcare-care" replace />} />
+        <Route path="/the-work/startups" element={<Navigate to="/organizational-transformation/startups" replace />} />
+        <Route path="/the-work/founder-led" element={<Navigate to="/organizational-transformation/founder-led" replace />} />
+        <Route path="/the-work/transformation-cohort-2026" element={<Navigate to="/organizational-transformation/transformation-cohort-2026" replace />} />
 
         {/* Initiatives */}
         <Route path="/initiatives" element={<InitiativesOverview />} />

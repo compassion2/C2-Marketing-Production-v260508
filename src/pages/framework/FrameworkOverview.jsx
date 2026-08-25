@@ -150,7 +150,7 @@ export default function FrameworkOverview() {
             <Link to="/framework/flourishing-organization" className="flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-md hover:opacity-90 transition-opacity">
               What's a Flourishing Organization <ArrowRight className="w-4 h-4" />
             </Link>
-            <Link to="/the-work" className="flex items-center gap-2 border border-border text-foreground font-body font-semibold px-6 py-3 rounded-md hover:border-primary/50 transition-colors">
+            <Link to="/organizational-transformation/orglab-initiative" className="flex items-center gap-2 border border-border text-foreground font-body font-semibold px-6 py-3 rounded-md hover:border-primary/50 transition-colors">
               See How the Framework Is Applied
             </Link>
             <Link to="/engage/start-conversation" className="flex items-center gap-2 border border-border text-foreground font-body font-semibold px-6 py-3 rounded-md hover:border-primary/50 transition-colors">

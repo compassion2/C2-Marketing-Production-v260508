@@ -23,27 +23,27 @@ const pageMeta = {
     title: "How We Work — Compassion 2.0",
     description: "Strategic advisory, organizational transformation, and community practice. Built for leaders who see culture, technology, and execution as one system.",
   },
-  "/the-work/strategic-advisory": {
+  "/organizational-transformation/strategic-advisory": {
     title: "Strategic Advisory — Compassion 2.0",
     description: "Senior advisory for leaders navigating AI adoption, organizational redesign, and the intersection of human systems and performance.",
   },
-  "/the-work/orglab-initiative": {
+  "/organizational-transformation/orglab-initiative": {
     title: "ORGLAB Initiative — Compassion 2.0",
     description: "We help organizations measure, prove, and scale the financial value of human flourishing — with a diagnostic, a dashboard, and a transformation system built on science, not sentiment.",
   },
-  "/the-work/healthcare-care": {
+  "/organizational-transformation/healthcare-care": {
     title: "Care-Based Organizations | Organizational Transformation — Compassion 2.0",
     description: "For hospitals, universities, and care-based institutions: a diagnostic and transformation system that proves the financial value of investing in your people — with a dashboard your board can read.",
   },
-  "/the-work/startups": {
+  "/organizational-transformation/startups": {
     title: "Startups | Organizational Transformation — Compassion 2.0",
     description: "For startups scaling from 5 to 50+: build the relational infrastructure that survives your next funding round — before culture debt kills the company.",
   },
-  "/the-work/founder-led": {
+  "/organizational-transformation/founder-led": {
     title: "Founder-Led Businesses | Organizational Transformation — Compassion 2.0",
     description: "For women-owned and founder-led businesses (25–500 people): scale your company without losing the relationships that built it. Diagnostic-driven transformation with an ROI dashboard.",
   },
-  "/the-work/chief-flourishing-officer": {
+  "/organizational-transformation/chief-flourishing-officer": {
     title: "Chief Flourishing Officer — Compassion 2.0",
     description: "A structured learning journey for leaders building flourishing into their organization's operating system. Culture, trust, learning, and well-being as infrastructure.",
   },

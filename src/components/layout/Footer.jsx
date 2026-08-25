@@ -20,10 +20,10 @@ export default function Footer() {
             {
               title: "Organizational Transformation",
               links: [
-                { label: "ORGLAB Initiative", href: "/the-work/orglab-initiative" },
-                { label: "Care-Based Organizations", href: "/the-work/healthcare-care" },
-                { label: "Startups", href: "/the-work/startups" },
-                { label: "Founder-Led Businesses", href: "/the-work/founder-led" },
+                { label: "ORGLAB Initiative", href: "/organizational-transformation/orglab-initiative" },
+                { label: "Care-Based Organizations", href: "/organizational-transformation/healthcare-care" },
+                { label: "Startups", href: "/organizational-transformation/startups" },
+                { label: "Founder-Led Businesses", href: "/organizational-transformation/founder-led" },
               ],
             },
             {

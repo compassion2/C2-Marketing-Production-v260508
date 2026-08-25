@@ -15,11 +15,11 @@ const navItems = [
   {
     label: "Organizational Transformation",
     children: [
-      { label: "ORGLAB Initiative", href: "/the-work/orglab-initiative", description: "Deep, case-based transformation for senior leaders and boards" },
-      { label: "Care-Based Organizations", href: "/the-work/healthcare-care", description: "Hospitals, universities, and care institutions" },
-      { label: "Startups Scaling Through Funding Rounds", href: "/the-work/startups", description: "Relational infrastructure for founding teams that scales with you" },
-      { label: "Founder-Led Businesses", href: "/the-work/founder-led", description: "Scale without losing the relationships that built you" },
-      { label: "Transformation Cohort 2026", href: "/the-work/transformation-cohort-2026", description: "Case-based organizational transformation, cohort model" },
+      { label: "ORGLAB Initiative", href: "/organizational-transformation/orglab-initiative", description: "Deep, case-based transformation for senior leaders and boards" },
+      { label: "Care-Based Organizations", href: "/organizational-transformation/healthcare-care", description: "Hospitals, universities, and care institutions" },
+      { label: "Startups Scaling Through Funding Rounds", href: "/organizational-transformation/startups", description: "Relational infrastructure for founding teams that scales with you" },
+      { label: "Founder-Led Businesses", href: "/organizational-transformation/founder-led", description: "Scale without losing the relationships that built you" },
+      { label: "Transformation Cohort 2026", href: "/organizational-transformation/transformation-cohort-2026", description: "Case-based organizational transformation, cohort model" },
     ],
   },
   {

@@ -100,7 +100,7 @@ const SITE_CONTENT = {
     },
 
     {
-      path: "/the-work",
+      path: "/organizational-transformation/orglab-initiative",
       title: "How We Work",
       subtitle: "Compassion 2.0 builds humane, effective cultures that mitigate burnout and fear.",
       sections: [
@@ -132,7 +132,7 @@ const SITE_CONTENT = {
     },
 
     {
-      path: "/the-work/organizational-transformation",
+      path: "/organizational-transformation/orglab-initiative",
       title: "Organizational Transformation",
       subtitle: "A deeper, applied partnership focused on changing the underlying conditions that shape culture, leadership, and performance.",
       sections: [
@@ -430,7 +430,7 @@ const SITE_CONTENT = {
     },
 
     {
-      path: "/the-work",
+      path: "/organizational-transformation/orglab-initiative",
       title: "How We Work with Organizations",
       subtitle: "Compassion 2.0 works with organizations that are actively grappling with how to build cultures that are both humane and effective—where people can do meaningful work without burnout, fear, or fragmentation.",
       sections: [

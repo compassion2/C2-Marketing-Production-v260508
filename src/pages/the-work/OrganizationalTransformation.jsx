@@ -33,19 +33,19 @@ const segments = [
     title: "Care-Based Organizations",
     subtitle: "Your mission is human wellbeing. Your own people are burning out.",
     body: "Hospitals. Universities. First responder networks. Organizations where the quality of care your people deliver is directly shaped by the care they receive. We partner with institutional leaders to build the measurement and transformation infrastructure that makes 'we care about our people' a provable financial strategy, not a poster on the wall.",
-    href: "/the-work/healthcare-care",
+    href: "/organizational-transformation/healthcare-care",
   },
   {
     title: "Startups Scaling Through Funding Rounds",
     subtitle: "You're about to 10x your team. Your culture won't survive it by accident.",
     body: "Pre-seed to seed. Seed to Series A. The transition where founders go from 'everyone knows everyone' to 'we need actual systems.' This is where culture debt compounds — and where the majority of venture-backed failures originate. We work with founding teams in small cohorts to build the relational infrastructure that scales with you, not against you.",
-    href: "/the-work/startups",
+    href: "/organizational-transformation/startups",
   },
   {
     title: "Founder-Led Businesses Ready to Scale Differently",
     subtitle: "You built this company on relationships. Now you need a system that protects them.",
     body: "Women-owned and founder-led businesses in the 25–500 person range. You've grown because people trust you — your clients, your team, your partners. But the pull between scaling the business and maintaining the relationships that built it is real. We help you design an organization where growth and care aren't in tension — and we give you the data to prove it works.",
-    href: "/the-work/founder-led",
+    href: "/organizational-transformation/founder-led",
   },
 ];
 
