@@ -13,7 +13,7 @@ const navItems = [
     ],
   },
   {
-    label: "The Work",
+    label: "Organizational Transformation",
     children: [
       { label: "Organizational Transformation", href: "/the-work/organizational-transformation", description: "Deep, case-based transformation for senior leaders and boards" },
       { label: "Care-Based Organizations", href: "/the-work/healthcare-care", description: "Hospitals, universities, and care institutions" },
