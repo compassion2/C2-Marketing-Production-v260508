@@ -30,6 +30,7 @@ const navItems = [
       { label: "Flourishingly", href: "/initiatives/flourishingly", description: "Applied tools for flourishing and relational health" },
       { label: "Chief Flourishing Officers", href: "/products/ChiefFlourishingOfficers", description: "Role and Learning Journey for organizational flourishing" },
       { label: "Master Trainers", href: "/initiatives/master-trainers", description: "Certified practitioners delivering Compassion 2.0–aligned services" },
+      { label: "The C2 Org Lab", href: "/initiatives/org-lab", description: "Bespoke organizational design with Dynamic Synergy Partners" },
     ],
   },
   {

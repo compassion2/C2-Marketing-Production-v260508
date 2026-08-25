@@ -29,6 +29,7 @@ import InitiativesOverview from './pages/initiatives/InitiativesOverview';
 import Benevolently from './pages/initiatives/Benevolently';
 import Flourishingly from './pages/initiatives/Flourishingly';
 import MasterTrainers from './pages/initiatives/MasterTrainers';
+import OrgLab from './pages/initiatives/OrgLab';
 
 // Community
 import MycelialNetwork from './pages/community/MycelialNetwork';
@@ -90,6 +91,7 @@ const AuthenticatedApp = () => {
         <Route path="/initiatives/benevolently" element={<Benevolently />} />
         <Route path="/initiatives/flourishingly" element={<Flourishingly />} />
         <Route path="/initiatives/master-trainers" element={<MasterTrainers />} />
+        <Route path="/initiatives/org-lab" element={<OrgLab />} />
 
         {/* Community */}
         <Route path="/community/mycelial-network" element={<MycelialNetwork />} />
