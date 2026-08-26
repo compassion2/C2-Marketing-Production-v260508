@@ -17,12 +17,12 @@ import FlourishingOrganization from './pages/framework/FlourishingOrganization';
 import GenerativeOntology from './pages/framework/GenerativeOntology';
 
 // The Work
-import OrganizationalTransformation from './pages/the-work/OrganizationalTransformation';
+import OrgLabOverview from './pages/the-work/OrgLabOverview';
+import WomenOwnedSMBs from './pages/the-work/WomenOwnedSMBs';
+import AiNeurobiologyWebinar from './pages/the-work/AiNeurobiologyWebinar';
 import ChiefFlourishingOfficers from './pages/products/ChiefFlourishingOfficers';
 import HealthcareCare from './pages/the-work/HealthcareCare';
 import Startups from './pages/the-work/Startups';
-import FounderLed from './pages/the-work/FounderLed';
-import TransformationCohort2026 from './pages/the-work/TransformationCohort2026';
 
 // Initiatives
 import InitiativesOverview from './pages/initiatives/InitiativesOverview';
@@ -78,11 +78,14 @@ const AuthenticatedApp = () => {
         <Route path="/framework/generative-ontology" element={<GenerativeOntology />} />
 
         {/* Organizational Transformation */}
-        <Route path="/organizational-transformation/orglab-initiative" element={<OrganizationalTransformation />} />
+        <Route path="/organizational-transformation" element={<OrgLabOverview />} />
+        <Route path="/organizational-transformation/orglab-initiative" element={<OrgLabOverview />} />
         <Route path="/organizational-transformation/healthcare-care" element={<HealthcareCare />} />
         <Route path="/organizational-transformation/startups" element={<Startups />} />
-        <Route path="/organizational-transformation/founder-led" element={<FounderLed />} />
-        <Route path="/organizational-transformation/transformation-cohort-2026" element={<TransformationCohort2026 />} />
+        <Route path="/organizational-transformation/women-owned-smbs" element={<WomenOwnedSMBs />} />
+        <Route path="/organizational-transformation/ai-neurobiology-performance" element={<AiNeurobiologyWebinar />} />
+        <Route path="/organizational-transformation/founder-led" element={<Navigate to="/organizational-transformation/women-owned-smbs" replace />} />
+        <Route path="/organizational-transformation/transformation-cohort-2026" element={<Navigate to="/organizational-transformation/orglab-initiative" replace />} />
         <Route path="/products/ChiefFlourishingOfficers" element={<ChiefFlourishingOfficers />} />
 
         {/* Redirects from old /the-work paths */}
@@ -91,15 +94,16 @@ const AuthenticatedApp = () => {
         <Route path="/the-work/orglab-initiative" element={<Navigate to="/organizational-transformation/orglab-initiative" replace />} />
         <Route path="/the-work/healthcare-care" element={<Navigate to="/organizational-transformation/healthcare-care" replace />} />
         <Route path="/the-work/startups" element={<Navigate to="/organizational-transformation/startups" replace />} />
-        <Route path="/the-work/founder-led" element={<Navigate to="/organizational-transformation/founder-led" replace />} />
-        <Route path="/the-work/transformation-cohort-2026" element={<Navigate to="/organizational-transformation/transformation-cohort-2026" replace />} />
+        <Route path="/the-work/founder-led" element={<Navigate to="/organizational-transformation/women-owned-smbs" replace />} />
+        <Route path="/the-work/transformation-cohort-2026" element={<Navigate to="/organizational-transformation/orglab-initiative" replace />} />
+        <Route path="/the-work/ai-neurobiology-performance" element={<Navigate to="/organizational-transformation/ai-neurobiology-performance" replace />} />
 
         {/* Initiatives */}
         <Route path="/initiatives" element={<InitiativesOverview />} />
         <Route path="/initiatives/benevolently" element={<Benevolently />} />
         <Route path="/initiatives/flourishingly" element={<Flourishingly />} />
         <Route path="/initiatives/master-trainers" element={<MasterTrainers />} />
-        <Route path="/initiatives/org-lab" element={<OrgLab />} />
+        <Route path="/initiatives/org-lab" element={<Navigate to="/organizational-transformation/orglab-initiative" replace />} />
 
         {/* Community */}
         <Route path="/community/mycelial-network" element={<MycelialNetwork />} />
