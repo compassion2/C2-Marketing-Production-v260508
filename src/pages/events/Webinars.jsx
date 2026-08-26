@@ -11,7 +11,7 @@ const webinars = [
       "How your organization is designed decides the state your people work from — and that state decides how they perform. A live presentation followed by a roundtable conversation, presented by Compassion 2.0 with premier partner Dynamic Synergy Partners.",
     image: "/images/ai-neurobiology-webinar.png",
     detailsHref: "/organizational-transformation/ai-neurobiology-performance",
-    registerHref: "https://www.linkedin.com/events/7498088732600852480/",
+    registerHref: "https://c2interest.base44.app/OrgLabRegister?source=compassion2.com-webinars",
     status: "upcoming",
   },
 ];
@@ -106,7 +106,7 @@ export default function Webinars() {
       )}
 
       {/* BOTTOM CTA */}
-      <section className="py-20 bg-tara-green-dark">
+      <section className="py-20 bg-gradient-to-br from-[hsl(var(--tara-green-dark))] via-[hsl(155,80%,15%)] to-[hsl(222,60%,15%)]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl font-bold text-white mb-4">
             Want the conversation to continue?
