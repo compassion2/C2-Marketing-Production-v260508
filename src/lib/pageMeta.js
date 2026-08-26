@@ -27,6 +27,10 @@ const pageMeta = {
     title: "Strategic Advisory — Compassion 2.0",
     description: "Senior advisory for leaders navigating AI adoption, organizational redesign, and the intersection of human systems and performance.",
   },
+  "/events/webinars": {
+    title: "Webinars — Compassion 2.0",
+    description: "Live working sessions with the Compassion 2.0 team and partners. Next: AI and the Neurobiology of Organizational Performance — Thursday, September 10, 2026.",
+  },
   "/organizational-transformation": {
     title: "The C2 ORGLAB Initiative — Compassion 2.0",
     description: "Three cohorts of ten — care-based organizations, scaling startups, and women-owned SMBs — on a two-to-three-year journey to design the conditions under which people flourish. With premier partner Dynamic Synergy Partners.",
