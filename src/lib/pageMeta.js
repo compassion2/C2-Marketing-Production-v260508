@@ -28,8 +28,16 @@ const pageMeta = {
     description: "Senior advisory for leaders navigating AI adoption, organizational redesign, and the intersection of human systems and performance.",
   },
   "/organizational-transformation/orglab-initiative": {
-    title: "ORGLAB Initiative — Compassion 2.0",
-    description: "We help organizations measure, prove, and scale the financial value of human flourishing — with a diagnostic, a dashboard, and a transformation system built on science, not sentiment.",
+    title: "The C2 Org Lab — Compassion 2.0",
+    description: "Three cohorts of ten — care-based organizations, scaling startups, and women-owned SMBs — on a two-to-three-year journey to design the conditions under which people flourish. With premier partner Dynamic Synergy Partners.",
+  },
+  "/organizational-transformation/women-owned-smbs": {
+    title: "Women-Owned SMBs | Organizational Transformation — Compassion 2.0",
+    description: "For women-owned small and medium businesses: grow without losing what made the company worth building — with a diagnostic, an ROI of Care Dashboard, and a mastermind of ten women owners on the same journey.",
+  },
+  "/organizational-transformation/ai-neurobiology-performance": {
+    title: "AI and the Neurobiology of Organizational Performance — Live Webinar",
+    description: "Thursday, September 10, 2026 · 9:00 AM PT / 12:00 PM ET. A live working session from Compassion 2.0 and Dynamic Synergy Partners on designing organizations for performance in the AI era.",
   },
   "/organizational-transformation/healthcare-care": {
     title: "Care-Based Organizations | Organizational Transformation — Compassion 2.0",
