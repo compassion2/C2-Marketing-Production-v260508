@@ -32,7 +32,6 @@ export default function Footer() {
                 { label: "Flourishingly", href: "/initiatives/flourishingly" },
                 { label: "Chief Flourishing Officers", href: "/products/ChiefFlourishingOfficers" },
                 { label: "Master Trainers", href: "/initiatives/master-trainers" },
-                { label: "The C2 ORGLAB Initiative", href: "/organizational-transformation/orglab-initiative" },
                 { label: "Benevolently", href: "/initiatives/benevolently" },
               ],
             },
