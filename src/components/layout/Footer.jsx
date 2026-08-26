@@ -42,6 +42,7 @@ export default function Footer() {
               links: [
                 { label: "Mastermind", href: "/community/mastermind" },
                 { label: "Mycelial Network", href: "/community/mycelial-network" },
+                { label: "Webinars", href: "/events/webinars" },
                 { label: "Events & Salons", href: "/community/events-salons" },
               ],
             },
