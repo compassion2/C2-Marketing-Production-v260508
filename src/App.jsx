@@ -37,6 +37,7 @@ import EventsSalons from './pages/community/EventsSalons';
 
 // Events
 import HumanTechWeek from './pages/events/HumanTechWeek';
+import Webinars from './pages/events/Webinars';
 
 // Engage
 import StartConversation from './pages/engage/StartConversation';
@@ -111,6 +112,7 @@ const AuthenticatedApp = () => {
 
         {/* Events */}
         <Route path="/events/human-tech-week" element={<HumanTechWeek />} />
+        <Route path="/events/webinars" element={<Webinars />} />
 
         {/* Engage */}
         <Route path="/engage/start-conversation" element={<StartConversation />} />
