@@ -1,50 +1,39 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-
-const roiCards = [
-  {
-    label: "Making Money",
-    desc: "How does relational quality drive clinical outcomes, patient satisfaction scores, grant competitiveness, and research output?",
-    color: "border-tara-green bg-tara-green/5",
-    labelColor: "text-tara-green",
-  },
-  {
-    label: "Saving Money",
-    desc: "What's the real cost of turnover, absenteeism, and presenteeism — and how does it move as flourishing increases?",
-    color: "border-royal-blue bg-royal-blue/5",
-    labelColor: "text-royal-blue",
-  },
-  {
-    label: "Mitigating Risk",
-    desc: "Where are the liability, compliance, and reputation risks that trace back to organizational culture — and what's the financial exposure?",
-    color: "border-golden-amber bg-golden-amber/5",
-    labelColor: "text-golden-dark",
-  },
-];
+import WebinarCallout from "@/components/orglab/WebinarCallout";
+import AmbassadorInvite from "@/components/orglab/AmbassadorInvite";
 
 export default function HealthcareCare() {
   return (
     <div className="font-body">
 
       {/* HERO */}
-      <section className="relative py-28 hero-gradient overflow-hidden">
+      <section className="relative py-24 hero-gradient overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5" />
-        <div className="absolute top-1/4 right-1/4 w-72 h-72 rounded-full bg-tara-green/20 blur-3xl" />
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="section-label text-golden-light mb-4">The Work · Care-Based Organizations</p>
-          <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
-            Your clinicians, researchers, and care teams are your most valuable asset.<br className="hidden sm:block" /> Your budget doesn't reflect it.
-          </h1>
-          <div className="w-16 h-px bg-golden-amber mb-8" />
-          <p className="font-body text-white/70 text-lg max-w-2xl mb-10">
-            We help care-based institutions — hospitals, health systems, universities, first responder networks — build the measurement infrastructure that connects employee flourishing to patient outcomes, retention, and financial performance. Not as a theory. As a dashboard.
-          </p>
-          <Link
-            to="/engage/start-conversation"
-            className="inline-flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-6 py-3 rounded-md transition-all hover:scale-105 shadow-lg"
-          >
-            Start a Conversation <ArrowRight className="w-4 h-4" />
-          </Link>
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="section-label text-golden-light mb-4">Organizational Transformation · Care-Based Organizations</p>
+              <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
+                The care your people receive shapes the care they deliver.
+              </h1>
+              <div className="w-16 h-px bg-golden-amber mb-8" />
+              <p className="font-body text-white/70 text-lg leading-relaxed mb-10">
+                Hospitals, schools, first responder networks, and care institutions: your mission is human wellbeing, and your own people carry its weight. We come alongside leadership to design the conditions under which caregivers flourish — and to prove, in financial terms, what that flourishing is worth.
+              </p>
+              <Link
+                to="/engage/start-conversation"
+                className="inline-flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-md hover:opacity-90 transition-opacity"
+              >
+                Start a Conversation <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+            <img
+              src="/images/care-based-orgs.jpg"
+              alt="A clinical care team in conversation"
+              className="rounded-2xl shadow-lg w-full object-cover aspect-[3/2]"
+            />
+          </div>
         </div>
       </section>
 
@@ -52,101 +41,60 @@ export default function HealthcareCare() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-muted border-l-4 border-primary p-8 rounded-r-xl">
-            <p className="section-label mb-4">The Problem</p>
+            <p className="section-label mb-4">The Problem You Already Know</p>
             <h2 className="font-display text-3xl font-bold text-foreground mb-6">
-              The problem you already know
+              Burnout is an operational crisis. Proving it is the hard part.
             </h2>
             <p className="font-body text-muted-foreground text-lg leading-relaxed">
-              You already know burnout is an operational crisis, not just a wellness issue. You know turnover in nursing alone costs your system millions annually. You know psychological safety affects clinical outcomes. But when you walk into a board meeting and say "we need to invest in our people," the response is: show me the ROI. That's not cynicism. It's fiduciary responsibility. And until now, the tools to answer that question haven't existed in a form a CFO would take seriously.
+              You know turnover in clinical and care roles costs millions annually. You know psychological safety shapes outcomes for the people you serve. But when you say "we need to invest in our people," the board answers: show me the return. That isn't cynicism — it's fiduciary responsibility. Until now, the tools to answer it in a form a CFO takes seriously haven't existed. That is the gap we close together.
             </p>
           </div>
         </div>
       </section>
 
-      {/* HOW WE WORK */}
+      {/* WHAT CHANGES */}
       <section className="py-20 bg-muted/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="section-label mb-4">The Process</p>
-          <h2 className="font-display text-3xl font-bold text-foreground mb-12">
-            How we work with care-based organizations
+          <p className="section-label mb-4">What Changes</p>
+          <h2 className="font-display text-3xl font-bold text-foreground mb-10">
+            Flourishing you can see — on the floor and on the dashboard.
           </h2>
-
           <div className="space-y-8">
-            {/* The Diagnostic */}
             <div className="bg-white border border-border rounded-xl p-8">
-              <h3 className="font-display text-xl font-bold text-foreground mb-4">The Diagnostic</h3>
+              <h3 className="font-display text-xl font-bold text-foreground mb-4">Three lenses on your institution</h3>
               <p className="font-body text-muted-foreground text-base leading-relaxed">
-                We assess your organization through three lenses: the <span className="text-foreground font-semibold">Container</span> (your structural and policy environment — how the organization holds its people), the <span className="text-foreground font-semibold">Invitation</span> (the quality and authenticity of how people are asked to participate), and the <span className="text-foreground font-semibold">Field</span> (the emergent relational quality — trust, psychological safety, the texture of how people actually treat each other).
-              </p>
-              <p className="font-body text-muted-foreground text-base leading-relaxed mt-4">
-                This isn't another engagement survey. We combine validated psychometric instruments, operational data you already collect, and structured interviews to build a multi-dimensional picture of where your organization is thriving and where it's leaking value.
-              </p>
-              <p className="font-body text-primary font-semibold text-sm mt-4 italic">
-                Duration: approximately 3 months for large health systems. Shorter for smaller institutions.
+                The 90-day diagnostic looks at your <span className="text-foreground font-semibold">Container</span> (the structural and policy environment — how the institution holds its people), your <span className="text-foreground font-semibold">Invitation</span> (how caregivers are asked to participate and bring their best), and your <span className="text-foreground font-semibold">Field</span> (the lived relational quality — trust, psychological safety, how people actually treat each other under pressure). Validated instruments plus the operational data you already collect. Low lift on your side.
               </p>
             </div>
-
-            {/* ROI Dashboard */}
             <div className="bg-white border border-border rounded-xl p-8">
-              <h3 className="font-display text-xl font-bold text-foreground mb-2">The ROI of Care Dashboard</h3>
-              <p className="font-body text-muted-foreground text-sm mb-6 italic">The centerpiece deliverable.</p>
-              <p className="font-body text-muted-foreground text-base leading-relaxed mb-8">
-                A live, persistent dashboard that maps human flourishing data to three financial outcomes:
-              </p>
-              <div className="grid sm:grid-cols-3 gap-4 mb-6">
-                {roiCards.map((card, i) => (
-                  <div key={i} className={`border-2 rounded-xl p-5 ${card.color}`}>
-                    <p className={`font-body font-bold text-sm mb-2 ${card.labelColor}`}>{card.label}</p>
-                    <p className="font-body text-muted-foreground text-sm leading-relaxed">{card.desc}</p>
-                  </div>
-                ))}
-              </div>
-              <p className="font-body text-foreground font-semibold text-base">
-                This dashboard doesn't sit in an HR silo. It goes to your C-suite and your board. It speaks their language.
+              <h3 className="font-display text-xl font-bold text-foreground mb-4">The ROI of Care Dashboard</h3>
+              <p className="font-body text-muted-foreground text-base leading-relaxed">
+                The diagnostic culminates in a baseline dashboard that connects flourishing to what your board weighs: revenue and outcomes, cost of turnover and absence, and risk exposure that traces back to culture. Where functional execution and human resonance converge is your institution's <span className="text-foreground font-semibold">organizational metabolism</span> — its real capacity to care and perform. As the work proceeds, you watch it move.
               </p>
             </div>
-
-            {/* Prescribed Interventions */}
             <div className="bg-white border border-border rounded-xl p-8">
-              <h3 className="font-display text-xl font-bold text-foreground mb-4">Prescribed Interventions</h3>
+              <h3 className="font-display text-xl font-bold text-foreground mb-4">Your cohort: ten care-based organizations</h3>
               <p className="font-body text-muted-foreground text-base leading-relaxed">
-                Based on what the diagnostic reveals, we deploy targeted practices through the Flourishingly platform — not a generic training catalog. Communication practices for clinical teams. Relational skill-building for leaders. Structured gratitude and empathy exercises that sound simple and produce measurable shifts in team dynamics. AI-assisted practice tools that let individuals build skills between sessions. Each intervention maps back to the dashboard. You can see what's working.
-              </p>
-            </div>
-
-            {/* Institutional Partnerships */}
-            <div className="bg-white border border-border rounded-xl p-8">
-              <h3 className="font-display text-xl font-bold text-foreground mb-4">Institutional Partnerships</h3>
-              <p className="font-body text-muted-foreground text-base leading-relaxed">
-                Many of our care-based engagements happen through institutional collaborations — multi-stakeholder initiatives that bring together major health systems, universities, and employers around brain capital and workforce flourishing. If your institution is already part of a collaborative initiative focused on employee wellbeing or organizational health, we integrate with that structure rather than creating a parallel one.
+                You join a mastermind of ten peer institutions on the same journey — part of a collective of thirty organizations across three cohorts — over a two-to-three-year arc. As research collaborators, your results become part of the published evidence base: academic, scientific, and business-case papers, featuring your institution. Some seats remain.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* WHAT YOUR BOARD GETS */}
-      <section className="py-20 hero-gradient">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="glass-card p-8">
-            <p className="section-label text-golden-light mb-4">For Your Board</p>
-            <h2 className="font-display text-2xl font-bold text-white mb-4">What your board gets</h2>
-            <p className="font-body text-white/80 text-lg leading-relaxed">
-              A dashboard they can read. Data they can act on. A transformation methodology that doesn't require them to "believe in" anything — just to look at the numbers.
-            </p>
-          </div>
-        </div>
-      </section>
+      <AmbassadorInvite />
+
+      <WebinarCallout />
 
       {/* BOTTOM CTA */}
       <section className="py-24 bg-tara-green-dark">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-10">
-            Let's talk about what care is costing you — and what it could be earning you.
+            An invitation to the visionary leaders of care.
           </h2>
           <Link
             to="/engage/start-conversation"
-            className="inline-flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-8 py-4 rounded-md transition-all hover:scale-105 shadow-lg"
+            className="inline-flex items-center gap-2 bg-white text-primary font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity"
           >
             Start a Conversation <ArrowRight className="w-4 h-4" />
           </Link>
