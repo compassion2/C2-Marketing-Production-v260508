@@ -94,8 +94,6 @@ export default function AiNeurobiologyWebinar() {
             </div>
             <a
               href="https://c2interest.base44.app/OrgLabRegister?source=compassion2.com-the-work"
-              target="_blank"
-              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary text-white font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity"
             >
               Register for the Webinar <ArrowRight className="w-4 h-4" />
