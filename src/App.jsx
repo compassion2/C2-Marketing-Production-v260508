@@ -29,7 +29,6 @@ import InitiativesOverview from './pages/initiatives/InitiativesOverview';
 import Benevolently from './pages/initiatives/Benevolently';
 import Flourishingly from './pages/initiatives/Flourishingly';
 import MasterTrainers from './pages/initiatives/MasterTrainers';
-import OrgLab from './pages/initiatives/OrgLab';
 
 // Community
 import MycelialNetwork from './pages/community/MycelialNetwork';
