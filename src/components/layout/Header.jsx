@@ -15,11 +15,11 @@ const navItems = [
   {
     label: "Organizational Transformation",
     children: [
-      { label: "ORGLAB Initiative", href: "/organizational-transformation/orglab-initiative", description: "Deep, case-based transformation for senior leaders and boards" },
-      { label: "Care-Based Organizations", href: "/organizational-transformation/healthcare-care", description: "Hospitals, universities, and care institutions" },
-      { label: "Startups Scaling Through Funding Rounds", href: "/organizational-transformation/startups", description: "Relational infrastructure for founding teams that scales with you" },
-      { label: "Founder-Led Businesses", href: "/organizational-transformation/founder-led", description: "Scale without losing the relationships that built you" },
-      { label: "Transformation Cohort 2026", href: "/organizational-transformation/transformation-cohort-2026", description: "Case-based organizational transformation, cohort model" },
+      { label: "The C2 Org Lab", href: "/organizational-transformation/orglab-initiative", description: "Three cohorts, thirty organizations, one collective — with Dynamic Synergy Partners" },
+      { label: "Care-Based Organizations", href: "/organizational-transformation/healthcare-care", description: "Hospitals, schools, and care institutions" },
+      { label: "Scaling Startups", href: "/organizational-transformation/startups", description: "Relational infrastructure that scales with you" },
+      { label: "Women-Owned SMBs", href: "/organizational-transformation/women-owned-smbs", description: "Grow without losing what made it worth building" },
+      { label: "AI & the Neurobiology of Performance", href: "/organizational-transformation/ai-neurobiology-performance", description: "Live webinar · Thursday, September 10, 2026" },
     ],
   },
   {
@@ -30,7 +30,7 @@ const navItems = [
       { label: "Flourishingly", href: "/initiatives/flourishingly", description: "Applied tools for flourishing and relational health" },
       { label: "Chief Flourishing Officers", href: "/products/ChiefFlourishingOfficers", description: "Role and Learning Journey for organizational flourishing" },
       { label: "Master Trainers", href: "/initiatives/master-trainers", description: "Certified practitioners delivering Compassion 2.0–aligned services" },
-      { label: "The C2 Org Lab", href: "/initiatives/org-lab", description: "Bespoke organizational design with Dynamic Synergy Partners" },
+      { label: "The C2 Org Lab", href: "/organizational-transformation/orglab-initiative", description: "Bespoke organizational design with Dynamic Synergy Partners" },
     ],
   },
   {
