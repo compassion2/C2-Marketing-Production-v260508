@@ -19,7 +19,6 @@ const navItems = [
       { label: "Care-Based Organizations", href: "/organizational-transformation/healthcare-care", description: "Hospitals, schools, and care institutions" },
       { label: "Scaling Startups", href: "/organizational-transformation/startups", description: "Relational infrastructure that scales with you" },
       { label: "Women-Owned SMBs", href: "/organizational-transformation/women-owned-smbs", description: "Grow without losing what made it worth building" },
-      { label: "AI & the Neurobiology of Performance", href: "/organizational-transformation/ai-neurobiology-performance", description: "Live webinar · Thursday, September 10, 2026" },
     ],
   },
   {
