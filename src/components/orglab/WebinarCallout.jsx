@@ -35,10 +35,10 @@ export default function WebinarCallout() {
               Register for the Webinar <ArrowRight className="w-4 h-4" />
             </a>
             <Link
-              to="/organizational-transformation/ai-neurobiology-performance"
+              to="/events/webinars"
               className="inline-flex items-center gap-1 text-sm font-body font-semibold text-primary hover:underline"
             >
-              About the webinar <ArrowRight className="w-3 h-3" />
+              All webinars <ArrowRight className="w-3 h-3" />
             </Link>
           </div>
         </div>
