@@ -20,7 +20,7 @@ export default function Footer() {
             {
               title: "Organizational Transformation",
               links: [
-                { label: "The C2 Org Lab", href: "/organizational-transformation/orglab-initiative" },
+                { label: "The C2 ORGLAB Initiative", href: "/organizational-transformation/orglab-initiative" },
                 { label: "Care-Based Organizations", href: "/organizational-transformation/healthcare-care" },
                 { label: "Scaling Startups", href: "/organizational-transformation/startups" },
                 { label: "Women-Owned SMBs", href: "/organizational-transformation/women-owned-smbs" },
@@ -33,7 +33,7 @@ export default function Footer() {
                 { label: "Flourishingly", href: "/initiatives/flourishingly" },
                 { label: "Chief Flourishing Officers", href: "/products/ChiefFlourishingOfficers" },
                 { label: "Master Trainers", href: "/initiatives/master-trainers" },
-                { label: "The C2 Org Lab", href: "/organizational-transformation/orglab-initiative" },
+                { label: "The C2 ORGLAB Initiative", href: "/organizational-transformation/orglab-initiative" },
                 { label: "Benevolently", href: "/initiatives/benevolently" },
               ],
             },

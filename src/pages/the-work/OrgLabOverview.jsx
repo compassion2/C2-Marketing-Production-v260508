@@ -47,7 +47,7 @@ export default function OrgLabOverview() {
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="section-label text-golden-light mb-4">Organizational Transformation</p>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
-            The C2 Org Lab
+            The C2 ORGLAB Initiative
           </h1>
           <div className="w-16 h-px bg-golden-amber mb-8" />
           <p className="font-body text-white/80 text-xl font-semibold mb-6 max-w-2xl">
@@ -83,7 +83,7 @@ export default function OrgLabOverview() {
             Thirty organizations. Three cohorts. One collective.
           </h2>
           <p className="font-body text-muted-foreground text-lg leading-relaxed mb-12">
-            The Org Lab is three cohorts of ten — care-based organizations, scaling startups, and women-owned SMBs. Each cohort forms a mastermind of peers doing the same work; together, the thirty form a collective. Every participant joins as a research collaborator, building the evidence base of the flourishing age. Some seats remain.
+            The ORGLAB Initiative is three cohorts of ten — care-based organizations, scaling startups, and women-owned SMBs. Each cohort forms a mastermind of peers doing the same work; together, the thirty form a collective. Every participant joins as a research collaborator, building the evidence base of the flourishing age. Some seats remain.
           </p>
           <div className="grid sm:grid-cols-3 gap-6">
             {cohorts.map((c, i) => (

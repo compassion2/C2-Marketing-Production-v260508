@@ -15,7 +15,7 @@ const navItems = [
   {
     label: "Organizational Transformation",
     children: [
-      { label: "The C2 Org Lab", href: "/organizational-transformation/orglab-initiative", description: "Three cohorts, thirty organizations, one collective — with Dynamic Synergy Partners" },
+      { label: "The C2 ORGLAB Initiative", href: "/organizational-transformation/orglab-initiative", description: "Three cohorts, thirty organizations, one collective — with Dynamic Synergy Partners" },
       { label: "Care-Based Organizations", href: "/organizational-transformation/healthcare-care", description: "Hospitals, schools, and care institutions" },
       { label: "Scaling Startups", href: "/organizational-transformation/startups", description: "Relational infrastructure that scales with you" },
       { label: "Women-Owned SMBs", href: "/organizational-transformation/women-owned-smbs", description: "Grow without losing what made it worth building" },
@@ -30,7 +30,7 @@ const navItems = [
       { label: "Flourishingly", href: "/initiatives/flourishingly", description: "Applied tools for flourishing and relational health" },
       { label: "Chief Flourishing Officers", href: "/products/ChiefFlourishingOfficers", description: "Role and Learning Journey for organizational flourishing" },
       { label: "Master Trainers", href: "/initiatives/master-trainers", description: "Certified practitioners delivering Compassion 2.0–aligned services" },
-      { label: "The C2 Org Lab", href: "/organizational-transformation/orglab-initiative", description: "Bespoke organizational design with Dynamic Synergy Partners" },
+      { label: "The C2 ORGLAB Initiative", href: "/organizational-transformation/orglab-initiative", description: "Bespoke organizational design with Dynamic Synergy Partners" },
     ],
   },
   {
