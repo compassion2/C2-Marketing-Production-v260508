@@ -20,7 +20,7 @@ export default function FounderLed() {
           </p>
           <Link
             to="/engage/start-conversation"
-            className="inline-flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-md hover:opacity-90 transition-opacity"
+            className="inline-flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-6 py-3 rounded-md transition-all hover:scale-105 shadow-lg"
           >
             Start a Conversation <ArrowRight className="w-4 h-4" />
           </Link>
@@ -103,7 +103,7 @@ export default function FounderLed() {
           </h2>
           <Link
             to="/engage/start-conversation"
-            className="inline-flex items-center gap-2 bg-white text-primary font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity"
+            className="inline-flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-8 py-4 rounded-md transition-all hover:scale-105 shadow-lg"
           >
             Start a Conversation <ArrowRight className="w-4 h-4" />
           </Link>

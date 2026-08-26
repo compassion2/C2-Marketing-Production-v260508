@@ -103,7 +103,7 @@ export default function OrgLab() {
               href="https://c2interest.base44.app/OrgLabRegister?source=compassion2.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-primary text-white font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-8 py-4 rounded-md transition-all hover:scale-105 shadow-lg"
             >
               Register for the Webinar <ArrowRight className="w-4 h-4" />
             </a>

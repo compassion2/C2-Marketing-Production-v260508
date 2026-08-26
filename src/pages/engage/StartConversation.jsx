@@ -307,7 +307,7 @@ export default function StartConversation() {
               <button
                 type="submit"
                 disabled={submitting}
-                className="w-full flex items-center justify-center gap-2 bg-primary text-white font-body font-semibold px-6 py-4 rounded-md hover:opacity-90 transition-opacity disabled:opacity-60"
+                className="w-full flex items-center justify-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-6 py-4 rounded-md transition-colors shadow-lg disabled:opacity-60"
               >
                 {submitting ? "Sending…" : <><span>Send</span><ArrowRight className="w-4 h-4" /></>}
               </button>

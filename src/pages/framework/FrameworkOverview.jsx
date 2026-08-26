@@ -22,7 +22,7 @@ export default function FrameworkOverview() {
           <p className="font-body text-white/70 font-semibold mb-8">It is a design model.</p>
           <p className="font-body text-white/70">Human Resonance, Artificial Intelligence, and Operational Execution—designed as one system.</p>
           <div className="mt-10">
-            <Link to="/engage/start-conversation" className="inline-flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-md hover:opacity-90 transition-opacity">
+            <Link to="/engage/start-conversation" className="inline-flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-6 py-3 rounded-md transition-all hover:scale-105 shadow-lg">
               Start a Strategic Conversation <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -147,7 +147,7 @@ export default function FrameworkOverview() {
           <p className="section-label mb-4">Applying the Construct</p>
           <h2 className="font-display text-3xl font-bold text-foreground mb-6">Ready to Apply the Framework?</h2>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/framework/flourishing-organization" className="flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-md hover:opacity-90 transition-opacity">
+            <Link to="/framework/flourishing-organization" className="flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-6 py-3 rounded-md transition-all hover:scale-105 shadow-lg">
               What's a Flourishing Organization <ArrowRight className="w-4 h-4" />
             </Link>
             <Link to="/organizational-transformation/orglab-initiative" className="flex items-center gap-2 border border-border text-foreground font-body font-semibold px-6 py-3 rounded-md hover:border-primary/50 transition-colors">
