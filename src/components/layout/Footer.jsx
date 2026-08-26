@@ -24,7 +24,6 @@ export default function Footer() {
                 { label: "Care-Based Organizations", href: "/organizational-transformation/healthcare-care" },
                 { label: "Scaling Startups", href: "/organizational-transformation/startups" },
                 { label: "Women-Owned SMBs", href: "/organizational-transformation/women-owned-smbs" },
-                { label: "Sept 10 Webinar", href: "/events/webinars" },
               ],
             },
             {
