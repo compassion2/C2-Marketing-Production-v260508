@@ -30,8 +30,6 @@ export default function WebinarCallout() {
           <div className="flex flex-wrap items-center gap-4">
             <a
               href="https://c2interest.base44.app/OrgLabRegister?source=compassion2.com"
-              target="_blank"
-              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary text-white font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity"
             >
               Register for the Webinar <ArrowRight className="w-4 h-4" />
