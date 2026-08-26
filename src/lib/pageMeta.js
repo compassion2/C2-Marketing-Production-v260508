@@ -43,10 +43,6 @@ const pageMeta = {
     title: "Women-Owned SMBs | Organizational Transformation — Compassion 2.0",
     description: "For women-owned small and medium businesses: grow without losing what made the company worth building — with a diagnostic, an ROI of Care Dashboard, and a mastermind of ten women owners on the same journey.",
   },
-  "/organizational-transformation/ai-neurobiology-performance": {
-    title: "AI and the Neurobiology of Organizational Performance — Live Webinar",
-    description: "Thursday, September 10, 2026 · 9:00 AM PT / 12:00 PM ET. A live working session from Compassion 2.0 and Dynamic Synergy Partners on designing organizations for performance in the AI era.",
-  },
   "/organizational-transformation/healthcare-care": {
     title: "Care-Based Organizations | Organizational Transformation — Compassion 2.0",
     description: "For hospitals, universities, and care-based institutions: a diagnostic and transformation system that proves the financial value of investing in your people — with a dashboard your board can read.",
