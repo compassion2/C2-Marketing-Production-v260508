@@ -43,6 +43,7 @@ const navItems = [
   {
     label: "Events",
     children: [
+      { label: "Webinars", href: "/events/webinars", description: "Live working sessions — next: Thursday, September 10, 2026" },
       { label: "Human Tech Week", href: "/events/human-tech-week", description: "Annual convening on technology through a human-centered lens" },
       { label: "Events & Salons", href: "/community/events-salons", description: "Gatherings to cultivate trust and shared inquiry" },
     ],
