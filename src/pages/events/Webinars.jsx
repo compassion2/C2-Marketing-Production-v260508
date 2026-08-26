@@ -10,8 +10,7 @@ const webinars = [
     blurb:
       "How your organization is designed decides the state your people work from — and that state decides how they perform. A live presentation followed by a roundtable conversation, presented by Compassion 2.0 with premier partner Dynamic Synergy Partners.",
     image: "/images/ai-neurobiology-webinar.png",
-    detailsHref: "/organizational-transformation/ai-neurobiology-performance",
-    registerHref: "https://c2interest.base44.app/OrgLabRegister?source=compassion2.com-webinars",
+    registerHref: "https://www.linkedin.com/events/7498088732600852480/",
     status: "upcoming",
   },
 ];
@@ -73,12 +72,14 @@ export default function Webinars() {
                       >
                         Register <ArrowRight className="w-4 h-4" />
                       </a>
-                      <Link
-                        to={w.detailsHref}
-                        className="inline-flex items-center gap-1 text-sm font-body font-semibold text-primary hover:underline"
-                      >
-                        Learn More <ArrowRight className="w-3 h-3" />
-                      </Link>
+                      {w.detailsHref && (
+                        <Link
+                          to={w.detailsHref}
+                          className="inline-flex items-center gap-1 text-sm font-body font-semibold text-primary hover:underline"
+                        >
+                          Learn More <ArrowRight className="w-3 h-3" />
+                        </Link>
+                      )}
                     </div>
                   </div>
                 </div>
