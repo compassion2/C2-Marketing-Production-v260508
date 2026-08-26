@@ -54,7 +54,7 @@ export default function SimplePage({ label, title, subtitle, sections = [], cta 
 
       {/* CTA */}
       {cta && (
-        <section className="py-20 bg-tara-green-dark">
+        <section className="py-20 bg-gradient-to-br from-[hsl(var(--tara-green-dark))] via-[hsl(155,80%,15%)] to-[hsl(222,60%,15%)]">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="font-display text-2xl font-bold text-white mb-6">Ready to explore?</h2>
             <Link to="/engage/start-conversation" className="inline-flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-8 py-4 rounded-md transition-all hover:scale-105 shadow-lg">

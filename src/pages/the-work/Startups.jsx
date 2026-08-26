@@ -87,7 +87,7 @@ export default function Startups() {
       <WebinarCallout />
 
       {/* BOTTOM CTA */}
-      <section className="py-24 bg-tara-green-dark">
+      <section className="py-24 bg-gradient-to-br from-[hsl(var(--tara-green-dark))] via-[hsl(155,80%,15%)] to-[hsl(222,60%,15%)]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-10">
             Your next round will test every relationship in the company.<br className="hidden sm:block" /> Let's make sure they hold.

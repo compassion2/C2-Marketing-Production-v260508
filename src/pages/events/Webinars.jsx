@@ -11,7 +11,7 @@ const webinars = [
       "How your organization is designed decides the state your people work from — and that state decides how they perform. A live presentation followed by a roundtable conversation, presented by Compassion 2.0 with premier partner Dynamic Synergy Partners.",
     image: "/images/ai-neurobiology-webinar.png",
     detailsHref: "/organizational-transformation/ai-neurobiology-performance",
-    registerHref: "https://c2interest.base44.app/OrgLabRegister?source=compassion2.com-webinars",
+    registerHref: "https://www.linkedin.com/events/7498088732600852480/",
     status: "upcoming",
   },
 ];

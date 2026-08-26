@@ -60,7 +60,7 @@ export default function Benevolently() {
       </section>
 
       {/* BOTTOM CTA */}
-      <section className="py-24 bg-tara-green-dark">
+      <section className="py-24 bg-gradient-to-br from-[hsl(var(--tara-green-dark))] via-[hsl(155,80%,15%)] to-[hsl(222,60%,15%)]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
