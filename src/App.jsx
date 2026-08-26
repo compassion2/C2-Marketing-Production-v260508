@@ -19,7 +19,6 @@ import GenerativeOntology from './pages/framework/GenerativeOntology';
 // The Work
 import OrgLabOverview from './pages/the-work/OrgLabOverview';
 import WomenOwnedSMBs from './pages/the-work/WomenOwnedSMBs';
-import AiNeurobiologyWebinar from './pages/the-work/AiNeurobiologyWebinar';
 import ChiefFlourishingOfficers from './pages/products/ChiefFlourishingOfficers';
 import HealthcareCare from './pages/the-work/HealthcareCare';
 import Startups from './pages/the-work/Startups';
@@ -83,7 +82,7 @@ const AuthenticatedApp = () => {
         <Route path="/organizational-transformation/healthcare-care" element={<HealthcareCare />} />
         <Route path="/organizational-transformation/startups" element={<Startups />} />
         <Route path="/organizational-transformation/women-owned-smbs" element={<WomenOwnedSMBs />} />
-        <Route path="/organizational-transformation/ai-neurobiology-performance" element={<AiNeurobiologyWebinar />} />
+        <Route path="/organizational-transformation/ai-neurobiology-performance" element={<Navigate to="/events/webinars" replace />} />
         <Route path="/organizational-transformation/founder-led" element={<Navigate to="/organizational-transformation/women-owned-smbs" replace />} />
         <Route path="/organizational-transformation/transformation-cohort-2026" element={<Navigate to="/organizational-transformation/orglab-initiative" replace />} />
         <Route path="/products/ChiefFlourishingOfficers" element={<ChiefFlourishingOfficers />} />
@@ -96,7 +95,7 @@ const AuthenticatedApp = () => {
         <Route path="/the-work/startups" element={<Navigate to="/organizational-transformation/startups" replace />} />
         <Route path="/the-work/founder-led" element={<Navigate to="/organizational-transformation/women-owned-smbs" replace />} />
         <Route path="/the-work/transformation-cohort-2026" element={<Navigate to="/organizational-transformation/orglab-initiative" replace />} />
-        <Route path="/the-work/ai-neurobiology-performance" element={<Navigate to="/organizational-transformation/ai-neurobiology-performance" replace />} />
+        <Route path="/the-work/ai-neurobiology-performance" element={<Navigate to="/events/webinars" replace />} />
 
         {/* Initiatives */}
         <Route path="/initiatives" element={<InitiativesOverview />} />
