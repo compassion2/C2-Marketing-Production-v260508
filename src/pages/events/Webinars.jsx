@@ -69,8 +69,6 @@ export default function Webinars() {
                     <div className="flex flex-wrap items-center gap-4">
                       <a
                         href={w.registerHref}
-                        target="_blank"
-                        rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 bg-primary text-white font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity"
                       >
                         Register <ArrowRight className="w-4 h-4" />
