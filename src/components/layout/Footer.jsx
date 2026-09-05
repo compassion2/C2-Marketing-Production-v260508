@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import { AureoleLockup } from "@/components/brand/AureoleMark";
 
 export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-footer-green text-white/80">
+    <footer className="bg-footer-ground text-white/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
           {[
@@ -56,7 +57,7 @@ export default function Footer() {
             },
           ].map((s) => (
             <div key={s.title}>
-              <h4 className="font-body font-bold text-white text-xs uppercase tracking-widest mb-4">
+              <h4 className="font-body font-bold text-golden-amber text-xs uppercase tracking-[0.16em] mb-4">
                 {s.title}
               </h4>
               <ul className="space-y-2">
@@ -64,7 +65,7 @@ export default function Footer() {
                   <li key={l.href}>
                     <Link
                       to={l.href}
-                      className="text-sm font-body text-white/60 hover:text-white transition-colors"
+                      className="text-sm font-body text-white/60 hover:text-golden-light transition-colors"
                     >
                       {l.label}
                     </Link>
@@ -76,8 +77,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <Link to="/" className="font-display text-[1.5rem] text-white">
-            Compassion 2.0
+          <Link to="/" aria-label="Compassion 2.0 home">
+            <AureoleLockup variant="primary" size={36} />
           </Link>
           <p className="text-xs font-body text-white/40 text-center">
             © {year} Compassion 2.0 Ventures, Inc. &nbsp;·&nbsp; Building the Future of the ROI of Care. May all beings achieve peace.
