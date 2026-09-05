@@ -23,7 +23,7 @@ export default function Startups() {
               </p>
               <Link
                 to="/engage/start-conversation"
-                className="inline-flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-md hover:opacity-90 transition-opacity"
+                className="btn-gold px-6 py-3 rounded-md"
               >
                 Start a Conversation <ArrowRight className="w-4 h-4" />
               </Link>
@@ -87,14 +87,14 @@ export default function Startups() {
       <WebinarCallout />
 
       {/* BOTTOM CTA */}
-      <section className="py-24 bg-gradient-to-br from-[hsl(var(--tara-green-dark))] via-[hsl(155,80%,15%)] to-[hsl(222,60%,15%)]">
+      <section className="py-24 hero-gradient">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-10">
             Your next round will test every relationship in the company.<br className="hidden sm:block" /> Let's make sure they hold.
           </h2>
           <Link
             to="/engage/start-conversation"
-            className="inline-flex items-center gap-2 bg-white text-primary font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity"
+            className="btn-gold px-8 py-4 rounded-md"
           >
             Start a Conversation <ArrowRight className="w-4 h-4" />
           </Link>
