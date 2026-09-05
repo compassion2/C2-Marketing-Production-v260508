@@ -43,7 +43,7 @@ export default function OrgLabOverview() {
       {/* HERO */}
       <section className="relative py-28 hero-gradient overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5" />
-        <div className="absolute top-1/4 right-1/4 w-72 h-72 rounded-full bg-tara-green/20 blur-3xl" />
+        <div className="absolute top-1/4 right-1/4 w-72 h-72 rounded-full bg-night-sky-400/20 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="section-label text-golden-light mb-4">Organizational Transformation</p>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
@@ -59,13 +59,13 @@ export default function OrgLabOverview() {
           <div className="flex flex-wrap gap-4">
             <a
               href="https://www.linkedin.com/events/7498088732600852480/"
-              className="inline-flex items-center gap-2 bg-primary text-white font-body font-semibold px-6 py-3 rounded-md hover:opacity-90 transition-opacity"
+              className="btn-gold px-6 py-3 rounded-md"
             >
               Register for the Webinar <ArrowRight className="w-4 h-4" />
             </a>
             <Link
               to="/engage/start-conversation"
-              className="inline-flex items-center gap-2 bg-white/10 border border-white/30 text-white font-body font-semibold px-6 py-3 rounded-md hover:bg-white/20 transition-colors"
+              className="inline-flex items-center gap-2 border border-golden-amber text-golden-amber font-body font-bold px-6 py-3 rounded-md hover:bg-golden-amber hover:text-forest-ink transition-colors"
             >
               Start a Conversation
             </Link>
@@ -144,7 +144,7 @@ export default function OrgLabOverview() {
       <WebinarCallout />
 
       {/* BOTTOM CTA */}
-      <section className="py-20 bg-gradient-to-br from-[hsl(var(--tara-green-dark))] via-[hsl(155,80%,15%)] to-[hsl(222,60%,15%)]">
+      <section className="py-20 hero-gradient">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl font-bold text-white mb-4">
             An invitation to visionary leadership.
@@ -154,7 +154,7 @@ export default function OrgLabOverview() {
           </p>
           <Link
             to="/engage/start-conversation"
-            className="inline-flex items-center gap-2 bg-white text-primary font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity"
+            className="btn-gold px-8 py-4 rounded-md"
           >
             Start a Conversation <ArrowRight className="w-4 h-4" />
           </Link>
