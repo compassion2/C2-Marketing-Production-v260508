@@ -191,7 +191,7 @@ export default function Home() {
               ].map((item, i) => (
                 <div key={i} className="group relative p-6 bg-white rounded-2xl shadow-lg border border-[hsl(var(--border))] hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                   <div className="absolute top-0 left-0 w-full h-1 rounded-t-2xl" style={{ background: `hsl(var(--${item.color}))` }} />
-                  <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 font-display font-bold text-white text-sm" style={{ background: `hsl(var(--${item.color}))` }}>
+                  <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-4 font-display font-bold text-sm ${item.color === "golden-amber" ? "text-forest-ink" : "text-white"}`} style={{ background: `hsl(var(--${item.color}))` }}>
                     {item.symbol}
                   </div>
                   <h3 className="font-display font-bold text-foreground text-lg mb-3">{item.label}</h3>
