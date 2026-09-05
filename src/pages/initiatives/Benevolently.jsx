@@ -8,7 +8,7 @@ export default function Benevolently() {
       {/* HERO */}
       <section className="relative py-28 hero-gradient overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5" />
-        <div className="absolute top-1/4 right-1/4 w-72 h-72 rounded-full bg-tara-green/20 blur-3xl" />
+        <div className="absolute top-1/4 right-1/4 w-72 h-72 rounded-full bg-night-sky-400/20 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="section-label text-golden-light mb-4">Products</p>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
@@ -60,14 +60,14 @@ export default function Benevolently() {
       </section>
 
       {/* BOTTOM CTA */}
-      <section className="py-24 bg-gradient-to-br from-[hsl(var(--tara-green-dark))] via-[hsl(155,80%,15%)] to-[hsl(222,60%,15%)]">
+      <section className="py-24 hero-gradient">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="https://benevolent.ly/connect"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-8 py-4 rounded-md transition-all hover:scale-105 shadow-lg"
+              className="btn-gold px-8 py-4 rounded-md transition-all hover:scale-105 shadow-lg"
             >
               Start a Strategic Conversation <ArrowRight className="w-4 h-4" />
             </a>
