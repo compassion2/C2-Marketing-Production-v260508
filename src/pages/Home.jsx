@@ -5,20 +5,15 @@ export default function Home() {
     <div className="min-h-screen bg-[hsl(var(--lotus-white))]">
 
       {/* HERO SECTION */}
-      <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
-        {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center scale-105"
-          style={{ backgroundImage: "url('https://media.base44.com/images/public/69fe6622a31b1b740c7bdd7e/74ae3fc97_generated_image.png')" }}
-        />
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/50" />
+      <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden hero-gradient">
+        {/* Mandala: 12-point radial rings in Gold Tint at 8% — Brand Kit v5 §9 */}
+        <div className="absolute inset-0 pointer-events-none opacity-[0.08]" style={{ backgroundImage: "repeating-radial-gradient(circle at 50% 50%, hsl(var(--golden-light)) 0, hsl(var(--golden-light)) 1px, transparent 1px, transparent 64px)" }} />
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-[hsl(var(--night-sky-400))]/20 blur-[140px] pointer-events-none" />
 
-        {/* Text backdrop */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-24 md:py-32">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="bg-black/25 backdrop-blur-[2px] rounded-2xl px-8 py-10 md:px-12 md:py-14">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-6 leading-tight drop-shadow-lg">
+            <div className="px-8 py-10 md:px-12 md:py-14">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-normal text-white mb-6 leading-tight">
                 Designing organizations that can hold the future.
               </h1>
               {/* Decorative Divider */}
@@ -27,7 +22,7 @@ export default function Home() {
                 <div className="w-2 h-2 rounded-full bg-[hsl(var(--golden-amber))]" />
                 <div className="h-px w-16 bg-[hsl(var(--golden-amber))]" />
               </div>
-              <p className="text-lg md:text-xl text-white/90 leading-relaxed mb-6 max-w-3xl mx-auto drop-shadow-md">
+              <p className="text-lg md:text-xl text-white/90 leading-relaxed mb-6 max-w-3xl mx-auto">
                 Human resonance. Operational excellence. AI-enabled learning.
               </p>
               <p className="text-base text-white/70 mb-10 max-w-2xl mx-auto italic">
@@ -36,13 +31,13 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   to="/framework"
-                  className="inline-flex items-center justify-center border border-white/50 text-white bg-white/10 hover:bg-white/20 font-semibold px-8 py-3 text-base backdrop-blur-sm rounded-md transition-colors"
+                  className="inline-flex items-center justify-center border border-golden-amber text-golden-amber hover:bg-golden-amber hover:text-forest-ink font-bold px-8 py-3 text-base rounded-sm transition-colors"
                 >
                   Explore the Framework
                 </Link>
                 <Link
                   to="/engage/start-conversation"
-                  className="inline-flex items-center justify-center bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-semibold px-8 py-3 text-base shadow-lg rounded-md transition-all hover:scale-105"
+                  className="btn-gold px-8 py-3 text-base hover:scale-105"
                 >
                   Start a Strategic Conversation
                 </Link>
@@ -53,19 +48,19 @@ export default function Home() {
       </section>
 
       {/* SECTION: THE PROBLEM */}
-      <section className="py-24 md:py-32 bg-gradient-to-b from-[hsl(var(--lotus-white))] to-white relative overflow-hidden">
+      <section className="py-24 md:py-32 bg-[hsl(var(--lotus-white))] relative overflow-hidden">
         {/* Decorative background elements */}
         <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
           <div className="absolute top-20 -left-32 w-96 h-96 rounded-full bg-[hsl(var(--crimson-red))]/5 blur-3xl" />
           <div className="absolute bottom-20 -right-32 w-80 h-80 rounded-full bg-[hsl(var(--royal-blue))]/5 blur-3xl" />
         </div>
         {/* Left accent bar */}
-        <div className="absolute top-0 left-0 w-1.5 h-48 bg-gradient-to-b from-[hsl(var(--crimson-red))] via-[hsl(var(--golden-amber))] to-transparent" />
+        <div className="absolute top-0 left-0 w-1.5 h-48 bg-[hsl(var(--crimson-red))]" />
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="">
           {/* Section Label */}
           <div className="flex items-center gap-4 mb-8">
-            <div className="w-16 h-1 bg-gradient-to-r from-[hsl(var(--crimson-red))] to-[hsl(var(--golden-amber))] rounded-full" />
+            <div className="w-16 h-1 bg-[hsl(var(--crimson-red))] rounded-full" />
               <span className="text-sm font-semibold text-[hsl(var(--crimson-red))] uppercase tracking-widest">The Problem</span>
             </div>
             {/* Headline & Intro */}
@@ -81,12 +76,12 @@ export default function Home() {
             {/* Problem Cards */}
             <div className="grid md:grid-cols-3 gap-4 mb-12">
               {[
-                { text: "Execution accelerates, but coordination degrades", color: "coral-orange" },
+                { text: "Execution accelerates, but coordination degrades", color: "night-sky" },
                 { text: "Culture initiatives improve sentiment, but delivery stays brittle", color: "golden-amber" },
                 { text: "AI is introduced, but noise and fragmentation increase", color: "royal-blue" },
               ].map((item, i) => (
                 <div key={i} className="group relative p-5 bg-white rounded-2xl shadow-lg border border-[hsl(var(--border))] hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                  <div className="absolute top-0 left-0 w-full h-1 rounded-t-2xl" style={{ background: `linear-gradient(to right, hsl(var(--${item.color})), hsl(var(--${item.color}))/50)` }} />
+                  <div className="absolute top-0 left-0 w-full h-1 rounded-t-2xl" style={{ background: `hsl(var(--${item.color}))` }} />
                   <div className="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center mb-4" style={{ background: `hsl(var(--${item.color}) / 0.1)` }}>
                     <div className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform" style={{ background: `hsl(var(--${item.color}))` }} />
                   </div>
@@ -95,7 +90,7 @@ export default function Home() {
               ))}
             </div>
             {/* Root Cause Callout */}
-            <div className="relative p-8 md:p-10 bg-gradient-to-br from-[hsl(var(--tara-green))] via-[hsl(var(--tara-green-dark))] to-[hsl(var(--royal-blue))]/80 rounded-3xl shadow-2xl overflow-hidden">
+            <div className="relative p-8 md:p-10 hero-gradient rounded-3xl shadow-2xl overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-[hsl(var(--golden-amber))]/10 blur-3xl" />
               <div className="absolute -bottom-10 -left-10 w-48 h-48 rounded-full bg-[hsl(var(--sky-blue))]/10 blur-2xl" />
               <div className="relative z-10">
@@ -110,18 +105,18 @@ export default function Home() {
       </section>
 
       {/* SECTION: THE SHIFT */}
-      <section className="py-24 md:py-32 bg-gradient-to-br from-[hsl(var(--tara-green-dark))] via-[hsl(222,60%,12%)] to-[hsl(var(--royal-blue))]/90 relative overflow-hidden">
+      <section className="py-24 md:py-32 hero-gradient relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[hsl(var(--golden-amber))]/15 blur-[120px]" />
           <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[hsl(var(--sky-blue))]/10 blur-[100px]" />
         </div>
         <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, white 1px, transparent 0px)", backgroundSize: "32px 32px" }} />
         {/* Left accent bar */}
-        <div className="absolute top-0 left-0 w-1.5 h-48 bg-gradient-to-b from-[hsl(var(--golden-amber))] via-[hsl(var(--golden-light))] to-transparent" />
+        <div className="absolute top-0 left-0 w-1.5 h-48 bg-[hsl(var(--golden-amber))]" />
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="">
             <div className="flex items-center gap-4 mb-8">
-              <div className="w-16 h-1 bg-gradient-to-r from-[hsl(var(--golden-amber))] to-[hsl(var(--golden-light))] rounded-full" />
+              <div className="w-16 h-1 bg-[hsl(var(--golden-amber))] rounded-full" />
               <span className="text-sm font-semibold text-[hsl(var(--golden-amber))] uppercase tracking-widest">The Shift</span>
             </div>
             <div className="mb-12">
@@ -135,13 +130,13 @@ export default function Home() {
             </div>
             <div className="grid md:grid-cols-2 gap-4 mb-12">
               {[
-                { text: "Intelligence is distributed, not centralized", color: "tara-green" },
+                { text: "Intelligence is distributed, not centralized", color: "tara-green-light" },
                 { text: "Trust and coordination are infrastructure, not soft factors", color: "golden-amber" },
                 { text: "AI amplifies human capability instead of replacing it", color: "sky-blue" },
                 { text: "Execution compounds instead of extracting", color: "royal-blue" },
               ].map((item, i) => (
                 <div key={i} className="group relative p-5 bg-white/[0.08] backdrop-blur-md rounded-2xl border border-white/10 hover:bg-white/[0.12] hover:border-white/20 transition-all duration-300 hover:-translate-y-0.5">
-                  <div className="absolute top-0 left-0 w-full h-0.5 rounded-t-2xl" style={{ background: `linear-gradient(to right, hsl(var(--${item.color})), hsl(var(--${item.color}))/30)` }} />
+                  <div className="absolute top-0 left-0 w-full h-0.5 rounded-t-2xl" style={{ background: `hsl(var(--${item.color}))` }} />
                   <div className="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center mb-4" style={{ background: `hsl(var(--${item.color}) / 0.2)` }}>
                     <div className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform" style={{ background: `hsl(var(--${item.color}))` }} />
                   </div>
@@ -157,11 +152,11 @@ export default function Home() {
       </section>
 
       {/* SECTION: THE CONSTRUCT */}
-      <section className="py-24 md:py-32 bg-white relative overflow-hidden">
+      <section className="py-24 md:py-32 bg-[hsl(var(--sage-mist))] relative overflow-hidden">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="">
             <div className="flex items-center gap-4 mb-8">
-              <div className="w-16 h-1 bg-gradient-to-r from-[hsl(var(--tara-green))] to-[hsl(var(--tara-green-light))] rounded-full" />
+              <div className="w-16 h-1 bg-[hsl(var(--tara-green))] rounded-full" />
               <span className="text-sm font-semibold text-[hsl(var(--tara-green))] uppercase tracking-widest">The Model</span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-display font-bold text-foreground mb-6 leading-tight max-w-3xl">
@@ -212,7 +207,7 @@ export default function Home() {
             <div className="flex justify-center">
               <Link
                 to="/framework"
-                className="inline-flex items-center justify-center bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-semibold px-8 py-3 text-base rounded-md transition-all hover:scale-105 shadow-lg"
+                className="btn-night px-8 py-3 text-base hover:scale-105"
               >
                 Explore the Framework
               </Link>
@@ -222,14 +217,14 @@ export default function Home() {
       </section>
 
       {/* SECTION: WHO THIS IS FOR */}
-      <section className="py-24 md:py-32 bg-gradient-to-b from-[hsl(var(--lotus-white))] to-white relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-[400px] h-[400px] rounded-full bg-[hsl(var(--tara-green))]/5 blur-[100px] pointer-events-none" />
+      <section className="py-24 md:py-32 bg-[hsl(var(--lotus-white))] relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-[400px] h-[400px] rounded-full bg-[hsl(var(--night-sky-200))]/20 blur-[100px] pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-[300px] h-[300px] rounded-full bg-[hsl(var(--royal-blue))]/5 blur-[80px] pointer-events-none" />
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="">
             <div className="flex items-center gap-4 mb-8">
-              <div className="w-16 h-1 bg-gradient-to-r from-[hsl(var(--royal-blue))] to-[hsl(var(--sky-blue))] rounded-full" />
-              <span className="text-sm font-semibold text-[hsl(var(--royal-blue))] uppercase tracking-widest">Who This Is For</span>
+              <div className="w-16 h-1 bg-[hsl(var(--night-sky))] rounded-full" />
+              <span className="text-sm font-semibold text-[hsl(var(--night-sky))] uppercase tracking-widest">Who This Is For</span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-display font-bold text-foreground mb-8 leading-tight max-w-3xl">
               Who This Work Resonates With
@@ -263,7 +258,7 @@ export default function Home() {
       </section>
 
       {/* SECTION: INVITATION */}
-      <section className="py-24 md:py-32 bg-gradient-to-br from-[hsl(var(--tara-green-dark))] via-[hsl(155,80%,15%)] to-[hsl(222,60%,15%)] relative overflow-hidden">
+      <section className="py-24 md:py-32 hero-gradient relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-0 right-1/4 w-[400px] h-[400px] rounded-full bg-[hsl(var(--golden-amber))]/10 blur-[100px]" />
           <div className="absolute bottom-0 left-1/4 w-[300px] h-[300px] rounded-full bg-[hsl(var(--sky-blue))]/10 blur-[80px]" />
@@ -283,7 +278,7 @@ export default function Home() {
             </p>
             <Link
               to="/engage/start-conversation"
-              className="inline-flex items-center justify-center bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-semibold px-10 py-4 text-lg rounded-md transition-all hover:scale-105 shadow-xl"
+              className="btn-gold px-10 py-4 text-lg hover:scale-105 shadow-xl"
             >
               Start a Strategic Conversation
             </Link>
