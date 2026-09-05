@@ -107,7 +107,7 @@ export default function Webinars() {
       )}
 
       {/* BOTTOM CTA */}
-      <section className="py-20 bg-gradient-to-br from-[hsl(var(--tara-green-dark))] via-[hsl(155,80%,15%)] to-[hsl(222,60%,15%)]">
+      <section className="py-20 hero-gradient">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl font-bold text-white mb-4">
             Want the conversation to continue?
@@ -117,7 +117,7 @@ export default function Webinars() {
           </p>
           <Link
             to="/organizational-transformation/orglab-initiative"
-            className="inline-flex items-center gap-2 bg-white text-primary font-body font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity"
+            className="btn-gold px-8 py-4 rounded-md"
           >
             Explore the ORGLAB Initiative <ArrowRight className="w-4 h-4" />
           </Link>
