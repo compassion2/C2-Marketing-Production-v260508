@@ -144,7 +144,7 @@ export default function StartConversation() {
     return (
       <div className="min-h-[80vh] flex items-center justify-center hero-gradient">
         <div className="text-center max-w-xl mx-auto px-4">
-          <CheckCircle className="w-16 h-16 text-tara-green-light mx-auto mb-6" />
+          <CheckCircle className="w-16 h-16 text-golden-amber mx-auto mb-6" />
           <h1 className="font-display text-3xl font-bold text-white mb-4">
             Thank you for reaching out.
           </h1>
@@ -307,7 +307,7 @@ export default function StartConversation() {
               <button
                 type="submit"
                 disabled={submitting}
-                className="w-full flex items-center justify-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-6 py-4 rounded-md transition-colors shadow-lg disabled:opacity-60"
+                className="btn-night w-full px-6 py-4 rounded-md transition-colors shadow-lg disabled:opacity-60"
               >
                 {submitting ? "Sending…" : <><span>Send</span><ArrowRight className="w-4 h-4" /></>}
               </button>
