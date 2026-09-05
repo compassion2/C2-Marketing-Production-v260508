@@ -8,7 +8,7 @@ export default function SimplePage({ label, title, subtitle, sections = [], cta 
       {/* HERO */}
       <section className="relative py-28 hero-gradient overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5" />
-        <div className="absolute top-1/4 left-1/3 w-64 h-64 rounded-full bg-tara-green/15 blur-3xl" />
+        <div className="absolute top-1/4 left-1/3 w-64 h-64 rounded-full bg-night-sky-400/20 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {label && <p className="section-label text-golden-light mb-4">{label}</p>}
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6">{title}</h1>
@@ -54,10 +54,10 @@ export default function SimplePage({ label, title, subtitle, sections = [], cta 
 
       {/* CTA */}
       {cta && (
-        <section className="py-20 bg-gradient-to-br from-[hsl(var(--tara-green-dark))] via-[hsl(155,80%,15%)] to-[hsl(222,60%,15%)]">
+        <section className="py-20 hero-gradient">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="font-display text-2xl font-bold text-white mb-6">Ready to explore?</h2>
-            <Link to="/engage/start-conversation" className="inline-flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-8 py-4 rounded-md transition-all hover:scale-105 shadow-lg">
+            <Link to="/engage/start-conversation" className="btn-gold px-8 py-4 rounded-md transition-all hover:scale-105 shadow-lg">
               Start a Strategic Conversation <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
