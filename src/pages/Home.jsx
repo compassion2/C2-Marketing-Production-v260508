@@ -110,7 +110,7 @@ export default function Home() {
           <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[hsl(var(--golden-amber))]/15 blur-[120px]" />
           <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[hsl(var(--sky-blue))]/10 blur-[100px]" />
         </div>
-        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, white 1px, transparent 0px)", backgroundSize: "32px 32px" }} />
+        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, hsl(var(--golden-light)) 1px, transparent 0px)", backgroundSize: "32px 32px" }} />
         {/* Left accent bar */}
         <div className="absolute top-0 left-0 w-1.5 h-48 bg-[hsl(var(--golden-amber))]" />
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
