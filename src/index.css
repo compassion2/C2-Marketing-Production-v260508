@@ -2,78 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700;900&display=swap');
 
+/* Compassion 2.0 Brand Kit v5 — Night Sky Ground (September 2026) */
 @layer base {
   :root {
-    /* Primary - Emerald Green (#007a47) */
+    /* Primary — Night Sky Indigo (#101B45) and ramp */
+    --night-sky: 228 62% 17%;
+    --night-sky-900: 228 69% 10%;   /* #080F2B pressed states, darkest surfaces */
+    --night-sky-400: 222 44% 51%;   /* #4A6BB8 chart/graphic only — never type */
+    --night-sky-200: 221 46% 70%;   /* #8FA6D6 fills, banding */
+    --night-sky-100: 223 39% 93%;   /* #E6EAF4 quiet callouts */
+
+    /* Family mark — Emerald Green (#007A47) and ramp. 3–5% share. */
     --tara-green: 155 100% 24%;
-    --tara-green-light: 155 75% 36%;
-    --tara-green-dark: 155 100% 18%;
+    --tara-green-light: 151 43% 43%;  /* Emerald 400 #3F9E70 — on-dark link/data green */
+    --tara-green-dark: 155 100% 16%;  /* Emerald 800 #00512F */
 
-    /* Footer - Deep Green (#0C4330) */
-    --footer-green: 159 70% 15%;
+    /* Footer ground — Night Sky 900 */
+    --footer-ground: 228 69% 10%;
 
-    /* Secondary - Saffron Gold (#F4B400) */
+    /* Saffron Gold (#F4B400) — primary action and emphasis on dark. Gold Tint (#FFD75E) for fills/links on dark. */
     --golden-amber: 45 100% 48%;
-    --golden-light: 48 100% 68%;
-    --golden-dark: 42 100% 38%;
+    --golden-light: 45 100% 68%;
 
-    /* Lotus White (#F9F9F4) */
-    --lotus-white: 60 33% 97%;
+    /* Neutrals — all carry a slight green cast */
+    --lotus-white: 60 33% 97%;   /* #F9F9F4 light ground */
+    --sage-mist: 110 12% 90%;    /* #E3E8E2 fills, banding, dividers */
+    --slate-sage: 141 7% 39%;    /* #5D6B62 secondary text, captions */
+    --forest-ink: 153 33% 11%;   /* #12241C body copy on light */
 
-    /* Crimson Red (#C1272D) */
+    /* Crimson Red (#C1272D) — alerts, one point of emphasis per view */
     --crimson-red: 357 66% 46%;
 
-    /* Royal Blue (#2A4D9B) */
+    /* Royal Blue (#2A4D9B) — data, chart and diagram color only */
     --royal-blue: 222 57% 39%;
 
-    /* Sun Halo Yellow */
-    --sun-halo: 45 100% 68%;
-
-    /* Coral Orange (#E85C3A) */
-    --coral-orange: 12 79% 57%;
-
-    /* Deep Violet (#5E3A8C) */
-    --deep-violet: 268 41% 39%;
-
-    /* Sky Blue (#6EC1E4) */
+    /* Blue Tint (#6EC1E4) — preferred on-dark data color */
     --sky-blue: 197 67% 66%;
 
     /* Background & Surfaces */
     --background: 60 33% 97%;
-    --background-secondary: 60 20% 94%;
-    --foreground: 0 0% 13%;
+    --background-secondary: 110 12% 90%;
+    --foreground: 153 33% 11%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 13%;
-    --card-border: 60 15% 88%;
+    --card: 60 33% 97%;
+    --card-foreground: 153 33% 11%;
+    --card-border: 110 12% 90%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 13%;
+    --popover: 60 33% 97%;
+    --popover-foreground: 153 33% 11%;
 
-    --primary: 155 100% 24%;
-    --primary-foreground: 0 0% 100%;
-    --primary-muted: 155 40% 94%;
+    --primary: 228 62% 17%;
+    --primary-foreground: 60 33% 97%;
+    --primary-muted: 223 39% 93%;
 
     --secondary: 222 57% 39%;
-    --secondary-foreground: 0 0% 100%;
-    --secondary-dark: 222 60% 28%;
+    --secondary-foreground: 60 33% 97%;
+    --secondary-dark: 228 62% 17%;
 
-    --muted: 60 15% 94%;
-    --muted-foreground: 0 0% 45%;
-    --muted-dark: 60 10% 88%;
+    --muted: 110 12% 90%;
+    --muted-foreground: 141 7% 39%;
+    --muted-dark: 110 12% 84%;
 
     --accent: 45 100% 48%;
-    --accent-foreground: 0 0% 13%;
+    --accent-foreground: 153 33% 11%;
 
     --destructive: 357 66% 46%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 60 33% 97%;
 
-    --border: 60 10% 85%;
-    --input: 60 15% 92%;
-    --ring: 155 100% 24%;
-    --radius: 0.5rem;
+    --border: 110 12% 90%;
+    --input: 110 12% 90%;
+    --ring: 228 62% 17%;
+    --radius: 3px;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -86,25 +87,25 @@
   }
 
   .dark {
-    --background: 222 60% 10%;
-    --foreground: 60 20% 95%;
-    --card: 222 55% 14%;
-    --card-foreground: 60 20% 95%;
-    --popover: 222 55% 14%;
-    --popover-foreground: 60 20% 95%;
-    --primary: 155 80% 42%;
-    --primary-foreground: 222 60% 10%;
-    --secondary: 222 50% 22%;
-    --secondary-foreground: 60 20% 95%;
-    --muted: 222 45% 18%;
-    --muted-foreground: 60 15% 65%;
-    --accent: 45 100% 52%;
-    --accent-foreground: 222 60% 10%;
-    --destructive: 357 55% 45%;
-    --destructive-foreground: 60 20% 95%;
-    --border: 222 40% 22%;
-    --input: 222 45% 18%;
-    --ring: 155 80% 42%;
+    --background: 228 62% 17%;
+    --foreground: 60 33% 97%;
+    --card: 228 69% 10%;
+    --card-foreground: 60 33% 97%;
+    --popover: 228 69% 10%;
+    --popover-foreground: 60 33% 97%;
+    --primary: 45 100% 48%;
+    --primary-foreground: 153 33% 11%;
+    --secondary: 222 57% 39%;
+    --secondary-foreground: 60 33% 97%;
+    --muted: 228 69% 10%;
+    --muted-foreground: 221 46% 70%;
+    --accent: 45 100% 68%;
+    --accent-foreground: 153 33% 11%;
+    --destructive: 357 66% 46%;
+    --destructive-foreground: 60 33% 97%;
+    --border: 222 44% 51%;
+    --input: 228 69% 10%;
+    --ring: 45 100% 48%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -140,17 +141,24 @@
     background-image: radial-gradient(circle at 1px 1px, hsl(var(--border)) 1px, transparent 0);
     background-size: 20px 20px;
   }
+  /* Night sky ground. Gradient stays within one hue ramp (900 to 600) and only as a large field — Brand Kit v5 §9. */
   .hero-gradient {
-    background: linear-gradient(135deg, hsl(222 60% 18%) 0%, hsl(222 65% 10%) 100%);
-  }
-  .tara-gradient {
-    background: linear-gradient(135deg, hsl(var(--tara-green)), hsl(var(--tara-green-light)));
+    background: linear-gradient(135deg, hsl(var(--night-sky)) 0%, hsl(var(--night-sky-900)) 100%);
   }
   .glass-card {
     @apply bg-white/10 border border-white/20 backdrop-blur-sm rounded-lg p-4;
   }
+  /* Eyebrow: Lato 700 caps at 0.16em — Brand Kit v5 §8 */
   .section-label {
-    @apply text-xs font-body uppercase tracking-widest text-primary font-bold;
+    @apply text-xs font-body uppercase tracking-[0.16em] text-primary font-bold;
+  }
+  /* Primary action on dark grounds: gold with Forest Ink type. Never white on gold. */
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 bg-golden-amber hover:bg-golden-light text-forest-ink font-body font-bold rounded-sm transition-all shadow-lg;
+  }
+  /* Primary action on light grounds: night sky fill. */
+  .btn-night {
+    @apply inline-flex items-center justify-center gap-2 bg-night-sky hover:bg-night-sky-900 text-lotus-white font-body font-bold rounded-sm transition-all shadow-lg;
   }
 }
 
