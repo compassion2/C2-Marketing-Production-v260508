@@ -3,28 +3,45 @@ module.exports = {
   darkMode: ["class"],
   content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
+    // Brand Kit v5 §9 — corners: 2pt interface, 3pt cards, 50% for avatars/petals. Nothing between 4pt and 50%.
+    borderRadius: {
+      none: '0',
+      sm: '2px',
+      DEFAULT: '2px',
+      md: '2px',
+      lg: '3px',
+      xl: '3px',
+      '2xl': '3px',
+      '3xl': '3px',
+      full: '9999px',
+    },
     extend: {
-      borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)'
-      },
       fontFamily: {
         display: ['Playfair Display', 'Georgia', 'serif'],
         body: ['Lato', 'sans-serif'],
       },
       colors: {
+        // Brand Kit v5 §4 — pure white and pure black are not in the palette
+        white: '#F9F9F4',
+        black: '#12241C',
+        'night-sky': 'hsl(var(--night-sky))',
+        'night-sky-900': 'hsl(var(--night-sky-900))',
+        'night-sky-400': 'hsl(var(--night-sky-400))',
+        'night-sky-200': 'hsl(var(--night-sky-200))',
+        'night-sky-100': 'hsl(var(--night-sky-100))',
         'tara-green': 'hsl(var(--tara-green))',
         'tara-green-light': 'hsl(var(--tara-green-light))',
         'tara-green-dark': 'hsl(var(--tara-green-dark))',
-        'footer-green': 'hsl(var(--footer-green))',
+        'footer-ground': 'hsl(var(--footer-ground))',
         'golden-amber': 'hsl(var(--golden-amber))',
         'golden-light': 'hsl(var(--golden-light))',
         'lotus-white': 'hsl(var(--lotus-white))',
+        'sage-mist': 'hsl(var(--sage-mist))',
+        'slate-sage': 'hsl(var(--slate-sage))',
+        'forest-ink': 'hsl(var(--forest-ink))',
         'crimson-red': 'hsl(var(--crimson-red))',
         'royal-blue': 'hsl(var(--royal-blue))',
         'sky-blue': 'hsl(var(--sky-blue))',
-        'deep-violet': 'hsl(var(--deep-violet))',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
