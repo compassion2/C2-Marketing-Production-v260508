@@ -123,18 +123,6 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* CTA */}
-          <div className="hidden lg:flex items-center gap-3">
-            <a
-              href="https://community.compassion2.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-primary text-primary-foreground text-sm font-body font-semibold px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-            >
-              Mastermind Sign In
-            </a>
-          </div>
-
           {/* Mobile toggle */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
@@ -166,16 +154,6 @@ export default function Header() {
               ))}
             </div>
           ))}
-          <div className="p-4">
-            <a
-              href="https://community.compassion2.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block text-center bg-primary text-primary-foreground text-sm font-body font-semibold px-4 py-3 rounded-md hover:opacity-90 transition-opacity"
-            >
-              Mastermind Sign In
-            </a>
-          </div>
         </div>
       )}
     </header>
