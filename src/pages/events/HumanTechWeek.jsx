@@ -204,7 +204,7 @@ export default function HumanTechWeek() {
             href="https://luma.com/mi8qy9ib"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-semibold px-6 py-3 rounded-md transition-all hover:scale-105 shadow-lg"
+            className="btn-gold px-6 py-3 rounded-md hover:scale-105"
           >
             View on Luma <ExternalLink className="w-4 h-4" />
           </a>
@@ -384,7 +384,7 @@ export default function HumanTechWeek() {
               href="https://luma.com/mi8qy9ib"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-semibold px-8 py-3 rounded-md transition-all hover:scale-105 shadow-lg"
+              className="btn-night px-8 py-3 rounded-md hover:scale-105"
             >
               View on Luma <ExternalLink className="w-4 h-4" />
             </a>
