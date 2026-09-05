@@ -5,7 +5,7 @@ export default function Honorarium() {
   return (
     <div className="font-body">
       {/* HERO */}
-      <section className="relative min-h-[50vh] flex items-center justify-center bg-[hsl(var(--tara-green-dark))] overflow-hidden">
+      <section className="relative min-h-[50vh] flex items-center justify-center hero-gradient overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-20 right-20 w-96 h-96 rounded-full bg-[hsl(var(--golden-amber))] blur-3xl" />
           <div className="absolute bottom-10 left-10 w-64 h-64 rounded-full bg-[hsl(var(--sky-blue))] blur-3xl" />
@@ -93,7 +93,7 @@ export default function Honorarium() {
             href="https://ccare.stanford.edu/donate/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-semibold px-8 py-4 rounded-md transition-all hover:scale-105 shadow-lg"
+            className="btn-night px-8 py-4 rounded-md transition-all hover:scale-105 shadow-lg"
           >
             Support Compassion Research at Stanford CCARE
             <ExternalLink className="w-4 h-4" />
