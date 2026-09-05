@@ -7,7 +7,7 @@ export default function FrameworkOverview() {
       {/* HERO */}
       <section className="relative py-28 hero-gradient overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5" />
-        <div className="absolute top-1/4 left-1/3 w-64 h-64 rounded-full bg-tara-green/20 blur-3xl" />
+        <div className="absolute top-1/4 left-1/3 w-64 h-64 rounded-full bg-night-sky-400/20 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="section-label text-golden-light mb-4">Framework</p>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6">
@@ -22,7 +22,7 @@ export default function FrameworkOverview() {
           <p className="font-body text-white/70 font-semibold mb-8">It is a design model.</p>
           <p className="font-body text-white/70">Human Resonance, Artificial Intelligence, and Operational Execution—designed as one system.</p>
           <div className="mt-10">
-            <Link to="/engage/start-conversation" className="inline-flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-6 py-3 rounded-md transition-all hover:scale-105 shadow-lg">
+            <Link to="/engage/start-conversation" className="btn-gold px-6 py-3 rounded-md transition-all hover:scale-105 shadow-lg">
               Start a Strategic Conversation <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -87,19 +87,19 @@ export default function FrameworkOverview() {
           <div className="space-y-6">
             {[
               {
-                symbol: "Z", label: "Z-Axis", title: "Human Resonance", color: "bg-tara-green", border: "border-tara-green",
+                symbol: "Z", label: "Z-Axis", title: "Human Resonance", color: "bg-tara-green text-white", border: "border-tara-green",
                 desc: "Human Resonance is the organization's relational and cognitive field. It determines whether people can:",
                 points: ["Think clearly together under complexity", "Tell the truth without fear", "Repair conflict without fragmentation", "Coordinate action without excessive control", "Generate new value rather than defend positions"],
                 note: "Human Resonance is not culture as values or sentiment. It is culture as functional capacity.",
               },
               {
-                symbol: "AI", label: "AI", title: "The Enabling Substrate", color: "bg-royal-blue", border: "border-royal-blue",
+                symbol: "AI", label: "AI", title: "The Enabling Substrate", color: "bg-royal-blue text-white", border: "border-royal-blue",
                 desc: "AI introduces organizational-scale pattern intelligence. When designed correctly, AI strengthens:",
                 points: ["Sensing — early detection of friction, misalignment, and strain", "Learning — faster feedback loops and reduced rework", "Coherence — visibility across systems and targeted intervention"],
                 note: "AI does not replace human intelligence. It amplifies it—by increasing the organization's ability to sense, learn, and adapt.",
               },
               {
-                symbol: "X", label: "X-Axis", title: "Operational Execution", color: "bg-golden-amber", border: "border-golden-amber",
+                symbol: "X", label: "X-Axis", title: "Operational Execution", color: "bg-golden-amber text-forest-ink", border: "border-golden-amber",
                 desc: "Operational Execution is the translation layer that converts insight into decisions, decisions into coordinated action, and action into measurable outcomes.",
                 points: ["Decision rights", "Accountability", "Operating rhythms", "Measurement loops"],
                 note: "In the AI era, execution compounds only when it is fed by coherent human intelligence and accelerated by learning systems.",
@@ -107,7 +107,7 @@ export default function FrameworkOverview() {
             ].map((item, i) => (
               <div key={i} className={`glass-card border-l-4 ${item.border} p-6`}>
                 <div className="flex items-start gap-4">
-                  <div className={`w-12 h-12 ${item.color} text-white rounded-xl flex items-center justify-center font-display font-bold shrink-0`}>
+                  <div className={`w-12 h-12 ${item.color} rounded-xl flex items-center justify-center font-display font-bold shrink-0`}>
                     {item.symbol}
                   </div>
                   <div className="flex-1">
@@ -147,7 +147,7 @@ export default function FrameworkOverview() {
           <p className="section-label mb-4">Applying the Construct</p>
           <h2 className="font-display text-3xl font-bold text-foreground mb-6">Ready to Apply the Framework?</h2>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/framework/flourishing-organization" className="flex items-center gap-2 bg-[hsl(var(--tara-green))] hover:bg-[hsl(var(--tara-green-dark))] text-white font-body font-semibold px-6 py-3 rounded-md transition-all hover:scale-105 shadow-lg">
+            <Link to="/framework/flourishing-organization" className="btn-night px-6 py-3 rounded-md transition-all hover:scale-105 shadow-lg">
               What's a Flourishing Organization <ArrowRight className="w-4 h-4" />
             </Link>
             <Link to="/organizational-transformation/orglab-initiative" className="flex items-center gap-2 border border-border text-foreground font-body font-semibold px-6 py-3 rounded-md hover:border-primary/50 transition-colors">
