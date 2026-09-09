@@ -23,11 +23,18 @@ const navItems = [
     ],
   },
   {
-    label: "Platforms & Programs",
+    label: "Products",
     children: [
-      { label: "Platforms & Programs Overview", href: "/initiatives", description: "Vehicles for learning, experimentation, and application" },
-      { label: "Benevolently", href: "/initiatives/benevolently", description: "Generative economic systems and stewardship" },
-      { label: "Flourishingly", href: "/initiatives/flourishingly", description: "Applied tools for flourishing and relational health" },
+      { label: "Products Overview", href: "/initiatives", description: "The platforms and interventions in the Compassion 2.0 ecosystem" },
+      { label: "Flourishingly", href: "/initiatives/flourishingly", description: "The measurement platform and the ROI of Care Dashboard" },
+      { label: "Benevolently", href: "/initiatives/benevolently", description: "Acts of altruism inside the organization" },
+      { label: "Humanize", href: "/initiatives/humanize", description: "The Humanize Dyad — fifteen minutes, one partner" },
+      { label: "The CANDOR Method", href: "/initiatives/candor-method", description: "Six steps for saying the hard thing well" },
+    ],
+  },
+  {
+    label: "Training + Development",
+    children: [
       { label: "Chief Flourishing Officers", href: "/products/ChiefFlourishingOfficers", description: "Role and Learning Journey for organizational flourishing" },
       { label: "Master Trainers", href: "/initiatives/master-trainers", description: "Certified practitioners delivering Compassion 2.0–aligned services" },
     ],
