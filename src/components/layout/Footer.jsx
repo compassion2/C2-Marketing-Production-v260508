@@ -28,12 +28,19 @@ export default function Footer() {
               ],
             },
             {
-              title: "Platforms & Programs",
+              title: "Products",
               links: [
                 { label: "Flourishingly", href: "/initiatives/flourishingly" },
+                { label: "Benevolently", href: "/initiatives/benevolently" },
+                { label: "Humanize", href: "/initiatives/humanize" },
+                { label: "The CANDOR Method", href: "/initiatives/candor-method" },
+              ],
+            },
+            {
+              title: "Training + Development",
+              links: [
                 { label: "Chief Flourishing Officers", href: "/products/ChiefFlourishingOfficers" },
                 { label: "Master Trainers", href: "/initiatives/master-trainers" },
-                { label: "Benevolently", href: "/initiatives/benevolently" },
               ],
             },
             {
