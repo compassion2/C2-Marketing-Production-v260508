@@ -11,28 +11,28 @@ export const BRANDS = {
     lead: "#24402A", deep: "#152619", accent: "#C9A54E", ground: "#F6F4EF", ink: "#1D2849",
     onLead: "#F6F4EF",
     serif: "'Source Serif 4', Georgia, serif",
-    site: "flourishing.ly", href: "https://flourishing.ly",
+    site: "Flourishingly", href: "https://flourishing.ly",
   },
   benevolently: {
     name: "benevolently",
     lead: "#16527D", deep: "#0E3A5A", accent: "#FCF17D", ground: "#F9F9F4", ink: "#12241C",
     onLead: "#F9F9F4",
     serif: "Newsreader, Georgia, serif",
-    site: "benevolent.ly", href: "https://benevolent.ly",
+    site: "Benevolently", href: "https://benevolent.ly",
   },
   humanize: {
     name: "Humanize",
     lead: "#061CB0", deep: "#041275", accent: "#9DB0F5", ground: "#F9F9F4", ink: "#171B2B",
     onLead: "#F9F9F4",
     serif: "Fraunces, Georgia, serif",
-    site: "humanizedyad.com", href: "https://humanizedyad.com",
+    site: "Humanize", href: "https://humanizedyad.com",
   },
   candor: {
     name: "CANDOR",
     lead: "#3A1657", deep: "#241038", accent: "#B49AD1", ground: "#F4F1EC", ink: "#121019",
     onLead: "#F4F1EC",
     serif: "Archivo, Helvetica, sans-serif",
-    site: "thecandormethod.com", href: "https://thecandormethod.com",
+    site: "The CANDOR Method", href: "https://thecandormethod.com",
   },
 };
 
