@@ -28,6 +28,8 @@ import InitiativesOverview from './pages/initiatives/InitiativesOverview';
 import Benevolently from './pages/initiatives/Benevolently';
 import Flourishingly from './pages/initiatives/Flourishingly';
 import MasterTrainers from './pages/initiatives/MasterTrainers';
+import Humanize from './pages/initiatives/Humanize';
+import CandorMethod from './pages/initiatives/CandorMethod';
 
 // Community
 import MycelialNetwork from './pages/community/MycelialNetwork';
@@ -101,6 +103,8 @@ const AuthenticatedApp = () => {
         <Route path="/initiatives" element={<InitiativesOverview />} />
         <Route path="/initiatives/benevolently" element={<Benevolently />} />
         <Route path="/initiatives/flourishingly" element={<Flourishingly />} />
+        <Route path="/initiatives/humanize" element={<Humanize />} />
+        <Route path="/initiatives/candor-method" element={<CandorMethod />} />
         <Route path="/initiatives/master-trainers" element={<MasterTrainers />} />
         <Route path="/initiatives/org-lab" element={<Navigate to="/organizational-transformation/orglab-initiative" replace />} />
 
