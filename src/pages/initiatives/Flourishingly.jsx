@@ -1,115 +1,76 @@
-import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+import { BRANDS, FloMark, Hero, Prose, Cards, VisitCTA } from "@/components/brand/BrandPage";
 
-const capabilities = [
+const b = BRANDS.flourishingly;
+
+const mechanics = [
   {
-    title: "Diagnostic data collection and analysis",
-    desc: "Validated instruments, structured interviews, and operational data integrated into a single assessment environment.",
+    title: "A fixed register of forty-five capacities",
+    desc: "Each capacity has a permanent number, a three-letter symbol and a fixed position in the structure. It is defined once and never redefined per client, which is what makes movement in it comparable across organizations and across quarters.",
   },
   {
-    title: "ROI of Care Dashboard",
-    desc: "Live, persistent measurement of how human flourishing drives revenue, reduces cost, and mitigates risk. Built for C-suites and boards, not HR silos.",
+    title: "Diagnostic intake",
+    desc: "Validated instruments, structured interviews and operational data brought into a single assessment environment, so that the picture an organization starts from is measured rather than asserted.",
   },
   {
-    title: "Intervention delivery",
-    desc: "Prescribed practices deployed to the right people at the right time, based on what the diagnostic reveals. Not a catalog. A prescription.",
+    title: "The ROI of Care Dashboard",
+    desc: "Capacity movement placed beside operational results the organization already tracks. Built for the people who decide where money goes, which means it has to survive the scrutiny a finance function applies to anything else.",
   },
   {
-    title: "AI-assisted practice tools",
-    desc: "Practice partners for difficult conversations, relational skill development, and structured reflection between sessions.",
+    title: "Evidence grades on every figure",
+    desc: "Readings from operating systems, scores from validated instruments and organization-written survey items are not equivalent. Each figure carries the grade of its evidence, and derived numbers inherit the weakest grade of anything used to build them.",
   },
   {
-    title: "Ongoing measurement",
-    desc: "The dashboard updates as interventions take hold. You see the movement. Your board sees the movement.",
+    title: "Intervention measurement",
+    desc: "Benevolently, Humanize and the CANDOR Method all report into the same register, so an organization running more than one can see which capacity is limiting the whole field rather than three programs each reporting separately.",
   },
 ];
 
 export default function Flourishingly() {
   return (
-    <div className="font-body">
+    <div>
+      <Hero
+        b={b}
+        Mark={FloMark}
+        title="Flourishing is measurable."
+        lede="Flourishingly is the measurement platform of the Compassion 2.0 ecosystem — the register, the diagnostic, and the ROI of Care Dashboard that the other platforms report into."
+      />
 
-      {/* HERO */}
-      <section className="relative py-28 hero-gradient overflow-hidden">
-        <div className="absolute inset-0 bg-grid-pattern opacity-5" />
-        <div className="absolute top-1/4 right-1/4 w-72 h-72 rounded-full bg-night-sky-400/20 blur-3xl" />
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="section-label text-golden-light mb-4">Products</p>
-          <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
-            The enterprise platform for organizational flourishing.
-          </h1>
-          <div className="w-16 h-px bg-golden-amber mb-8" />
-          <p className="font-body text-white/70 text-lg max-w-2xl">
-            Flourishingly is where the transformation work lives — the diagnostic, the dashboard, the interventions, the measurement. One platform that makes human flourishing observable, actionable, and persistent.
-          </p>
-        </div>
-      </section>
+      <Prose b={b} title="The problem it exists to solve" tone="white">
+        <p>
+          Organizations are not short of data about their people. They run engagement surveys, pulse checks and exit interviews, and they accumulate years of it. What they cannot do is connect any of it to the operational reality the business is run on.
+        </p>
+        <p>
+          The disconnection is structural rather than accidental. Survey instruments are built to describe how people feel, and they report in units that exist nowhere else in the organization. A rise in an engagement index has no defined relationship to cycle time, rework, retention cost or margin, because it was never designed to have one. So the two conversations run on separate tracks, and when they meet in a budget review only one of them is speaking the language of the room.
+        </p>
+        <p>
+          Flourishingly exists to close that gap honestly — not by inventing a conversion rate between sentiment and money, but by measuring the specific conditions that produce performance and setting them beside the performance the organization already measures.
+        </p>
+      </Prose>
 
-      {/* SECTION 2 */}
-      <section className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-display text-3xl font-bold text-foreground mb-8">What Flourishingly does</h2>
-          <div className="space-y-6">
-            <p className="font-body text-muted-foreground text-lg leading-relaxed">
-              Flourishingly is not a wellness app. It is the technology infrastructure that powers Compassion 2.0's organizational transformation work.
-            </p>
-            <p className="font-body text-muted-foreground text-lg leading-relaxed">
-              When we run a diagnostic, the data flows into Flourishingly. When we stand up an ROI of Care Dashboard, it runs on Flourishingly. When we deploy prescribed interventions — communication practices, relational skill-building, structured gratitude exercises — they're delivered through Flourishingly. When individuals practice between sessions using AI-assisted tools, that's Flourishingly.
-            </p>
-            <p className="font-body text-muted-foreground text-lg leading-relaxed">
-              The platform makes the work persistent. It doesn't disappear when the consultant leaves the room.
-            </p>
-          </div>
-        </div>
-      </section>
+      <Cards b={b} title="What the platform does" items={mechanics} />
 
-      {/* SECTION 3 */}
-      <section className="py-20 bg-muted/30">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-display text-3xl font-bold text-foreground mb-10">Platform capabilities</h2>
-          <div className="space-y-4">
-            {capabilities.map((item, i) => (
-              <div key={i} className="bg-white border border-border rounded-xl p-6">
-                <h3 className="font-display text-lg font-bold text-foreground mb-2">{item.title}</h3>
-                <p className="font-body text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <Prose b={b} title="What the platform will not claim" tone="ground">
+        <p>
+          Flourishingly claims covariation. It does not claim causation, and it will not, because no honest measurement of a living organization can. When a capacity and an operational result move together over the same period, that is what gets reported — attributed to the specific capacity involved, and carrying its evidence grade.
+        </p>
+        <p>
+          Operational performance is scored against goal anchors the organization writes and co-signs, not against a scale we supply. Those anchors are versioned, so a target cannot quietly move after the fact to make a result look better than it was. Measurement waves are reported as they land, without interpolation between them and without smoothing a series to make a trend look cleaner than the data supports.
+        </p>
+        <p>
+          These are constraints rather than features, and they are the reason the output is worth putting in front of a board.
+        </p>
+      </Prose>
 
-      {/* SECTION 4 */}
-      <section className="py-20 hero-gradient">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-display text-3xl font-bold text-white mb-8">How organizations access Flourishingly</h2>
-          <div className="space-y-6">
-            <p className="font-body text-white/70 text-lg leading-relaxed">
-              Flourishingly is not sold as standalone software. It is the technology layer of an organizational transformation engagement. When you work with Compassion 2.0, you work on Flourishingly.
-            </p>
-            <p className="font-body text-white/70 text-lg leading-relaxed">
-              After the active transformation engagement, Flourishingly remains with your organization as a SaaS platform — the measurement infrastructure, the practice tools, and the data stay embedded in how you operate. The platform persists at $300 per person per year, ensuring the work continues long after the engagement ends.
-            </p>
-            <p className="font-body text-white/70 text-lg leading-relaxed">
-              By the time you're on the platform, your diagnostic data is already there. Your dashboard is built. Your interventions are running. Flourishingly isn't empty software you have to figure out. It's already yours.
-            </p>
-          </div>
-        </div>
-      </section>
+      <Prose b={b} title="How organizations come to the platform" tone="deep">
+        <p>
+          Flourishingly is not sold as standalone software. It is the measurement layer of a transformation engagement, and by the time an organization is working in the platform directly, the diagnostic data is already there and the dashboard is already built.
+        </p>
+        <p>
+          After the active engagement, the platform stays with the organization. That persistence is the point: the measurement infrastructure does not leave when the consultant does, which is the usual reason organizational change work cannot be evaluated a year later.
+        </p>
+      </Prose>
 
-      {/* BOTTOM CTA */}
-      <section className="py-24 hero-gradient">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-10">
-            The platform is part of the work. The work starts with a conversation.
-          </h2>
-          <Link
-            to="/engage/start-conversation"
-            className="btn-gold px-8 py-4 rounded-md transition-all hover:scale-105 shadow-lg"
-          >
-            Start a Conversation <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-      </section>
-
+      <VisitCTA b={b} closing="Measurement is what makes the rest of it accountable." />
     </div>
   );
 }
