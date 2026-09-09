@@ -32,7 +32,6 @@ import Humanize from './pages/initiatives/Humanize';
 import CandorMethod from './pages/initiatives/CandorMethod';
 
 // Community
-import MycelialNetwork from './pages/community/MycelialNetwork';
 import Mastermind from './pages/community/Mastermind';
 import EventsSalons from './pages/community/EventsSalons';
 
@@ -109,7 +108,6 @@ const AuthenticatedApp = () => {
         <Route path="/initiatives/org-lab" element={<Navigate to="/organizational-transformation/orglab-initiative" replace />} />
 
         {/* Community */}
-        <Route path="/community/mycelial-network" element={<MycelialNetwork />} />
         <Route path="/community/mastermind" element={<Mastermind />} />
         <Route path="/community/events-salons" element={<EventsSalons />} />
 
