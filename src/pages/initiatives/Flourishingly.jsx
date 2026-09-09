@@ -33,7 +33,7 @@ export default function Flourishingly() {
         <div className="absolute inset-0 bg-grid-pattern opacity-5" />
         <div className="absolute top-1/4 right-1/4 w-72 h-72 rounded-full bg-night-sky-400/20 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="section-label text-golden-light mb-4">Platforms & Programs</p>
+          <p className="section-label text-golden-light mb-4">Products</p>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
             The enterprise platform for organizational flourishing.
           </h1>
