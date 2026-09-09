@@ -40,15 +40,9 @@ const navItems = [
     ],
   },
   {
-    label: "Community",
+    label: "Community + Events",
     children: [
-      { label: "The Compassion 2.0 Mycelial Network", href: "/community/mycelial-network", description: "How the community functions through networks of trust" },
       { label: "The Compassion 2.0 Mastermind", href: "/community/mastermind", description: "A high-level, cross-disciplinary space for exploring organizational design in the age of AI" },
-    ],
-  },
-  {
-    label: "Events",
-    children: [
       { label: "Webinars", href: "/events/webinars", description: "Live working sessions — next: Thursday, September 10, 2026" },
       { label: "Human Tech Week", href: "/events/human-tech-week", description: "Annual convening on technology through a human-centered lens" },
       { label: "Events & Salons", href: "/community/events-salons", description: "Gatherings to cultivate trust and shared inquiry" },
