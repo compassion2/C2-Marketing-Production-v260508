@@ -3,6 +3,8 @@
 // meets the same brand they would meet on that product's site. Marks are drawn to the
 // construction in each Brand Kit v7 260907; palettes are the kit leads and accents.
 
+export { default as DyadMark } from "@/components/brand/DyadMark";
+
 export const BRANDS = {
   flourishingly: {
     name: "Flourishingly",
@@ -40,19 +42,6 @@ export function FloMark({ size = 44 }) {
       <rect x="18" y="20" width="64" height="6" fill="#C9A54E" />
       <rect x="18" y="26" width="64" height="54" fill="#F6F4EF" />
       <text x="50" y="64" textAnchor="middle" fontFamily="'Source Serif 4', Georgia, serif" fontSize="30" fill="#24402A">Flo</text>
-    </svg>
-  );
-}
-
-export function DyadMark({ size = 44, color = "#9DB0F5" }) {
-  const stroke = "M0,-30 C 11,-22 11,-9 4,-2 C -3,5 -3,17 6,26 C -2,32 -13,27 -15,16 C -17,4 -10,-6 -6,-13 C -3,-19 -5,-26 0,-30 Z";
-  return (
-    <svg width={size} height={size} viewBox="0 0 100 100" role="img" aria-label="Humanize">
-      <g fill={color}>
-        <g transform="translate(31,50)"><path d={stroke} /></g>
-        <g transform="translate(69,50) scale(-1,1)"><path d={stroke} /></g>
-        <circle cx="50" cy="50" r="8.7" />
-      </g>
     </svg>
   );
 }
