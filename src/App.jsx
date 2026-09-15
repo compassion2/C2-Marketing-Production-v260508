@@ -39,6 +39,9 @@ import EventsSalons from './pages/community/EventsSalons';
 import HumanTechWeek from './pages/events/HumanTechWeek';
 import Webinars from './pages/events/Webinars';
 
+// Insights
+import RoiOfCare from './pages/insights/RoiOfCare';
+
 // Engage
 import StartConversation from './pages/engage/StartConversation';
 
@@ -114,6 +117,9 @@ const AuthenticatedApp = () => {
         {/* Events */}
         <Route path="/events/human-tech-week" element={<HumanTechWeek />} />
         <Route path="/events/webinars" element={<Webinars />} />
+
+        {/* Insights */}
+        <Route path="/insights/roi-of-care" element={<RoiOfCare />} />
 
         {/* Engage */}
         <Route path="/engage/start-conversation" element={<StartConversation />} />

@@ -16,6 +16,7 @@ export default function Footer() {
                 { label: "Care as Strategy", href: "/framework/care-as-strategy" },
                 { label: "Flourishing Organization", href: "/framework/flourishing-organization" },
                 { label: "Generative Ontology", href: "/framework/generative-ontology" },
+                { label: "The ROI of Care", href: "/insights/roi-of-care" },
               ],
             },
             {
