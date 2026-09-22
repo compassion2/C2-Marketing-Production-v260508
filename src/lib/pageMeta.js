@@ -95,6 +95,10 @@ const pageMeta = {
     title: "Start a Strategic Conversation — Compassion 2.0",
     description: "Ready to explore what flourishing could look like inside your organization? Start a conversation with the Compassion 2.0 team.",
   },
+  "/engage/discovery-call": {
+    title: "1:1 Discovery Call — The C2 ORGLAB Initiative — Compassion 2.0",
+    description: "Schedule a 1:1 Discovery Call with the C2 ORGLAB Initiative, a Compassion 2.0 initiative supported by premier partner Dynamic Synergy Partners.",
+  },
   "/engage/organizations": {
     title: "For Organizations — Compassion 2.0",
     description: "Partner with Compassion 2.0 to redesign your organization for the AI era. Strategic advisory, transformation engagements, and community practice for leadership teams.",
