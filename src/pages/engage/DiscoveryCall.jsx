@@ -11,7 +11,7 @@ function useCalendlyInline() {
     const mount = () => {
       if (window.Calendly && container && !container.querySelector("iframe")) {
         window.Calendly.initInlineWidget({
-          url: "https://calendly.com/compassion2/cupoftea?hide_gdpr_banner=1",
+          url: "https://calendly.com/compassion2/discovery?hide_gdpr_banner=1",
           parentElement: container,
         });
       }
@@ -75,7 +75,7 @@ export default function DiscoveryCall() {
             <div
               id="calendly-inline-discovery"
               className="calendly-inline-widget w-full"
-              data-url="https://calendly.com/compassion2/cupoftea?hide_gdpr_banner=1"
+              data-url="https://calendly.com/compassion2/discovery?hide_gdpr_banner=1"
               style={{ minWidth: "320px", height: "900px" }}
             />
           </div>
