@@ -64,6 +64,12 @@ export default function OrgLabOverview() {
               Register for the Webinar <ArrowRight className="w-4 h-4" />
             </a>
             <Link
+              to="/engage/discovery-call"
+              className="btn-gold px-6 py-3 rounded-md"
+            >
+              Schedule a 1:1 Discovery Call <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
               to="/engage/start-conversation"
               className="inline-flex items-center gap-2 border border-golden-amber text-golden-amber font-body font-bold px-6 py-3 rounded-md hover:bg-golden-amber hover:text-forest-ink transition-colors"
             >
