@@ -1,38 +1,43 @@
 import { useEffect } from "react";
 
-// Cal.com inline embed (official snippet). Shows all public event types on cal.com/compassion2.
-function useCalInline() {
+// Calendly inline embed — 1:1 Discovery Call (20 min, Zoom).
+function useCalendlyInline() {
   useEffect(() => {
-    (function (C, A, L) {
-      let p = function (a, ar) { a.q.push(ar); };
-      let d = C.document;
-      C.Cal = C.Cal || function () {
-        let cal = C.Cal; let ar = arguments;
-        if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; }
-        if (ar[0] === L) {
-          const api = function () { p(api, arguments); };
-          const namespace = ar[1]; api.q = api.q || [];
-          if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); }
-          else p(cal, ar);
-          return;
-        }
-        p(cal, ar);
-      };
-    })(window, "https://app.cal.com/embed/embed.js", "init");
+    const SRC = "https://assets.calendly.com/assets/external/widget.js";
+    const container = document.getElementById("calendly-inline-discovery");
+    if (!container) return;
+    container.innerHTML = "";
 
-    const el = document.getElementById("cal-inline-discovery");
-    if (el) el.innerHTML = "";
-    window.Cal("init", "discovery", { origin: "https://app.cal.com" });
-    window.Cal.ns.discovery("inline", {
-      elementOrSelector: "#cal-inline-discovery",
-      config: { layout: "month_view" },
-      calLink: "compassion2",
-    });
+    const mount = () => {
+      if (window.Calendly && container) {
+        window.Calendly.initInlineWidget({
+          url: "https://calendly.com/compassion2/cupoftea",
+          parentElement: container,
+        });
+      }
+    };
+
+    let script = document.querySelector(`script[src="${SRC}"]`);
+    if (script && window.Calendly) {
+      mount();
+    } else if (script) {
+      script.addEventListener("load", mount);
+    } else {
+      script = document.createElement("script");
+      script.src = SRC;
+      script.async = true;
+      script.addEventListener("load", mount);
+      document.body.appendChild(script);
+    }
+
+    return () => {
+      if (script) script.removeEventListener("load", mount);
+    };
   }, []);
 }
 
 export default function DiscoveryCall() {
-  useCalInline();
+  useCalendlyInline();
   return (
     <div className="font-body">
       {/* HERO */}
@@ -61,9 +66,9 @@ export default function DiscoveryCall() {
           </p>
           <div className="bg-white border border-border rounded-xl shadow-sm overflow-hidden">
             <div
-              id="cal-inline-discovery"
+              id="calendly-inline-discovery"
               className="w-full"
-              style={{ width: "100%", minHeight: "800px", overflow: "scroll" }}
+              style={{ width: "100%", minHeight: "800px" }}
             />
           </div>
         </div>
