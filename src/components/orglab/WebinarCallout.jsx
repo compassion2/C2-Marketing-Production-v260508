@@ -19,7 +19,7 @@ export default function WebinarCallout() {
                 The Flourishing Age: a new way to design organizations in the age of AI
               </h3>
               <p className="font-body text-sm text-muted-foreground">
-                A live presentation followed by a roundtable conversation.
+                A live presentation followed with Q+A
               </p>
             </div>
           </div>
