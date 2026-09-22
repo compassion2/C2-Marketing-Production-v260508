@@ -9,7 +9,7 @@ function useCalendlyInline() {
     container.innerHTML = "";
 
     const mount = () => {
-      if (window.Calendly && container) {
+      if (window.Calendly && container && !container.querySelector("iframe")) {
         window.Calendly.initInlineWidget({
           url: "https://calendly.com/compassion2/cupoftea?hide_gdpr_banner=1",
           parentElement: container,
@@ -30,7 +30,14 @@ function useCalendlyInline() {
       document.body.appendChild(script);
     }
 
+    // Fallback: widget.js sometimes loads before this effect runs, or finishes
+    // without firing 'load' for a cached script. Retry briefly until the iframe exists.
+    const retry = setInterval(mount, 400);
+    const stop = setTimeout(() => clearInterval(retry), 10000);
+
     return () => {
+      clearInterval(retry);
+      clearTimeout(stop);
       if (script) script.removeEventListener("load", mount);
     };
   }, []);
@@ -67,8 +74,9 @@ export default function DiscoveryCall() {
           <div className="bg-white border border-border rounded-xl shadow-sm overflow-hidden">
             <div
               id="calendly-inline-discovery"
-              className="w-full"
-              style={{ width: "100%", minHeight: "800px" }}
+              className="calendly-inline-widget w-full"
+              data-url="https://calendly.com/compassion2/cupoftea?hide_gdpr_banner=1"
+              style={{ minWidth: "320px", height: "900px" }}
             />
           </div>
         </div>
