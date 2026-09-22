@@ -44,6 +44,7 @@ import RoiOfCare from './pages/insights/RoiOfCare';
 
 // Engage
 import StartConversation from './pages/engage/StartConversation';
+import DiscoveryCall from './pages/engage/DiscoveryCall';
 
 // About
 import About from './pages/about/About';
@@ -123,6 +124,8 @@ const AuthenticatedApp = () => {
 
         {/* Engage */}
         <Route path="/engage/start-conversation" element={<StartConversation />} />
+        <Route path="/engage/discovery-call" element={<DiscoveryCall />} />
+        <Route path="/discovery" element={<Navigate to="/engage/discovery-call" replace />} />
 
         {/* About */}
         <Route path="/about" element={<About />} />
