@@ -1,4 +1,38 @@
+import { useEffect } from "react";
+
+// Cal.com inline embed (official snippet). Shows all public event types on cal.com/compassion2.
+function useCalInline() {
+  useEffect(() => {
+    (function (C, A, L) {
+      let p = function (a, ar) { a.q.push(ar); };
+      let d = C.document;
+      C.Cal = C.Cal || function () {
+        let cal = C.Cal; let ar = arguments;
+        if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; }
+        if (ar[0] === L) {
+          const api = function () { p(api, arguments); };
+          const namespace = ar[1]; api.q = api.q || [];
+          if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); }
+          else p(cal, ar);
+          return;
+        }
+        p(cal, ar);
+      };
+    })(window, "https://app.cal.com/embed/embed.js", "init");
+
+    const el = document.getElementById("cal-inline-discovery");
+    if (el) el.innerHTML = "";
+    window.Cal("init", "discovery", { origin: "https://app.cal.com" });
+    window.Cal.ns.discovery("inline", {
+      elementOrSelector: "#cal-inline-discovery",
+      config: { layout: "month_view" },
+      calLink: "compassion2",
+    });
+  }, []);
+}
+
 export default function DiscoveryCall() {
+  useCalInline();
   return (
     <div className="font-body">
       {/* HERO */}
@@ -26,14 +60,10 @@ export default function DiscoveryCall() {
             Choose a time that works for you.
           </p>
           <div className="bg-white border border-border rounded-xl shadow-sm overflow-hidden">
-            <iframe
-              src="https://skej.com/embed/carsonkelly/orglab"
-              title="Schedule a 1:1 Discovery Call"
-              width="100%"
-              height="800"
-              frameBorder="0"
-              className="w-full block"
-              style={{ minHeight: "800px" }}
+            <div
+              id="cal-inline-discovery"
+              className="w-full"
+              style={{ width: "100%", minHeight: "800px", overflow: "scroll" }}
             />
           </div>
         </div>
