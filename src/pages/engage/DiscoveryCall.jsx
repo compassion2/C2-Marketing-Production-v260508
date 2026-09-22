@@ -11,7 +11,7 @@ function useCalendlyInline() {
     const mount = () => {
       if (window.Calendly && container) {
         window.Calendly.initInlineWidget({
-          url: "https://calendly.com/compassion2/cupoftea",
+          url: "https://calendly.com/compassion2/cupoftea?hide_gdpr_banner=1",
           parentElement: container,
         });
       }
