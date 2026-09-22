@@ -76,7 +76,7 @@ export default function DiscoveryCall() {
               id="calendly-inline-discovery"
               className="calendly-inline-widget w-full"
               data-url="https://calendly.com/compassion2/discovery?hide_gdpr_banner=1"
-              style={{ minWidth: "320px", height: "900px" }}
+              style={{ minWidth: "320px", height: "1100px" }}
             />
           </div>
         </div>
