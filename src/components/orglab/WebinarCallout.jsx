@@ -5,7 +5,7 @@ export default function WebinarCallout() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <p className="section-label mb-4">Start Here — September 10</p>
+        <p className="section-label mb-4">Start Here — September 24</p>
         <h2 className="font-display text-3xl font-bold text-foreground mb-8">
           Begin with the webinar.
         </h2>
@@ -16,7 +16,7 @@ export default function WebinarCallout() {
             </div>
             <div>
               <h3 className="font-display text-xl font-bold text-foreground mb-1">
-                AI and the Neurobiology of Organizational Performance
+                The Flourishing Age: a new way to design organizations in the age of AI
               </h3>
               <p className="font-body text-sm text-muted-foreground">
                 A live presentation followed by a roundtable conversation.
@@ -24,8 +24,8 @@ export default function WebinarCallout() {
             </div>
           </div>
           <div className="space-y-1.5 mb-8 sm:pl-16">
-            <p className="font-body text-sm font-semibold text-foreground">Thursday, September 10, 2026</p>
-            <p className="font-body text-sm text-muted-foreground">9:00 AM Pacific / 12:00 PM Eastern · 60 minutes</p>
+            <p className="font-body text-sm font-semibold text-foreground">Thursday, September 24, 2026</p>
+            <p className="font-body text-sm text-muted-foreground">11:00 AM Pacific / 2:00 PM Eastern · 60 minutes</p>
           </div>
           <div className="flex flex-wrap items-center gap-4">
             <a
