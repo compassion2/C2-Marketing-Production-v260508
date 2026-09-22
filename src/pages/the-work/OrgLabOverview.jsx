@@ -150,7 +150,7 @@ export default function OrgLabOverview() {
             An invitation to visionary leadership.
           </h2>
           <p className="font-body text-white/80 text-lg mb-8">
-            Every journey starts with a conversation — no pitch decks, no pressure, no snake oil. We'll hear where your organization is, share the maps, and see together whether this is the right moment.
+            Every journey starts with a conversation — no pitch decks, no pressure. We'll hear where your organization is, share the maps, and see together whether this is the right moment.
           </p>
           <Link
             to="/engage/start-conversation"
