@@ -120,16 +120,16 @@ export default function Home() {
           <div className="">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-16 h-1 bg-[hsl(var(--golden-amber))] rounded-full" />
-              <span className="text-sm font-semibold text-[hsl(var(--golden-amber))] uppercase tracking-widest">The Shift</span>
+              <span className="text-sm font-semibold text-[hsl(var(--golden-amber))] uppercase tracking-widest">The Missing Function</span>
             </div>
             <div className="mb-12">
               <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-display font-bold text-white mb-8 leading-normal max-w-3xl">
-                A Paradigm Shift in Organizational Design
+                Every Other Asset Has an Officer. This One Has Nobody.
               </h2>
               <p className="text-lg md:text-xl text-white/80 leading-relaxed max-w-3xl mb-8">
-                We are moving from organizations designed as machines to organizations designed as living, learning systems.
+                Capital reports to a CFO. Technology reports to a CTO. Headcount reports to a CHRO. The capacity those people have to perform — the thing your results actually run on — reports to no one. Compassion 2.0 built the missing function: the Chief Flourishing Officer, realized.
               </p>
-              <p className="text-lg text-white font-medium leading-relaxed mb-6">In this new paradigm:</p>
+              <p className="text-lg text-white font-medium leading-relaxed mb-6">What the function is made of:</p>
             </div>
             <div className="grid md:grid-cols-2 gap-4 mb-12">
               {[
