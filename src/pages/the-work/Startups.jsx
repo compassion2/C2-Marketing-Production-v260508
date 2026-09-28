@@ -19,7 +19,7 @@ export default function Startups() {
               </h1>
               <div className="w-16 h-px bg-golden-amber mb-8" />
               <p className="font-body text-white/70 text-lg leading-relaxed mb-10">
-                You're building fast and hiring fast, and the trust that got you here is about to be stress-tested by your own growth. We come alongside founding teams to design the relational infrastructure that scales with you — with data your team and your investors can see.
+                You're building fast and hiring fast, and the trust that got you here is about to be stress-tested by your own growth. We stand up the number behind that trust — your company's human capacity, measured in your own operating data — and the function that keeps it from eroding as you scale. Your team and your investors see the same number.
               </p>
               <Link
                 to="/engage/start-conversation"
@@ -46,7 +46,7 @@ export default function Startups() {
               Every stage of growth changes every relationship in the company.
             </h2>
             <p className="font-body text-muted-foreground text-lg leading-relaxed">
-              As you scale from 5 to 15 to 50, the container that held the founding team doesn't hold the next one, and the field that made early collaboration feel effortless doesn't survive the arrival of people who weren't there for the origin story. The standard advice — hire HR, write values on a wall, run an offsite — doesn't touch the structure of the problem. This is a design problem, and it has a design solution.
+              As you scale from 5 to 15 to 50, the container that held the founding team doesn't hold the next one, and the field that made early collaboration feel effortless doesn't survive the arrival of people who weren't there for the origin story. The standard advice — hire HR, write values on a wall, run an offsite — doesn't touch the structure of the problem. This is not a values problem. It is a missing function — cheap to install at your stage, expensive to retrofit later.
             </p>
           </div>
         </div>
