@@ -133,10 +133,10 @@ export default function Home() {
             </div>
             <div className="grid md:grid-cols-2 gap-4 mb-12">
               {[
-                { text: "Intelligence is distributed, not centralized", color: "tara-green-light" },
-                { text: "Trust and coordination are infrastructure, not soft factors", color: "golden-amber" },
-                { text: "AI amplifies human capability instead of replacing it", color: "sky-blue" },
-                { text: "Execution compounds instead of extracting", color: "royal-blue" },
+                { text: "Measurement of human capacity — derived from your own operating and financial data, never from an industry benchmark", color: "tara-green-light" },
+                { text: "An accountability structure that keeps the number alive, quarter after quarter", color: "golden-amber" },
+                { text: "A claims discipline: we never assert anything your organization has not already demonstrated", color: "sky-blue" },
+                { text: "Flourishing is the result the function produces — measurable, and proven in financial terms", color: "royal-blue" },
               ].map((item, i) => (
                 <div key={i} className="group relative p-5 bg-white/[0.08] backdrop-blur-md rounded-2xl border border-white/10 hover:bg-white/[0.12] hover:border-white/20 transition-all duration-300 hover:-translate-y-0.5">
                   <div className="absolute top-0 left-0 w-full h-0.5 rounded-t-2xl" style={{ background: `hsl(var(--${item.color}))` }} />
@@ -148,7 +148,7 @@ export default function Home() {
               ))}
             </div>
             <p className="text-lg text-white/60 leading-relaxed max-w-3xl">
-              Organizations that cannot make this shift stall—regardless of how advanced their tools are.
+              Nobody has a flourishing budget — and nobody needs one. What an organization funds is a function and a number. Flourishing is what results.
             </p>
           </div>
         </div>
