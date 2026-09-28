@@ -54,7 +54,7 @@ export default function OrgLabOverview() {
             Designing the conditions under which your people flourish.
           </p>
           <p className="font-body text-white/70 text-lg max-w-2xl leading-relaxed mb-10">
-            Compassion 2.0, with premier partner Dynamic Synergy Partners, works with visionary organizations to turn the pressure of the AI era into an advantage. The work is bespoke — your organization is seen, not fitted to a one-size framework. We come alongside as expert guides, with the maps and tools in hand.
+            ORGLAB is where the missing function gets installed. Compassion 2.0, with premier partner Dynamic Synergy Partners, works with a capped collective of visionary organizations to make each one's human capacity visible, managed, and accountable — proven in its own dollars. The work is bespoke — your organization is seen, not fitted to a one-size framework. We come alongside as expert guides, with the maps and tools in hand.
           </p>
           <div className="flex flex-wrap gap-4">
             <a
@@ -87,7 +87,7 @@ export default function OrgLabOverview() {
             Thirty organizations. Three cohorts. One collective.
           </h2>
           <p className="font-body text-muted-foreground text-lg leading-relaxed mb-12">
-            The ORGLAB Initiative is three cohorts of ten — care-based organizations, scaling startups, and women-owned SMBs. Each cohort forms a mastermind of peers doing the same work; together, the thirty form a collective. Every participant joins as a research collaborator, building the evidence base of the flourishing age. Some seats remain.
+            The ORGLAB Initiative is three cohorts of ten — care-based organizations, scaling startups, and women-owned SMBs. Each cohort forms a mastermind of peers doing the same work; together, the thirty form a collective. Every participant joins as a research collaborator, building the published evidence base. Some seats remain.
           </p>
           <div className="grid sm:grid-cols-3 gap-6">
             {cohorts.map((c, i) => (
@@ -129,7 +129,7 @@ export default function OrgLabOverview() {
             A 90-day diagnostic. A two-to-three-year arc. A community alongside.
           </h2>
           <p className="font-body text-muted-foreground text-lg leading-relaxed mb-10">
-            It begins with a 90-day diagnostic culminating in a baseline ROI of Care Dashboard — low lift on your side, immediate visible value. From there, the journey continues over a two-to-three-year arc: prescribed practices, measured change, and a mastermind of leaders walking the same road. We look at your organization through three lenses:
+            It begins with a 90-day diagnostic — and the diagnostic is not a report. It stands up your organization's own measure of human capacity: an instrument you keep, a number derived from your data, low lift on your side. From there, the journey continues over a two-to-three-year arc: prescribed practices, measured change, and a mastermind of leaders walking the same road. We look at your organization through three lenses:
           </p>
           <div className="grid sm:grid-cols-3 gap-6 mb-10">
             {lenses.map((l, i) => (
