@@ -233,14 +233,14 @@ export default function Home() {
               Who This Work Resonates With
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mb-12">
-              This work is for leaders and organizations who recognize that:
+              This work is for leaders and organizations who recognize themselves here:
             </p>
             <div className="grid md:grid-cols-2 gap-4 mb-12">
               {[
-                "Culture, technology, and execution can no longer be treated separately",
-                "AI will amplify existing organizational patterns—for better or worse",
-                "Human systems are now the limiting factor in performance",
-                "Long-term advantage comes from coherence, not optimization",
+                "You suspect your people are capable of more than the organization lets them deliver — and you want that gap measured, not asserted",
+                "You are done with benchmark decks: an industry statistic is not your number, and you know it",
+                "Your CFO will not sign what they cannot audit — so every input to the number is signed before the number exists",
+                "You want claims made only from what your organization has already demonstrated — never from potential, never on a promise",
               ].map((item, i) => (
                 <div key={i} className="group flex items-start gap-4 p-5 bg-white rounded-2xl shadow-sm border border-[hsl(var(--border))] hover:shadow-md hover:border-[hsl(var(--tara-green))]/30 transition-all duration-300">
                   <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[hsl(var(--tara-green))]/10 flex items-center justify-center mt-0.5">
