@@ -160,13 +160,13 @@ export default function Home() {
           <div className="">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-16 h-1 bg-[hsl(var(--tara-green))] rounded-full" />
-              <span className="text-sm font-semibold text-[hsl(var(--tara-green))] uppercase tracking-widest">The Model</span>
+              <span className="text-sm font-semibold text-[hsl(var(--tara-green))] uppercase tracking-widest">How It Works</span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-display font-bold text-foreground mb-6 leading-tight max-w-3xl">
               The Flourishing Construct
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mb-4">
-              Compassion 2.0 works through a single integrated framework for organizational design in the AI era.
+              Behind the function sits a single integrated framework: the working model of how human capacity is built, sustained, and converted into performance.
             </p>
             <p className="text-lg text-foreground font-medium mb-12">
               The Construct is built on three elements that must be designed together:
