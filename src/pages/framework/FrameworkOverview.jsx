@@ -15,11 +15,11 @@ export default function FrameworkOverview() {
           </h1>
           <div className="w-16 h-px bg-golden-amber mx-auto mb-8" />
           <p className="font-body text-white/70 text-lg max-w-2xl mx-auto mb-4">
-            The Flourishing Construct is a practical architecture for redesigning organizations as relational, intelligent, and executable systems in the age of AI.
+            The Flourishing Construct is the working model behind the missing function: how the human capacity of an organization is built, sustained, and converted into performance.
           </p>
           <p className="font-body text-white/50 mb-2">It is not a philosophy.</p>
           <p className="font-body text-white/50 mb-2">It is not a program.</p>
-          <p className="font-body text-white/70 font-semibold mb-8">It is a design model.</p>
+          <p className="font-body text-white/70 font-semibold mb-8">It is the model your number runs on.</p>
           <p className="font-body text-white/70">Human Resonance, Artificial Intelligence, and Operational Execution—designed as one system.</p>
           <div className="mt-10">
             <Link to="/engage/start-conversation" className="btn-gold px-6 py-3 rounded-md transition-all hover:scale-105 shadow-lg">
@@ -88,7 +88,7 @@ export default function FrameworkOverview() {
             {[
               {
                 symbol: "Z", label: "Z-Axis", title: "Human Resonance", color: "bg-tara-green text-white", border: "border-tara-green",
-                desc: "Human Resonance is the organization's relational and cognitive field. It determines whether people can:",
+                desc: "Human Resonance is the measured capacity of people to work as one organization. It determines whether people can:",
                 points: ["Think clearly together under complexity", "Tell the truth without fear", "Repair conflict without fragmentation", "Coordinate action without excessive control", "Generate new value rather than defend positions"],
                 note: "Human Resonance is not culture as values or sentiment. It is culture as functional capacity.",
               },
@@ -102,7 +102,7 @@ export default function FrameworkOverview() {
                 symbol: "X", label: "X-Axis", title: "Operational Execution", color: "bg-golden-amber text-forest-ink", border: "border-golden-amber",
                 desc: "Operational Execution is the translation layer that converts insight into decisions, decisions into coordinated action, and action into measurable outcomes.",
                 points: ["Decision rights", "Accountability", "Operating rhythms", "Measurement loops"],
-                note: "In the AI era, execution compounds only when it is fed by coherent human intelligence and accelerated by learning systems.",
+                note: "Execution compounds only when it is fed by coherent human intelligence and accelerated by learning systems.",
               },
             ].map((item, i) => (
               <div key={i} className={`glass-card border-l-4 ${item.border} p-6`}>
@@ -146,6 +146,9 @@ export default function FrameworkOverview() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="section-label mb-4">Applying the Construct</p>
           <h2 className="font-display text-3xl font-bold text-foreground mb-6">Ready to Apply the Framework?</h2>
+          <p className="font-body text-muted-foreground mb-8 max-w-2xl mx-auto">
+            The Construct is what the Diagnostic measures: every capacity in it maps to a number derived from your own operating and financial data — never from an industry benchmark.
+          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/framework/flourishing-organization" className="btn-night px-6 py-3 rounded-md transition-all hover:scale-105 shadow-lg">
               What's a Flourishing Organization <ArrowRight className="w-4 h-4" />
