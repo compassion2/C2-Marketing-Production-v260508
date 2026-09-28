@@ -46,7 +46,7 @@ export default function WomenOwnedSMBs() {
               Trust doesn't scale automatically.
             </h2>
             <p className="font-body text-muted-foreground text-lg leading-relaxed">
-              At 10 people you held every relationship personally. At 50 you started delegating, and some of those relationships changed. At 200 you hear about culture secondhand, from people who weren't there when the company was the company. And growth has a way of demanding you choose between the business and everything else you built it for. Most consultants treat that as a personal problem. It's a design problem — and it has a design solution.
+              At 10 people you held every relationship personally. At 50 you started delegating, and some of those relationships changed. At 200 you hear about culture secondhand, from people who weren't there when the company was the company. Most consultants treat that as a personal problem. It isn't. The largest driver of your business is running with no owner, no instrument, and no number — and you're the one who feels the drawdown, personally, as the mood you carry home.
             </p>
           </div>
         </div>
@@ -67,15 +67,15 @@ export default function WomenOwnedSMBs() {
               </p>
             </div>
             <div className="bg-white border border-border rounded-xl p-8">
-              <h3 className="font-display text-xl font-bold text-foreground mb-4">The ROI of Care Dashboard</h3>
+              <h3 className="font-display text-xl font-bold text-foreground mb-4">The number you've been feeling</h3>
               <p className="font-body text-muted-foreground text-base leading-relaxed">
-                A baseline dashboard that shows, in financial terms, where your company's relational quality is driving value and where it's creating hidden cost. Where execution and human resonance converge is your <span className="text-foreground font-semibold">organizational metabolism</span> — the true capacity of the business. Flourishing is active and effortful, and the more equipped your people are, the more choice you have as an owner. It's not soft. It's the hardest thing in business — and now you can measure it.
+                You already sense this number — it's the mood of the business, and you read it before any report could show it. The diagnostic makes it real: a live measure of your company's human capacity, in financial terms, derived from your own books and your own operations — never from an industry benchmark. Where trust is driving value, where it's quietly costing you, and what it's worth. It's not soft. It's the hardest thing in business — and now it has a number.
               </p>
             </div>
             <div className="bg-white border border-border rounded-xl p-8">
               <h3 className="font-display text-xl font-bold text-foreground mb-4">Your cohort: ten women-owned businesses</h3>
               <p className="font-body text-muted-foreground text-base leading-relaxed">
-                You join a mastermind of ten women owners on the same journey — part of a collective of thirty organizations across three cohorts — over a two-to-three-year arc. As research collaborators, your business becomes one of the published case studies building the evidence base of the flourishing age. Some seats remain.
+                You join a mastermind of ten women owners on the same journey — part of a collective of thirty organizations across three cohorts — over a two-to-three-year arc. As research collaborators, your business becomes one of the published case studies building the evidence base. Some seats remain.
               </p>
             </div>
           </div>
