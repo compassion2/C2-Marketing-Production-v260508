@@ -66,12 +66,12 @@ export default function Home() {
             {/* Headline & Intro */}
             <div className="mb-12">
               <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-display font-bold text-foreground mb-8 leading-tight max-w-3xl">
-                The Problem Is Not Speed. It Is Fragmentation.
+                You Are Already Paying for This. It Is Filed Under Other Names.
               </h2>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mb-8">
-                Organizations are being pushed to scale faster, adopt AI, and perform under continuous volatility. Most respond by optimizing parts of the system in isolation.
+                Every organization pays, every quarter, for depleted human capacity. The spend is real and recurring — but it never appears as one line, so it is never managed as one thing.
               </p>
-              <p className="text-lg text-foreground font-medium leading-relaxed mb-6">The predictable outcomes:</p>
+              <p className="text-lg text-foreground font-medium leading-relaxed mb-6">Where it hides today:</p>
             </div>
             {/* Problem Cards */}
             <div className="grid md:grid-cols-3 gap-4 mb-12">
