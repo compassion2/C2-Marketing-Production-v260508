@@ -76,9 +76,9 @@ export default function Home() {
             {/* Problem Cards */}
             <div className="grid md:grid-cols-3 gap-4 mb-12">
               {[
-                { text: "Execution accelerates, but coordination degrades", color: "night-sky" },
-                { text: "Culture initiatives improve sentiment, but delivery stays brittle", color: "golden-amber" },
-                { text: "AI is introduced, but noise and fragmentation increase", color: "royal-blue" },
+                { text: "Recruiting and backfill spend, filed under market conditions", color: "night-sky" },
+                { text: "Cycle time, rework, and stalled decisions, filed under complexity", color: "golden-amber" },
+                { text: "The quiet exit of your best people, filed under retention", color: "royal-blue" },
               ].map((item, i) => (
                 <div key={i} className="group relative p-5 bg-white rounded-2xl shadow-lg border border-[hsl(var(--border))] hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                   <div className="absolute top-0 left-0 w-full h-1 rounded-t-2xl" style={{ background: `hsl(var(--${item.color}))` }} />
@@ -94,9 +94,12 @@ export default function Home() {
               <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-[hsl(var(--golden-amber))]/10 blur-3xl" />
               <div className="absolute -bottom-10 -left-10 w-48 h-48 rounded-full bg-[hsl(var(--sky-blue))]/10 blur-2xl" />
               <div className="relative z-10">
-                <p className="text-lg text-white/90 leading-relaxed mb-4">These failures share a single cause:</p>
+                <p className="text-lg text-white/90 leading-relaxed mb-4">These costs share a single cause:</p>
                 <p className="text-xl md:text-2xl text-white font-display font-semibold leading-relaxed">
-                  The organization is still designed as a mechanistic system in a world that now requires relational and intelligent coordination.
+                  The largest driver of your performance — the capacity of your people to think, coordinate, and create together — has no owner, no instrument, and no number.
+                </p>
+                <p className="text-lg text-white/80 leading-relaxed mt-4">
+                  You are not deciding whether to spend this money. You are already spending it.
                 </p>
               </div>
             </div>
