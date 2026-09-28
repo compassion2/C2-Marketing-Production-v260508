@@ -67,9 +67,9 @@ export default function Startups() {
               </p>
             </div>
             <div className="bg-white border border-border rounded-xl p-8">
-              <h3 className="font-display text-xl font-bold text-foreground mb-4">The ROI of Care Dashboard</h3>
+              <h3 className="font-display text-xl font-bold text-foreground mb-4">A number your investors have never seen from a founding team</h3>
               <p className="font-body text-muted-foreground text-base leading-relaxed">
-                A baseline dashboard showing exactly where relational dynamics create drag on execution — and where they accelerate it. Where execution and human resonance converge is your company's <span className="text-foreground font-semibold">organizational metabolism</span>: the real capacity you're scaling. Flourishing here isn't a perk; it's the difference between a team that compounds and a team that burns down its own trust. And in diligence, a founding team that can show this with data stands apart.
+                In ninety days you hold a live measure of your team's human capacity — derived from your own operating data, never from an industry benchmark — and a clear view of where that capacity creates drag on execution and where it accelerates it. In diligence, a founding team that can show its human capacity on a managed basis, with the instrument to keep the number alive, stands apart. And for your investors, it is the start of something they want across the portfolio: the same measure, in every company's own numbers.
               </p>
             </div>
             <div className="bg-white border border-border rounded-xl p-8">
