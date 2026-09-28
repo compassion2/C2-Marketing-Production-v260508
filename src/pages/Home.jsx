@@ -14,7 +14,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="px-8 py-10 md:px-12 md:py-14">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-normal text-white mb-6 leading-tight">
-                Designing organizations that can hold the future.
+                What is your organization's human capacity worth this quarter — and is it going up or down?
               </h1>
               {/* Decorative Divider */}
               <div className="flex items-center justify-center gap-4 mb-8">
@@ -23,10 +23,10 @@ export default function Home() {
                 <div className="h-px w-16 bg-[hsl(var(--golden-amber))]" />
               </div>
               <p className="text-lg md:text-xl text-white/90 leading-relaxed mb-6 max-w-3xl mx-auto">
-                Human resonance. Operational excellence. AI-enabled learning.
+                Compassion 2.0 makes the human capacity of an organization visible, managed, and accountable for the first time — and proves it in the organization's own dollars.
               </p>
               <p className="text-base text-white/70 mb-10 max-w-2xl mx-auto italic">
-                This is not culture work. It is organizational design.
+                This is not culture work. It is a function your organization is missing.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
