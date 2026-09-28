@@ -46,7 +46,7 @@ export default function HealthcareCare() {
               Burnout is an operational crisis. Proving it is the hard part.
             </h2>
             <p className="font-body text-muted-foreground text-lg leading-relaxed">
-              You know turnover in clinical and care roles costs millions annually. You know psychological safety shapes outcomes for the people you serve. But when you say "we need to invest in our people," the board answers: show me the return. That isn't cynicism — it's fiduciary responsibility. Until now, the tools to answer it in a form a CFO takes seriously haven't existed. That is the gap we close together.
+              You know turnover in clinical and care roles costs millions annually. You know psychological safety shapes outcomes for the people you serve. But when you say "we need to invest in our people," the board answers: show me the return. That isn't cynicism — it's fiduciary responsibility. And the answer cannot be an industry statistic; your board has seen those decks. It has to be your number, derived from your own operating and financial data. That is what we stand up.
             </p>
           </div>
         </div>
@@ -57,7 +57,7 @@ export default function HealthcareCare() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="section-label mb-4">What Changes</p>
           <h2 className="font-display text-3xl font-bold text-foreground mb-10">
-            Flourishing you can see — on the floor and on the dashboard.
+            Flourishing you can see — on the floor and on the books.
           </h2>
           <div className="space-y-8">
             <div className="bg-white border border-border rounded-xl p-8">
@@ -67,9 +67,9 @@ export default function HealthcareCare() {
               </p>
             </div>
             <div className="bg-white border border-border rounded-xl p-8">
-              <h3 className="font-display text-xl font-bold text-foreground mb-4">The ROI of Care Dashboard</h3>
+              <h3 className="font-display text-xl font-bold text-foreground mb-4">The reserve argument, made in your own dollars</h3>
               <p className="font-body text-muted-foreground text-base leading-relaxed">
-                The diagnostic culminates in a baseline dashboard that connects flourishing to what your board weighs: revenue and outcomes, cost of turnover and absence, and risk exposure that traces back to culture. Where functional execution and human resonance converge is your institution's <span className="text-foreground font-semibold">organizational metabolism</span> — its real capacity to care and perform. As the work proceeds, you watch it move.
+                Burnout is already on your board's agenda. The diagnostic puts it on a managed basis: a live measure connecting the capacity of your caregivers to what the board weighs — the turnover and absence you already book, throughput and outcomes, and the risk exposure that traces back to depleted teams. An asset that has been quietly draining now has an owner, an instrument, and a number — and as the work proceeds, you watch it move.
               </p>
             </div>
             <div className="bg-white border border-border rounded-xl p-8">
