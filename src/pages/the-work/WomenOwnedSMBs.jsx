@@ -19,7 +19,7 @@ export default function WomenOwnedSMBs() {
               </h1>
               <div className="w-16 h-px bg-golden-amber mb-8" />
               <p className="font-body text-white/70 text-lg leading-relaxed mb-10">
-                Women-owned small and medium businesses in the 25-to-500-person range: revenue is growing, the team is growing, and you can feel the thing that made your company special starting to stretch. We come alongside to design an organization where growth and care aren't in tension — and to give you the data that proves it.
+                Built with women owners — for every owner who feels it. Small and medium businesses in the 25-to-500-person range: revenue is growing, the team is growing, and you can feel the thing that made your company special starting to stretch. We come alongside to design an organization where growth and care aren't in tension — and to give you the number that proves it.
               </p>
               <Link
                 to="/engage/start-conversation"
@@ -83,6 +83,26 @@ export default function WomenOwnedSMBs() {
       </section>
 
       <AmbassadorInvite />
+
+      {/* APERTURE — open door for owners outside the women's cohort */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-muted border-l-4 border-golden-amber p-8 rounded-r-xl">
+            <p className="section-label mb-4">Not a Woman-Owned Business?</p>
+            <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4">
+              The work is identical. The room is what's built for women.
+            </h2>
+            <p className="font-body text-muted-foreground text-lg leading-relaxed">
+              The measurement, the missing function, the ninety-day diagnostic — everything on this page — is the same work for any owner. What's built for women owners is the room: a mastermind of ten peers who run businesses the way you do. If the problem on this page is yours, it's yours regardless. Start with the diagnostic and a conversation.
+            </p>
+            <div className="mt-6">
+              <Link to="/engage/start-conversation" className="btn-night px-6 py-3 rounded-md">
+                Start a Conversation <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <WebinarCallout />
 
