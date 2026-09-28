@@ -270,14 +270,14 @@ export default function Home() {
           <div className="text-center">
             <div className="flex items-center justify-center gap-4 mb-8">
               <div className="h-px w-16 bg-[hsl(var(--golden-amber))]/50" />
-              <span className="text-sm font-semibold text-[hsl(var(--golden-amber))] uppercase tracking-widest">Invitation</span>
+              <span className="text-sm font-semibold text-[hsl(var(--golden-amber))] uppercase tracking-widest">The First Step</span>
               <div className="h-px w-16 bg-[hsl(var(--golden-amber))]/50" />
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-[2.75rem] font-display font-bold text-white mb-8 leading-normal">
-              Design the Organization That Can Hold the Future
+              Ninety Days to Your Number
             </h2>
             <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-12">
-              Compassion 2.0 exists to help organizations redesign themselves for this new reality—where human resonance, AI-enabled learning, and operational execution function as one system.
+              Our first engagement is a diagnostic — and the diagnostic is not a report. In ninety days it stands up your organization's own measure of human capacity: an instrument you keep, a number whose every input your CFO has signed, and a clear view of value at risk, value in hand, and value on demand — in your dollars, from your data.
             </p>
             <Link
               to="/engage/start-conversation"
