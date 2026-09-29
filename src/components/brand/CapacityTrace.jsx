@@ -75,7 +75,7 @@ function OwnerTrace() {
       <circle cx="486" cy="262" r="7" fill={EMERALD} />
       <Note x="46" y="104" dim>what you feel</Note>
       <Note x="46" y="344" dim>what we measure</Note>
-      <Note x="502" y="250">the same number</Note>
+      <Note x="472" y="242" anchor="end">the same number</Note>
     </g>
   );
 }
