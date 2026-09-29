@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import WebinarCallout from "@/components/orglab/WebinarCallout";
 import AmbassadorInvite from "@/components/orglab/AmbassadorInvite";
+import CapacityTrace from "@/components/brand/CapacityTrace";
 
 export default function HealthcareCare() {
   return (
@@ -28,11 +29,7 @@ export default function HealthcareCare() {
                 Start a Conversation <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
-            <img
-              src="/images/care-based-orgs.jpg"
-              alt="A clinical care team in conversation"
-              className="rounded-2xl shadow-lg w-full object-cover aspect-[3/2]"
-            />
+            <CapacityTrace variant="care" className="w-full" />
           </div>
         </div>
       </section>
