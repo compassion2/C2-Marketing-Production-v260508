@@ -6,6 +6,7 @@ export default function Mastermind() {
       label="Community"
       title="The Compassion 2.0 Mastermind"
       subtitle="A high-level, cross-disciplinary space for leaders and practitioners exploring Organizational Flourishing in the age of AI."
+      heroAction={{ label: "Member Login", href: "https://c2mastermind.base44.app/" }}
       sections={[
         {
           label: "What It Is",
