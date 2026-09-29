@@ -19,7 +19,7 @@ const navItems = [
       { label: "The C2 ORGLAB Initiative", href: "/organizational-transformation/orglab-initiative", description: "Three cohorts, thirty organizations, one collective — with Dynamic Synergy Partners" },
       { label: "Care-Based Organizations", href: "/organizational-transformation/healthcare-care", description: "Hospitals, schools, and care institutions" },
       { label: "Scaling Startups", href: "/organizational-transformation/startups", description: "Relational infrastructure that scales with you" },
-      { label: "Women-Owned SMBs", href: "/organizational-transformation/women-owned-smbs", description: "Grow without losing what made it worth building" },
+      { label: "Small & Medium Businesses", href: "/organizational-transformation/women-owned-smbs", description: "Grow without losing what made it worth building" },
     ],
   },
   {
