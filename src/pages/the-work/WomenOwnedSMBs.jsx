@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import WebinarCallout from "@/components/orglab/WebinarCallout";
 import AmbassadorInvite from "@/components/orglab/AmbassadorInvite";
+import CapacityTrace from "@/components/brand/CapacityTrace";
 
 export default function WomenOwnedSMBs() {
   return (
@@ -28,11 +29,7 @@ export default function WomenOwnedSMBs() {
                 Start a Conversation <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
-            <img
-              src="/images/women-owned-smbs.jpg"
-              alt="Three businesswomen in conversation over a tablet"
-              className="rounded-2xl shadow-lg w-full object-cover aspect-[3/2]"
-            />
+            <CapacityTrace variant="owners" className="w-full" />
           </div>
         </div>
       </section>
