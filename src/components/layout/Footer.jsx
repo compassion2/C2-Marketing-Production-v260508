@@ -25,7 +25,7 @@ export default function Footer() {
                 { label: "The C2 ORGLAB Initiative", href: "/organizational-transformation/orglab-initiative" },
                 { label: "Care-Based Organizations", href: "/organizational-transformation/healthcare-care" },
                 { label: "Scaling Startups", href: "/organizational-transformation/startups" },
-                { label: "Women-Owned SMBs", href: "/organizational-transformation/women-owned-smbs" },
+                { label: "Small & Medium Businesses", href: "/organizational-transformation/women-owned-smbs" },
               ],
             },
             {
