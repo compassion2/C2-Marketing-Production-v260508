@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
 // Generic content page used for pages without a dedicated implementation
-export default function SimplePage({ label, title, subtitle, sections = [], cta = true }) {
+export default function SimplePage({ label, title, subtitle, sections = [], cta = true, heroAction = null }) {
   return (
     <div className="font-body">
       {/* HERO */}
@@ -14,6 +14,12 @@ export default function SimplePage({ label, title, subtitle, sections = [], cta 
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6">{title}</h1>
           <div className="w-16 h-px bg-golden-amber mb-8" />
           {subtitle && <p className="font-body text-white/70 text-lg max-w-2xl">{subtitle}</p>}
+          {/* Optional hero button (added 2026-09-29 for the Mastermind member login); pages that don't pass heroAction are unchanged. */}
+          {heroAction && (
+            <a href={heroAction.href} className="btn-gold inline-flex items-center gap-2 mt-10 px-8 py-4 rounded-md transition-all hover:scale-105 shadow-lg">
+              {heroAction.label} <ArrowRight className="w-4 h-4" />
+            </a>
+          )}
         </div>
       </section>
 
