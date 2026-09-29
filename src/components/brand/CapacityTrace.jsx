@@ -65,6 +65,21 @@ function StartupTrace() {
   );
 }
 
+function OwnerTrace() {
+  return (
+    <g>
+      <path d="M 40 120 C 130 132, 210 168, 290 208 C 360 242, 420 258, 486 262"
+        fill="none" stroke={LOTUS} strokeWidth="2.5" strokeDasharray="2 8" strokeLinecap="round" opacity="0.75" />
+      <path d="M 40 320 C 140 316, 230 300, 310 280 C 380 262, 440 262, 486 262"
+        fill="none" stroke={GOLD} strokeWidth="3.5" strokeLinecap="round" />
+      <circle cx="486" cy="262" r="7" fill={EMERALD} />
+      <Note x="46" y="104" dim>what you feel</Note>
+      <Note x="46" y="344" dim>what we measure</Note>
+      <Note x="502" y="250">the same number</Note>
+    </g>
+  );
+}
+
 const LABELS = {
   care: "Diagram: a capacity line drawing down on the reserve, then recovering past it once measured",
   startups: "Diagram: a capacity line holding steady while the team steps from five to fifteen to fifty",
