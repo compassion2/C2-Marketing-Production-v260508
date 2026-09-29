@@ -45,6 +45,26 @@ function CareTrace() {
   );
 }
 
+function StartupTrace() {
+  return (
+    <g>
+      <line x1="40" y1="336" x2="180" y2="336" stroke={SAGE} strokeWidth="2" opacity="0.5" />
+      <line x1="180" y1="336" x2="180" y2="296" stroke={SAGE} strokeWidth="1" opacity="0.3" />
+      <line x1="180" y1="296" x2="370" y2="296" stroke={SAGE} strokeWidth="2" opacity="0.5" />
+      <line x1="370" y1="296" x2="370" y2="248" stroke={SAGE} strokeWidth="1" opacity="0.3" />
+      <line x1="370" y1="248" x2="560" y2="248" stroke={SAGE} strokeWidth="2" opacity="0.5" />
+      <Note x="104" y="360" anchor="middle" dim>a team of five</Note>
+      <Note x="272" y="320" anchor="middle" dim>fifteen</Note>
+      <Note x="462" y="272" anchor="middle" dim>fifty</Note>
+      <path d="M 40 170 C 110 160, 150 168, 186 186 C 220 202, 260 176, 320 172 C 356 170, 390 190, 430 176 C 480 158, 520 148, 560 144"
+        fill="none" stroke={GOLD} strokeWidth="3.5" strokeLinecap="round" />
+      <circle cx="560" cy="144" r="6" fill={EMERALD} />
+      <Note x="548" y="128" anchor="end">capacity, holding through growth</Note>
+      <Note x="40" y="148" dim>the trust you started with</Note>
+    </g>
+  );
+}
+
 const LABELS = {
   care: "Diagram: a capacity line drawing down on the reserve, then recovering past it once measured",
   startups: "Diagram: a capacity line holding steady while the team steps from five to fifteen to fifty",
