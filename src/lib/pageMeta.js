@@ -40,7 +40,7 @@ const pageMeta = {
     description: "Three cohorts of ten — care-based organizations, scaling startups, and women-owned SMBs — on a two-to-three-year journey to design the conditions under which people flourish. With premier partner Dynamic Synergy Partners.",
   },
   "/organizational-transformation/women-owned-smbs": {
-    title: "Women-Owned SMBs | Organizational Transformation — Compassion 2.0",
+    title: "Small & Medium Businesses | Organizational Transformation — Compassion 2.0",
     description: "For women-owned small and medium businesses: grow without losing what made the company worth building — with a diagnostic, an ROI of Care Dashboard, and a mastermind of ten women owners on the same journey.",
   },
   "/organizational-transformation/healthcare-care": {
