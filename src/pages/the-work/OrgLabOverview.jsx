@@ -87,7 +87,7 @@ export default function OrgLabOverview() {
             Thirty organizations. Three cohorts. One collective.
           </h2>
           <p className="font-body text-muted-foreground text-lg leading-relaxed mb-12">
-            The ORGLAB Initiative is three cohorts of ten — care-based organizations, scaling startups, and women-owned SMBs. Each cohort forms a mastermind of peers doing the same work; together, the thirty form a collective. Every participant joins as a research collaborator, building the published evidence base. Some seats remain.
+            The ORGLAB Initiative is three cohorts of ten — care-based organizations, scaling startups, and small and medium businesses, the last built with women owners and open to every owner. Each cohort forms a mastermind of peers doing the same work; together, the thirty form a collective. Every participant joins as a research collaborator, building the published evidence base. Some seats remain.
           </p>
           <div className="grid sm:grid-cols-3 gap-6">
             {cohorts.map((c, i) => (
