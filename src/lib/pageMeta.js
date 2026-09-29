@@ -29,7 +29,7 @@ const pageMeta = {
   },
   "/events/webinars": {
     title: "Webinars — Compassion 2.0",
-    description: "Live working sessions with the Compassion 2.0 team and partners. Next: AI and the Neurobiology of Organizational Performance — Thursday, September 10, 2026.",
+    description: "Live working sessions with the Compassion 2.0 team and partners.",
   },
   "/organizational-transformation": {
     title: "The C2 ORGLAB Initiative — Compassion 2.0",
