@@ -4,13 +4,8 @@ import { ArrowRight, Calendar } from "lucide-react";
 // Add new webinars to the top of this array — the page renders from it.
 const webinars = [
   {
-    title: "AI and the Neurobiology of Organizational Performance",
-    date: "Thursday, September 10, 2026",
-    time: "9:00 AM Pacific / 12:00 PM Eastern · 60 minutes",
-    blurb:
-      "How your organization is designed decides the state your people work from — and that state decides how they perform. A live presentation followed by a roundtable conversation, presented by Compassion 2.0 with premier partner Dynamic Synergy Partners.",
-    image: "/images/ai-neurobiology-webinar.png",
-    registerHref: "https://www.linkedin.com/events/7498088732600852480/",
+    title: "The Flourishing Age — A new way to design organizations in the age of AI",
+    image: "/images/flourishing-age-webinar.png",
     status: "upcoming",
   },
 ];
@@ -53,6 +48,7 @@ export default function Webinars() {
               {upcoming.map((w, i) => (
                 <div key={i} className="bg-white border-2 border-primary/20 rounded-2xl overflow-hidden shadow-sm">
                   <img src={w.image} alt={w.title} className="w-full" />
+                  {(w.date || w.blurb || w.registerHref) && (
                   <div className="p-8">
                     <div className="flex items-start gap-4 mb-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
@@ -82,6 +78,7 @@ export default function Webinars() {
                       )}
                     </div>
                   </div>
+                  )}
                 </div>
               ))}
             </div>
