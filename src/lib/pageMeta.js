@@ -41,7 +41,7 @@ const pageMeta = {
   },
   "/organizational-transformation/women-owned-smbs": {
     title: "Small & Medium Businesses | Organizational Transformation — Compassion 2.0",
-    description: "For women-owned small and medium businesses: grow without losing what made the company worth building — with a diagnostic, an ROI of Care Dashboard, and a mastermind of ten women owners on the same journey.",
+    description: "For owner-led small and medium businesses — built with women owners, open to every owner: grow without losing what made the company worth building, with a diagnostic, a live measure of the company's human capacity, and a mastermind of ten women owners on the same journey.",
   },
   "/organizational-transformation/healthcare-care": {
     title: "Care-Based Organizations | Organizational Transformation — Compassion 2.0",
