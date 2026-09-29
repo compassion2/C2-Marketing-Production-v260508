@@ -13,7 +13,7 @@ export default function WomenOwnedSMBs() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="section-label text-golden-light mb-4">Organizational Transformation · Women-Owned SMBs</p>
+              <p className="section-label text-golden-light mb-4">Organizational Transformation · Small & Medium Businesses</p>
               <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
                 You built this on trust. Grow it without losing what made it worth building.
               </h1>
