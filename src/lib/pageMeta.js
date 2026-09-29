@@ -33,11 +33,11 @@ const pageMeta = {
   },
   "/organizational-transformation": {
     title: "The C2 ORGLAB Initiative — Compassion 2.0",
-    description: "Three cohorts of ten — care-based organizations, scaling startups, and women-owned SMBs — on a two-to-three-year journey to design the conditions under which people flourish. With premier partner Dynamic Synergy Partners.",
+    description: "Three cohorts of ten — care-based organizations, scaling startups, and owner-led small and medium businesses — on a two-to-three-year journey to design the conditions under which people flourish. With premier partner Dynamic Synergy Partners.",
   },
   "/organizational-transformation/orglab-initiative": {
     title: "The C2 ORGLAB Initiative — Compassion 2.0",
-    description: "Three cohorts of ten — care-based organizations, scaling startups, and women-owned SMBs — on a two-to-three-year journey to design the conditions under which people flourish. With premier partner Dynamic Synergy Partners.",
+    description: "Three cohorts of ten — care-based organizations, scaling startups, and owner-led small and medium businesses — on a two-to-three-year journey to design the conditions under which people flourish. With premier partner Dynamic Synergy Partners.",
   },
   "/organizational-transformation/women-owned-smbs": {
     title: "Small & Medium Businesses | Organizational Transformation — Compassion 2.0",
