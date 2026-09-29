@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import WebinarCallout from "@/components/orglab/WebinarCallout";
 import AmbassadorInvite from "@/components/orglab/AmbassadorInvite";
 import CapacityTrace from "@/components/brand/CapacityTrace";
 
@@ -100,8 +99,6 @@ export default function WomenOwnedSMBs() {
           </div>
         </div>
       </section>
-
-      <WebinarCallout />
 
       {/* BOTTOM CTA */}
       <section className="py-24 hero-gradient">
