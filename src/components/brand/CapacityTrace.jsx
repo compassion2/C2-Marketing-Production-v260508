@@ -29,6 +29,22 @@ function Note({ x, y, children, anchor = "start", dim = false }) {
 
 /* VARIANTS */
 
+function CareTrace() {
+  return (
+    <g>
+      <rect x="28" y="220" width="544" height="156" fill={SAGE} opacity="0.06" />
+      <line x1="28" y1="220" x2="572" y2="220" stroke={SAGE} strokeWidth="1.5" strokeDasharray="6 6" opacity="0.55" />
+      <Note x="36" y="210" dim>the reserve line</Note>
+      <Note x="36" y="244" dim>drawing on the reserve</Note>
+      <path d="M 40 150 C 120 160, 170 190, 230 246 C 280 292, 330 300, 380 268 C 440 228, 480 160, 556 118"
+        fill="none" stroke={GOLD} strokeWidth="3.5" strokeLinecap="round" />
+      <circle cx="402" cy="252" r="6" fill={EMERALD} />
+      <Note x="418" y="256">measurement begins</Note>
+      <Note x="556" y="104" anchor="end">capacity, recovered</Note>
+    </g>
+  );
+}
+
 const LABELS = {
   care: "Diagram: a capacity line drawing down on the reserve, then recovering past it once measured",
   startups: "Diagram: a capacity line holding steady while the team steps from five to fifteen to fifty",
