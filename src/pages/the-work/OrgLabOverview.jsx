@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import WebinarCallout from "@/components/orglab/WebinarCallout";
 import AmbassadorInvite from "@/components/orglab/AmbassadorInvite";
 
 const cohorts = [
@@ -146,8 +145,6 @@ export default function OrgLabOverview() {
       </section>
 
       <AmbassadorInvite />
-
-      <WebinarCallout />
 
       {/* BOTTOM CTA */}
       <section className="py-20 hero-gradient">
