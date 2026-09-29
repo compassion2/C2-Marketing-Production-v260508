@@ -15,8 +15,8 @@ const cohorts = [
     href: "/organizational-transformation/startups",
   },
   {
-    title: "Women-Owned SMBs",
-    body: "Small-to-medium businesses owned by women, ready to grow without losing what made them worth growing.",
+    title: "Small & Medium Businesses",
+    body: "Owner-led businesses ready to grow without losing what made them worth growing — a cohort built with women owners, open to every owner who feels it.",
     href: "/organizational-transformation/women-owned-smbs",
   },
 ];
