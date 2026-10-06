@@ -19,7 +19,7 @@ const REASON_OPTIONS = [
 ];
 
 const INTEREST_AREAS = [
-  "Flourishing Transformation Cohort 2026",
+  "Organizational Design & Transformation",
   "Brain Capital Ecosystem",
   "Leadership Development & Coaching",
   "Somatic Gratitude & Contemplative Practice",
@@ -124,19 +124,28 @@ export default function StartConversation() {
       submitted_at: new Date().toISOString(),
     };
 
-    const res = await fetch("https://c2interest.base44.app/functions/submitInterest/index", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(body),
-    });
+    try {
+      const res = await fetch("https://c2interest.base44.app/functions/submitInterest/index", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
 
-    const data = await res.json().catch(() => ({}));
-    setSubmitting(false);
+      const data = await res.json().catch(() => ({}));
 
-    if (res.ok && data.success) {
-      setSubmitted(true);
-    } else {
-      setError("Something went wrong. Please try again.");
+      if (res.ok && data.success) {
+        setSubmitted(true);
+      } else {
+        setError(
+          "Something went wrong and your message was not sent. Please try again, or email us directly at carson@compassion2.com."
+        );
+      }
+    } catch (err) {
+      setError(
+        "We couldn't reach the server, so your message was not sent. Please check your connection and try again, or email us directly at carson@compassion2.com."
+      );
+    } finally {
+      setSubmitting(false);
     }
   };
 
