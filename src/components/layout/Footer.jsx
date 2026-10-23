@@ -35,6 +35,7 @@ export default function Footer() {
                 { label: "Benevolently", href: "/initiatives/benevolently" },
                 { label: "Humanize", href: "/initiatives/humanize" },
                 { label: "The CANDOR Method", href: "/initiatives/candor-method" },
+                { label: "The EDGE Method", href: "/initiatives/edge-method" },
               ],
             },
             {
