@@ -34,7 +34,23 @@ export const BRANDS = {
     serif: "Archivo, Helvetica, sans-serif",
     site: "The CANDOR Method", href: "https://thecandormethod.com",
   },
+  edge: {
+    name: "EDGE",
+    lead: "#103B3C", deep: "#12241C", accent: "#5CB8BB", ground: "#F9F9F4", ink: "#12241C",
+    onLead: "#F9F9F4",
+    serif: "'Space Grotesk', Helvetica, sans-serif",
+    site: "The EDGE Method", href: "https://theedgemethod.site",
+  },
 };
+
+// The Crest (EDGE Brand Kit v1 261014): flat line, one sharp peak, a dip, back to the line. Jade Glow on dark grounds.
+export function EdgeMark({ size = 44, color = "#5CB8BB" }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 100 100" role="img" aria-label="EDGE">
+      <polyline points="6,60 38,60 50,18 60,80 68,60 94,60" fill="none" stroke={color} strokeWidth="8" strokeLinecap="square" strokeLinejoin="miter" strokeMiterlimit="10" />
+    </svg>
+  );
+}
 
 export function FloMark({ size = 44 }) {
   return (
@@ -79,7 +95,7 @@ export function Hero({ b, Mark, title, lede }) {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-4 mb-8">
           <Mark size={44} />
-          <span style={{ fontFamily: b.serif, fontSize: 26, fontWeight: b.name === "CANDOR" ? 800 : 300, color: b.onLead, letterSpacing: b.name === "CANDOR" ? "0.05em" : "normal", textTransform: b.name === "benevolently" ? "lowercase" : "none" }}>
+          <span style={{ fontFamily: b.serif, fontSize: 26, fontWeight: b.name === "CANDOR" ? 800 : b.name === "EDGE" ? 600 : 300, color: b.onLead, letterSpacing: b.name === "CANDOR" ? "0.05em" : b.name === "EDGE" ? "0.04em" : "normal", textTransform: b.name === "benevolently" ? "lowercase" : "none" }}>
             {b.name}
           </span>
         </div>
