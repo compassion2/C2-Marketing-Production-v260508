@@ -30,6 +30,7 @@ const navItems = [
       { label: "Benevolently", href: "/initiatives/benevolently", description: "Acts of altruism inside the organization" },
       { label: "Humanize", href: "/initiatives/humanize", description: "The Humanize Dyad — fifteen minutes, one partner" },
       { label: "The CANDOR Method", href: "/initiatives/candor-method", description: "Six steps for saying the hard thing well" },
+      { label: "The EDGE Method", href: "/initiatives/edge-method", description: "Physiological performance training for work under pressure" },
     ],
   },
   {
