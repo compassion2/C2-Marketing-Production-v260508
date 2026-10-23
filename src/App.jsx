@@ -30,6 +30,7 @@ import Flourishingly from './pages/initiatives/Flourishingly';
 import MasterTrainers from './pages/initiatives/MasterTrainers';
 import Humanize from './pages/initiatives/Humanize';
 import CandorMethod from './pages/initiatives/CandorMethod';
+import EdgeMethod from './pages/initiatives/EdgeMethod';
 
 // Community
 import Mastermind from './pages/community/Mastermind';
@@ -108,6 +109,7 @@ const AuthenticatedApp = () => {
         <Route path="/initiatives/flourishingly" element={<Flourishingly />} />
         <Route path="/initiatives/humanize" element={<Humanize />} />
         <Route path="/initiatives/candor-method" element={<CandorMethod />} />
+        <Route path="/initiatives/edge-method" element={<EdgeMethod />} />
         <Route path="/initiatives/master-trainers" element={<MasterTrainers />} />
         <Route path="/initiatives/org-lab" element={<Navigate to="/organizational-transformation/orglab-initiative" replace />} />
 
