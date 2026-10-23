@@ -54,7 +54,7 @@ export default function InitiativesOverview() {
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="section-label text-golden-light mb-4">Products</p>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
-            Two platforms. Two programs. One system.
+            One platform. Three programs. One system.
           </h1>
           <div className="w-16 h-px bg-golden-amber mb-8" />
           <p className="font-body text-white/70 text-lg max-w-2xl">
