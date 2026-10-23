@@ -34,6 +34,14 @@ const cards = [
     linkText: "Explore the CANDOR Method",
     href: "/initiatives/candor-method",
   },
+  {
+    type: "INTERVENTION",
+    title: "The EDGE Method",
+    subtitle: "Physiological Performance Training",
+    body: "Four moves — Embody, Decide, Ground, Elevate — for people whose work runs on judgment under pressure. Read the signal, steady the state, decide with clarity, and recover fast enough to do it again for years.",
+    linkText: "Explore the EDGE Method",
+    href: "/initiatives/edge-method",
+  },
 ];
 
 export default function InitiativesOverview() {
